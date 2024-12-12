@@ -2,10 +2,11 @@
 title: "Timeline and division of work"
 format: html
 ---
+### Timeline
+
 
 ![](./Images/timeline_flowchart.png)
 
-Timeline
 
 ### Plan for distributing work
 
