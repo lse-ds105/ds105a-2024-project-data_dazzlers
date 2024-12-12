@@ -3,9 +3,6 @@ title: "Data Sources"
 format: html
 ---
 
-# Data sources: 
-
-
 ## FRED – gather real GDP from 1929 to 2023. 
 
 * We will create a function to get the annual percentage change in real GDP per year to analyse whether the economy is in boom or recession. Chose this because it has data on America dating back to 1929 which allows us to look at a larger time period than other APIs. 

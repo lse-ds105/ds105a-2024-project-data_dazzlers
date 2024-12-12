@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "backup-plan.html",
+    "href": "backup-plan.html",
+    "title": "Risk assessments and responses",
+    "section": "",
+    "text": "Technical Issues API Rate Limits: Exceeding request limits for FRED (120/min), Reddit (60/min), or Smithsonian API (unspecified but potential throttling). Downtime or Changes in API: Unexpected downtime, deprecation of endpoints, or changes to API functionality. Data Overload: Large datasets from Smithsonian or Reddit can slow processing and overwhelm storage or computational resources.\nData Quality Issues Incomplete Data: FRED may lack microeconomic context or metadata for deeper interpretations. Smithsonian entries might miss detailed thematic tags for all artworks. Noisy Data: Reddit content can include spam, irrelevant posts, or off-topic discussions. Bias or Gaps: Data might reflect institutional or user biases (e.g., underrepresentation of certain themes in Smithsonian collections or Reddit).\nAnalytical Risks Theme Attribution: Assigning art themes to economic or social periods is inherently interpretive and may lead to subjective conclusions. Correlations vs. Causations: Economic periods and social movements’ impacts on art are complex and multifactorial, risking oversimplified conclusions.\nEthical and Legal Risks Data Privacy: Scraping Reddit user data must comply with ethical guidelines and Reddit’s terms of service. Copyright Concerns: Using Smithsonian media may require adherence to usage rights."
+  },
+  {
+    "objectID": "backup-plan.html#risks",
+    "href": "backup-plan.html#risks",
+    "title": "Risk assessments and responses",
+    "section": "",
+    "text": "Technical Issues API Rate Limits: Exceeding request limits for FRED (120/min), Reddit (60/min), or Smithsonian API (unspecified but potential throttling). Downtime or Changes in API: Unexpected downtime, deprecation of endpoints, or changes to API functionality. Data Overload: Large datasets from Smithsonian or Reddit can slow processing and overwhelm storage or computational resources.\nData Quality Issues Incomplete Data: FRED may lack microeconomic context or metadata for deeper interpretations. Smithsonian entries might miss detailed thematic tags for all artworks. Noisy Data: Reddit content can include spam, irrelevant posts, or off-topic discussions. Bias or Gaps: Data might reflect institutional or user biases (e.g., underrepresentation of certain themes in Smithsonian collections or Reddit).\nAnalytical Risks Theme Attribution: Assigning art themes to economic or social periods is inherently interpretive and may lead to subjective conclusions. Correlations vs. Causations: Economic periods and social movements’ impacts on art are complex and multifactorial, risking oversimplified conclusions.\nEthical and Legal Risks Data Privacy: Scraping Reddit user data must comply with ethical guidelines and Reddit’s terms of service. Copyright Concerns: Using Smithsonian media may require adherence to usage rights."
+  },
+  {
+    "objectID": "backup-plan.html#backup-plan",
+    "href": "backup-plan.html#backup-plan",
+    "title": "Risk assessments and responses",
+    "section": "Backup plan:",
+    "text": "Backup plan:\n\nFor Technical Issues Redundancy in APIs: Use alternate APIs if one fails: For economic data: World Bank API or OECD API. For art metadata: Europeana API or other open-access museum APIs. For social sentiment: Twitter API as an alternative to Reddit. Rate-Limiting Solutions: Implement request queuing and caching to stay within rate limits. Utilize API-provided bulk download options, like Smithsonian’s collections dump. Use time.sleep() to limit the requests Local Backup: Download and store datasets locally for continued analysis if APIs become inaccessible.\nFor Data Quality Issues Preprocessing Pipelines: Develop robust data cleaning processes: NLP models for Reddit (e.g., spam detection and topic modeling). Validation scripts for metadata completeness in Smithsonian datasets. Other Sources: Use academic and institutional reports or curated datasets for missing thematic data or validation.\nFor Analytical Risks Iterative Analysis: Use peer reviews to validate findings. Transparent Reporting: Clearly state assumptions, limitations, and potential biases in the project’s findings.\nFor Ethical and Legal Risks Compliance with Terms: Review and strictly adhere to API terms of service and usage policies. Data Privacy Safeguards: Anonymize Reddit user data and focus on aggregated insights."
+  },
+  {
+    "objectID": "timeline.html",
+    "href": "timeline.html",
+    "title": "Timeline and division of work",
+    "section": "",
+    "text": "Contribution (%) Data collection (%) Data Cleaning (%) Visualisations (%) Repository Organisations (%) Documentation (%) Amelia 30 30 50 10 40 Chiara 30 30 50 20 30 Gbemi 30 30 N/A 70 30\nAmelia – Reddit Gbemi - FRED Chiara - Smithsonian"
+  },
+  {
+    "objectID": "timeline.html#contribution",
+    "href": "timeline.html#contribution",
+    "title": "Timeline and division of work",
+    "section": "",
+    "text": "Contribution (%) Data collection (%) Data Cleaning (%) Visualisations (%) Repository Organisations (%) Documentation (%) Amelia 30 30 50 10 40 Chiara 30 30 50 20 30 Gbemi 30 30 N/A 70 30\nAmelia – Reddit Gbemi - FRED Chiara - Smithsonian"
+  },
+  {
+    "objectID": "data-sources.html",
+    "href": "data-sources.html",
+    "title": "Data Sources",
+    "section": "",
+    "text": "We will create a function to get the annual percentage change in real GDP per year to analyse whether the economy is in boom or recession. Chose this because it has data on America dating back to 1929 which allows us to look at a larger time period than other APIs.\nDoes not need a key\nRate limit: 120 requests per minute\nJson format\nEndpoints: Includes endpoints for series data, categories, sources, and economic releases.\nNumerical time-series data related to economic metrics like GDP, unemployment, interest rates, inflation, etc.\nHighly structured and easy to parse\nProcessing needs: Normalization- Time-series data may need transformation for analytics (e.g., seasonally adjusted data). If there is a range of years, we will change the data to only contain the start year for ease of analysis. (This will also be done with the other two APIs)"
+  },
+  {
+    "objectID": "data-sources.html#fred-gather-real-gdp-from-1929-to-2023.",
+    "href": "data-sources.html#fred-gather-real-gdp-from-1929-to-2023.",
+    "title": "Data Sources",
+    "section": "",
+    "text": "We will create a function to get the annual percentage change in real GDP per year to analyse whether the economy is in boom or recession. Chose this because it has data on America dating back to 1929 which allows us to look at a larger time period than other APIs.\nDoes not need a key\nRate limit: 120 requests per minute\nJson format\nEndpoints: Includes endpoints for series data, categories, sources, and economic releases.\nNumerical time-series data related to economic metrics like GDP, unemployment, interest rates, inflation, etc.\nHighly structured and easy to parse\nProcessing needs: Normalization- Time-series data may need transformation for analytics (e.g., seasonally adjusted data). If there is a range of years, we will change the data to only contain the start year for ease of analysis. (This will also be done with the other two APIs)"
+  },
+  {
+    "objectID": "data-sources.html#reddit-scrape-data-searching-social-movement-tags-e.g-black-lives-matter.",
+    "href": "data-sources.html#reddit-scrape-data-searching-social-movement-tags-e.g-black-lives-matter.",
+    "title": "Data Sources",
+    "section": "Reddit – scrape data searching social movement tags e.g ‘black lives matter’.",
+    "text": "Reddit – scrape data searching social movement tags e.g ‘black lives matter’.\nLook at the frequency of tags of a social movement and check whether this trends with the emergence of new art themes or the frequency of art themes being created. Chose this as it has social movement tags organised into subreddits so we can find information on social movements easily. Reddit is also older than Twitter so we can look at a more comprehensive data set. Needs an access key- create an application in Reddit’s developer portal. This process provides you with a client ID and a client secret, which are used to authenticate requests. Request limit: 60 per minute per user but can be expanded depending on usage and agreement with Reddit. We may need to design our system to stay within these limits or implement rate limiting to avoid getting temporarily blocked. Json format Endpoints: hot, new, top, and search endpoints for post data. Comment and user profile endpoints. User-generated content, including posts, comments, upvotes, and metadata. Highly unstructured text data. Data can be noisy. Data processing: Natural Language Processing (NLP)- For analysing themes, sentiment, and keyword extraction. It might have to be used depending on the volume of data we extract; Filtering: Removing irrelevant posts, spam, or non-English content."
+  },
+  {
+    "objectID": "data-sources.html#smithsonian-institution-api",
+    "href": "data-sources.html#smithsonian-institution-api",
+    "title": "Data Sources",
+    "section": "Smithsonian Institution API",
+    "text": "Smithsonian Institution API\nWe will scrape data of all American art from 1929 to 2023 to look at the themes of this art. We will use this for both the first and second question. Chose this because it has a lot of data on American art ( with 11 million artworks) and it clearly categorises its art into topics (aka themes) therefore allowing us to analyse this data. Requires an access key: obtain by registering through the api.data.gov portal​ , GitHub , Postman API Platform . There is no strict request limit for the Smithsonian API, but it encourages developers to use the service responsibly and avoid excessive requests that might disrupt its systems.  Json format Metadata about artifacts and artworks in the Smithsonian collection. Well organised and easy to query. Medium ease of use – rich but nuanced data. Endpoints: Object search (e.g., by keyword, themes, or artist).; Fetching metadata for specific objects.; Retrieving media (e.g., images, videos). Data processing: Extract and standardize themes, artists, and periods."
+  },
+  {
+    "objectID": "research-questions.html",
+    "href": "research-questions.html",
+    "title": "Research Questions",
+    "section": "",
+    "text": "Historically, the countries that have tended to be richer have also made more artworks (such as the roman empire and Greek empire making lots of statues and artworks throughout their more successful periods). Therefore, we wondered whether there was any correlation between the art themes present in a certain country and the economic well being of that country. We chose America because it is the hub of economic activity and therefore if might be interesting to see if it has a strong correlation between popular art themes."
+  },
+  {
+    "objectID": "research-questions.html#how-does-economic-periods-measured-through-gdp-affect-art-themes-in-america",
+    "href": "research-questions.html#how-does-economic-periods-measured-through-gdp-affect-art-themes-in-america",
+    "title": "Research Questions",
+    "section": "",
+    "text": "Historically, the countries that have tended to be richer have also made more artworks (such as the roman empire and Greek empire making lots of statues and artworks throughout their more successful periods). Therefore, we wondered whether there was any correlation between the art themes present in a certain country and the economic well being of that country. We chose America because it is the hub of economic activity and therefore if might be interesting to see if it has a strong correlation between popular art themes."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to our presentation!",
+    "section": "",
+    "text": "In this 5 minute presentation we will cover the following topics:\n\nOur research question\nOur data sources\nOur risk assessment and back up plan\nThe timeline and planned distribution of work"
+  },
+  {
+    "objectID": "research-questions.html#how-do-social-movements-affect-recent-art-themes-in-america",
+    "href": "research-questions.html#how-do-social-movements-affect-recent-art-themes-in-america",
+    "title": "Research Questions",
+    "section": "2. How do social movements affect recent art themes in America?",
+    "text": "2. How do social movements affect recent art themes in America?\n\nWe chose this to get a broader perspective on what affects art themes in America and build on our findings from question 1."
+  }
+]
