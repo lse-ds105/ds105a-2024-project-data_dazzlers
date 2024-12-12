@@ -143,45 +143,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="./Images/try.png" class="img-fluid"></p>
-<section id="fred-gather-real-gdp-from-1929-to-2023." class="level2">
-<h2 class="anchored" data-anchor-id="fred-gather-real-gdp-from-1929-to-2023.">FRED – gather real GDP from 1929 to 2023.</h2>
-<ul>
-<li>We will create a function to get the annual percentage change in real GDP per year to analyse whether the economy is in boom or recession.</li>
-<li>Chose this because it has data on America dating back to 1929 which allows us to look at a larger time period than other APIs.</li>
-<li>Does not need a key</li>
-<li>Rate limit: 120 requests per minute</li>
-<li>Json format</li>
-<li>Endpoints: Includes endpoints for series data, categories, sources, and economic releases.</li>
-<li>Numerical time-series data related to economic metrics like GDP, unemployment, interest rates, inflation, etc.</li>
-<li>Highly structured and easy to parse</li>
-<li>Processing needs: If there is a range of years, we will change the data to only contain the start year for ease of analysis.</li>
-</ul>
-</section>
-<section id="reddit-scrape-data-searching-social-movement-tags" class="level2">
-<h2 class="anchored" data-anchor-id="reddit-scrape-data-searching-social-movement-tags">Reddit – scrape data searching social movement tags</h2>
-<ul>
-<li><p>Look at the frequency of tags of a social movement and check whether this trends with the emergence of new art themes or the frequency of art themes being created.</p></li>
-<li><p>Chose Reddit as it has social movement tags organised into subreddits so we can find information on social movements easily. Reddit is also older than Twitter so we can look at a more comprehensive data set.</p></li>
-<li><p>Needs an access key- create an application in Reddit’s developer portal.</p></li>
-<li><p>Request limit: 60 per minute per user</p></li>
-<li><p>Has many JSON format Endpoints e.g hot, new, top, and search endpoints for post data</p></li>
-<li><p>Highly unstructured text data so will need filtering for analysis</p></li>
-</ul>
-</section>
-<section id="smithsonian-institution-api" class="level2">
-<h2 class="anchored" data-anchor-id="smithsonian-institution-api">Smithsonian Institution API</h2>
-<p>We will scrape data of all American art from 1929 to 2023 to look at the themes of this art. We will use this for both the first and second question. Chose this because it has a lot of data on American art ( with 11 million artworks) and it clearly categorises its art into topics (aka themes) therefore allowing us to analyse this data.</p>
-<ul>
-<li><p>Requires an access key</p></li>
-<li><p>No strict request limit for the Smithsonian API</p></li>
-<li><p>Json format</p></li>
-<li><p>Well organised and easy to query.</p></li>
-<li><p>Endpoints: Object search (e.g., by keyword, themes, or artist).; Fetching metadata for specific objects.; Retrieving media (e.g., images, videos). Data processing: Extract and standardize themes, artists, and periods.</p></li>
-</ul>
+<p><img src="./Images/data_sources.png" class="img-fluid"></p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

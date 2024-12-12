@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research Questions – </title>
+<title>Technical feasability – </title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -94,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research-questions.html" aria-current="page"> 
+    <a class="nav-link" href="./research-questions.html"> 
 <span class="menu-text">Research Questions</span></a>
   </li>  
   <li class="nav-item">
@@ -106,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Timeline</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./technical-feasibility.html"> 
+    <a class="nav-link active" href="./technical-feasibility.html" aria-current="page"> 
 <span class="menu-text">Technical feasibility</span></a>
   </li>  
 </ul>
@@ -126,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research Questions</h1>
+<h1 class="title">Technical feasability</h1>
 </div>
 
 
@@ -143,22 +143,68 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="how-does-economic-periods-measured-through-gdp-affect-art-themes-in-america" class="level2">
-<h2 class="anchored" data-anchor-id="how-does-economic-periods-measured-through-gdp-affect-art-themes-in-america">1. How does economic periods (measured through GDP) affect art themes in America?</h2>
-<ul>
-<li>Historically, the countries that have tended to be richer have also made more artworks (e.g Roman and Greek empire)</li>
-<li>We wondered whether there was any correlation between the art themes present in a certain country and the economic well being of that country.</li>
-<li>We chose America because it is the hub of economic activity and therefore if might be interesting to see if it has a strong correlation between popular art themes.</li>
-</ul>
-</section>
-<section id="how-do-social-movements-affect-recent-art-themes-in-america" class="level2">
-<h2 class="anchored" data-anchor-id="how-do-social-movements-affect-recent-art-themes-in-america">2. How do social movements affect recent art themes in America?</h2>
-<ul>
-<li>We chose this to get a broader perspective on what affects art themes in America and build on our findings from question 1.</li>
-</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 47%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><h3 id="potential-issue" class="anchored">Potential Issue</h3></th>
+<th><h3 id="back-up-plan" class="anchored">Back up plan</h3></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><h3 id="technical-issues" class="anchored">Technical Issues</h3></td>
+<td><ul>
+<li>API Rate Limits</li>
+<li>Changes in API</li>
+<li>Large datasets from Smithsonian or Reddit may slow processing and overwhelm storage</li>
+</ul></td>
+<td><ul>
+<li><p>Use alternate APIs if one fails: e.g World Bank API, other museum APIs, Twitter api</p></li>
+<li><p>Keep an eye on the number of requests being made</p></li>
+<li><p>Use API-provided bulk download options, like Smithsonian’s collections dump.</p></li>
+<li><p>Download and store datasets locally for continued analysis if APIs become inaccessible.</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><h3 id="data-quality-issues-incomplete-data" class="anchored">Data Quality Issues Incomplete Data:</h3></td>
+<td><ul>
+<li>FRED may lack micro-economic context</li>
+<li>Reddit content can include spam, irrelevant posts, or off-topic discussions</li>
+<li>Data might reflect institutional or user biases</li>
+</ul></td>
+<td><ul>
+<li>Clean the data to remove any irrelevant content</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><h3 id="analysis" class="anchored">Analysis</h3></td>
+<td><ul>
+<li>Assigning art themes to economic or social periods is inherently interpretive and may lead to subjective conclusions</li>
+<li>Correlations does not mean causation</li>
+</ul></td>
+<td><ul>
+<li>Clearly state assumptions, limitations, and potential biases in the project’s findings.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><h3 id="data-privacy-scraping" class="anchored">Data Privacy: Scraping</h3></td>
+<td><ul>
+<li>Data must comply with ethical guidelines and the API’s terms of service</li>
+</ul></td>
+<td><ul>
+<li>Review and strictly adhere to API terms of service and usage policies</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

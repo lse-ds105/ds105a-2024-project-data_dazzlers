@@ -6,9 +6,9 @@ format: html
 ## 1. How does economic periods (measured through GDP) affect art themes in America?
 
 -   Historically, the countries that have tended to be richer have also made more artworks (e.g Roman and Greek empire)
--    We wondered whether there was any correlation between the art themes present in a certain country and the economic well being of that country.
+-   We wondered whether there was any correlation between the art themes present in a certain country and the economic well being of that country.
 -   We chose America because it is the hub of economic activity and therefore if might be interesting to see if it has a strong correlation between popular art themes.
 
 ## 2. How do social movements affect recent art themes in America?
 
-b.  We chose this to get a broader perspective on what affects art themes in America and build on our findings from question 1.
+-   We chose this to get a broader perspective on what affects art themes in America and build on our findings from question 1.
