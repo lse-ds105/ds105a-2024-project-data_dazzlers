@@ -4,7 +4,7 @@
     "href": "timeline.html",
     "title": "Timeline and division of work",
     "section": "",
-    "text": "Timeline\n\n\n\nPlan for distributing work\n\n\n\n\n\n\n\n\n\n\n\nWho?\nData Collection (%)\nData Cleaning (%)\nVisualisation (%)\nRepo Organisation (%)\nDocumentation (%)\n\n\n\n\nAmelia (Reddit API)\n33\n33\n50\n10\n40\n\n\nChiara (Smithsonian Institution API)\n33\n33\n50\n20\n30\n\n\nGbemi (FRED API)\n33\n33\nn/a\n70\n30"
+    "text": "Timeline\n\nPlan for distributing work\n\n\n\n\n\n\n\n\n\n\n\nWho?\nData Collection (%)\nData Cleaning (%)\nVisualisation (%)\nRepo Organisation (%)\nDocumentation (%)\n\n\n\n\nAmelia (Reddit API)\n33\n33\n50\n10\n40\n\n\nChiara (Smithsonian Institution API)\n33\n33\n50\n20\n30\n\n\nGbemi (FRED API)\n33\n33\nn/a\n70\n30"
   },
   {
     "objectID": "technical-feasibility.html",
@@ -18,27 +18,27 @@
     "href": "research-questions.html",
     "title": "Research Questions",
     "section": "",
-    "text": "Historically, the countries that have tended to be richer have also made more artworks (e.g Roman and Greek empire)\nWe wondered whether there was any correlation between the art themes present in a certain country and the economic well being of that country.\nWe chose America because it is the hub of economic activity and therefore if might be interesting to see if it has a strong correlation between popular art themes."
+    "text": "We wondered whether there was any correlation between the art themes present in a certain country and the economic well being of that country."
   },
   {
-    "objectID": "research-questions.html#how-does-economic-periods-measured-through-gdp-affect-art-themes-in-america",
-    "href": "research-questions.html#how-does-economic-periods-measured-through-gdp-affect-art-themes-in-america",
+    "objectID": "research-questions.html#how-do-economic-periods-measured-through-gdp-influence-art-themes-in-america",
+    "href": "research-questions.html#how-do-economic-periods-measured-through-gdp-influence-art-themes-in-america",
     "title": "Research Questions",
     "section": "",
-    "text": "Historically, the countries that have tended to be richer have also made more artworks (e.g Roman and Greek empire)\nWe wondered whether there was any correlation between the art themes present in a certain country and the economic well being of that country.\nWe chose America because it is the hub of economic activity and therefore if might be interesting to see if it has a strong correlation between popular art themes."
+    "text": "We wondered whether there was any correlation between the art themes present in a certain country and the economic well being of that country."
   },
   {
-    "objectID": "research-questions.html#how-do-social-movements-affect-recent-art-themes-in-america",
-    "href": "research-questions.html#how-do-social-movements-affect-recent-art-themes-in-america",
+    "objectID": "research-questions.html#how-do-social-movements-affect-art-themes-in-america",
+    "href": "research-questions.html#how-do-social-movements-affect-art-themes-in-america",
     "title": "Research Questions",
-    "section": "2. How do social movements affect recent art themes in America?",
-    "text": "2. How do social movements affect recent art themes in America?\n\nWe chose this to get a broader perspective on what affects art themes in America and build on our findings from question 1."
+    "section": "2. How do social movements affect art themes in America?",
+    "text": "2. How do social movements affect art themes in America?\n\nWe chose this to get a broader perspective on what affects art themes in America and build on our findings from question 1.\n\n\nWe chose America because it is the hub of economic activity and therefore if might be interesting to see if it has a strong correlation between popular art themes."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome to our presentation!",
     "section": "",
-    "text": "In this 5 minute presentation we will cover the following topics:\n\nOur research question\nOur data sources\nOur risk assessment and back up plan\nThe timeline and planned distribution of work"
+    "text": "In this presentation we will cover the following topics:\n\nOur research questions\nOur data sources\nOur risk assessment and back up plan\nThe timeline and planned distribution of work"
   }
 ]

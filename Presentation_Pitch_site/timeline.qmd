@@ -3,14 +3,14 @@ title: "Timeline and division of work"
 format: html
 ---
 
-### Timeline
-
 ![](./Images/timeline_flowchart.png)
+
+Timeline
 
 ### Plan for distributing work
 
 | Who? | Data Collection (%) | Data Cleaning (%) | Visualisation (%) | Repo Organisation (%) | Documentation (%) |
-|:----------:|:----------:|:----------:|:------------:|:----------:|:----------:|
+|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
 | Amelia (Reddit API) | 33 | 33 | 50 | 10 | 40 |
-| Chiara  (Smithsonian Institution API) | 33 | 33 | 50 | 20 | 30 |
+| Chiara (Smithsonian Institution API) | 33 | 33 | 50 | 20 | 30 |
 | Gbemi (FRED API) | 33 | 33 | n/a | 70 | 30 |
