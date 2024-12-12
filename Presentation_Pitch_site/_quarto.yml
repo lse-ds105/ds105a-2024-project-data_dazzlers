@@ -15,8 +15,8 @@ website:
         href: data-sources.html
       - text: "Timeline"
         href: timeline.html
-      - text: "Backup Plan"
-        href: backup-plan.html
+      - text: "Technical feasibility"
+        href: technical-feasibility.html
 
 format:
   html:

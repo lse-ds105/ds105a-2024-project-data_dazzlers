@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "data-sources.html",
+    "href": "data-sources.html",
+    "title": "Data Sources",
+    "section": "",
+    "text": "We will create a function to get the annual percentage change in real GDP per year to analyse whether the economy is in boom or recession.\nChose this because it has data on America dating back to 1929 which allows us to look at a larger time period than other APIs.\nDoes not need a key\nRate limit: 120 requests per minute\nJson format\nEndpoints: Includes endpoints for series data, categories, sources, and economic releases.\nNumerical time-series data related to economic metrics like GDP, unemployment, interest rates, inflation, etc.\nHighly structured and easy to parse\nProcessing needs: If there is a range of years, we will change the data to only contain the start year for ease of analysis."
+  },
+  {
+    "objectID": "data-sources.html#reddit-scrape-data-searching-social-movement-tags",
+    "href": "data-sources.html#reddit-scrape-data-searching-social-movement-tags",
+    "title": "Data Sources",
+    "section": "Reddit – scrape data searching social movement tags",
+    "text": "Reddit – scrape data searching social movement tags\n\nLook at the frequency of tags of a social movement and check whether this trends with the emergence of new art themes or the frequency of art themes being created.\nChose Reddit as it has social movement tags organised into subreddits so we can find information on social movements easily. Reddit is also older than Twitter so we can look at a more comprehensive data set.\nNeeds an access key- create an application in Reddit’s developer portal.\nRequest limit: 60 per minute per user\nHas many JSON format Endpoints e.g hot, new, top, and search endpoints for post data\nHighly unstructured text data so will need filtering for analysis"
+  },
+  {
+    "objectID": "data-sources.html#smithsonian-institution-api",
+    "href": "data-sources.html#smithsonian-institution-api",
+    "title": "Data Sources",
+    "section": "Smithsonian Institution API",
+    "text": "Smithsonian Institution API\nWe will scrape data of all American art from 1929 to 2023 to look at the themes of this art. We will use this for both the first and second question. Chose this because it has a lot of data on American art ( with 11 million artworks) and it clearly categorises its art into topics (aka themes) therefore allowing us to analyse this data.\n\nRequires an access key\nNo strict request limit for the Smithsonian API\nJson format\nWell organised and easy to query.\nEndpoints: Object search (e.g., by keyword, themes, or artist).; Fetching metadata for specific objects.; Retrieving media (e.g., images, videos). Data processing: Extract and standardize themes, artists, and periods."
+  },
+  {
+    "objectID": "timeline.html",
+    "href": "timeline.html",
+    "title": "Timeline and division of work",
+    "section": "",
+    "text": "Timeline\n\n\n\nFlowchart\n\n\n\n\nPlan for distributing work\n\n\n\n\n\n\n\n\n\n\n\nWho?\nData Collection (%)\nData Cleaning (%)\nVisualisation (%)\nRepo Organisation (%)\nDocumentation (%)\n\n\n\n\nAmelia (Reddit API)\n33\n33\n50\n10\n40\n\n\nChiara (Smithsonian Institution API)\n33\n33\n50\n20\n30\n\n\nGbemi (FRED API)\n33\n33\nn/a\n70\n30"
+  },
+  {
+    "objectID": "research-questions.html",
+    "href": "research-questions.html",
+    "title": "Research Questions",
+    "section": "",
+    "text": "Historically, the countries that have tended to be richer have also made more artworks (e.g Roman and Greek empire)\nWe wondered whether there was any correlation between the art themes present in a certain country and the economic well being of that country.\nWe chose America because it is the hub of economic activity and therefore if might be interesting to see if it has a strong correlation between popular art themes."
+  },
+  {
+    "objectID": "research-questions.html#how-does-economic-periods-measured-through-gdp-affect-art-themes-in-america",
+    "href": "research-questions.html#how-does-economic-periods-measured-through-gdp-affect-art-themes-in-america",
+    "title": "Research Questions",
+    "section": "",
+    "text": "Historically, the countries that have tended to be richer have also made more artworks (e.g Roman and Greek empire)\nWe wondered whether there was any correlation between the art themes present in a certain country and the economic well being of that country.\nWe chose America because it is the hub of economic activity and therefore if might be interesting to see if it has a strong correlation between popular art themes."
+  },
+  {
+    "objectID": "research-questions.html#how-do-social-movements-affect-recent-art-themes-in-america",
+    "href": "research-questions.html#how-do-social-movements-affect-recent-art-themes-in-america",
+    "title": "Research Questions",
+    "section": "2. How do social movements affect recent art themes in America?",
+    "text": "2. How do social movements affect recent art themes in America?\n\nWe chose this to get a broader perspective on what affects art themes in America and build on our findings from question 1."
+  },
+  {
+    "objectID": "technical-feasibility.html",
+    "href": "technical-feasibility.html",
+    "title": "Technical feasability",
+    "section": "",
+    "text": "Potential Issue\nBack up plan\n\n\n\n\nTechnical Issues\n\nAPI Rate Limits\nChanges in API\nLarge datasets from Smithsonian or Reddit may slow processing and overwhelm storage\n\n\nUse alternate APIs if one fails: e.g World Bank API, other museum APIs, Twitter api\nKeep an eye on the number of requests being made\nUse API-provided bulk download options, like Smithsonian’s collections dump.\nDownload and store datasets locally for continued analysis if APIs become inaccessible.\n\n\n\nData Quality Issues Incomplete Data:\n\nFRED may lack micro-economic context\nReddit content can include spam, irrelevant posts, or off-topic discussions\nData might reflect institutional or user biases\n\n\nClean the data to remove any irrelevant content\n\n\n\nAnalysis\n\nAssigning art themes to economic or social periods is inherently interpretive and may lead to subjective conclusions\nCorrelations does not mean causation\n\n\nClearly state assumptions, limitations, and potential biases in the project’s findings.\n\n\n\nData Privacy: Scraping\n\nData must comply with ethical guidelines and the API’s terms of service\n\n\nReview and strictly adhere to API terms of service and usage policies"
+  },
+  {
+    "objectID": "data-sources.html#fred-gather-real-gdp-from-1929-to-2023.",
+    "href": "data-sources.html#fred-gather-real-gdp-from-1929-to-2023.",
+    "title": "Data Sources",
+    "section": "FRED – gather real GDP from 1929 to 2023.",
+    "text": "FRED – gather real GDP from 1929 to 2023.\n\nWe will create a function to get the annual percentage change in real GDP per year to analyse whether the economy is in boom or recession.\nChose this because it has data on America dating back to 1929 which allows us to look at a larger time period than other APIs.\nDoes not need a key\nRate limit: 120 requests per minute\nJson format\nEndpoints: Includes endpoints for series data, categories, sources, and economic releases.\nNumerical time-series data related to economic metrics like GDP, unemployment, interest rates, inflation, etc.\nHighly structured and easy to parse\nProcessing needs: If there is a range of years, we will change the data to only contain the start year for ease of analysis."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to our presentation!",
+    "section": "",
+    "text": "In this 5 minute presentation we will cover the following topics:\n\nOur research question\nOur data sources\nOur risk assessment and back up plan\nThe timeline and planned distribution of work"
+  }
+]

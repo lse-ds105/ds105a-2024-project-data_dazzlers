@@ -3,32 +3,14 @@ title: "Timeline and division of work"
 format: html
 ---
 
-## Contribution
-Contribution (%) 
-Data collection (%) 
-Data Cleaning (%) 
-Visualisations (%) 
-Repository Organisations (%) 
-Documentation (%) 
-Amelia 
-30 
-30 
-50 
-10 
-40 
-Chiara 
-30 
-30 
-50 
-20 
-30 
-Gbemi 
-30 
-30 
-N/A 
-70 
-30 
- 
-Amelia – Reddit 
-Gbemi - FRED 
-Chiara - Smithsonian 
+### Timeline
+
+![Flowchart](./Images/timeline_flowchart.png)
+
+### Plan for distributing work
+
+| Who? | Data Collection (%) | Data Cleaning (%) | Visualisation (%) | Repo Organisation (%) | Documentation (%) |
+|:----------:|:----------:|:----------:|:------------:|:----------:|:----------:|
+| Amelia (Reddit API) | 33 | 33 | 50 | 10 | 40 |
+| Chiara  (Smithsonian Institution API) | 33 | 33 | 50 | 20 | 30 |
+| Gbemi (FRED API) | 33 | 33 | n/a | 70 | 30 |

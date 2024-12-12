@@ -1,9 +1,13 @@
 ---
 title: "Welcome to our presentation!"
 format: html
+image: "./Images/index_image.png"
+about:
+  template: broadside
+  image-shape: round
 ---
 
-In this 5 minute presentation we will cover the following topics:
+### In this 5 minute presentation we will cover the following topics:
 
 -   Our research question
 -   Our data sources
