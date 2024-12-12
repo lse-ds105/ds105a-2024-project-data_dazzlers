@@ -1,7 +1,13 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/_SwzfpU1)
 
-# To dos
+# 🎨 Exploring the Relationship Between Economic Periods, Social Movements, and Art Themes in America
+1. How do economic periods, as measured by GDP, affect art themes in America?
+2. How do social movements, like Black Lives Matter, influence art themes in America?
 
+## 🎨 After project pitch:
+ - [ ] Make a projects board
+
+## 🎨 For Project Pitch:
 **Decide how to split writing the content of the presentation:**
   - [ ] Exceptional research question(s)
   - [ ] Justified data source choice with clear understanding of complexity
