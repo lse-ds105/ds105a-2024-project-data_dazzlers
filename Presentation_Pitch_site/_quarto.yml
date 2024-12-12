@@ -1,8 +1,9 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "Data_Dazzalers Pitch Presentation"
+  title: "<img src='./Images/logo.png' alt='Project Logo' style='height:80px;'>"
   navbar:
     background: primary
     left:
@@ -17,8 +18,8 @@ website:
       - text: "Backup Plan"
         href: backup-plan.html
 
-output-dir: /Users/gbemisolabanjo/ds105a-2024-project-data_dazzlers/docs
-
 format:
   html:
     theme: cosmo
+    css: styles.css
+    include-in-header: header.html
