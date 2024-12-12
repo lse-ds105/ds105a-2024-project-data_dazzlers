@@ -2,14 +2,14 @@
   {
     "objectID": "timeline.html",
     "href": "timeline.html",
-    "title": "Timeline",
+    "title": "Timeline and division of work",
     "section": "",
     "text": "Contribution (%) Data collection (%) Data Cleaning (%) Visualisations (%) Repository Organisations (%) Documentation (%) Amelia 30 30 50 10 40 Chiara 30 30 50 20 30 Gbemi 30 30 N/A 70 30\nAmelia – Reddit Gbemi - FRED Chiara - Smithsonian"
   },
   {
     "objectID": "timeline.html#contribution",
     "href": "timeline.html#contribution",
-    "title": "Timeline",
+    "title": "Timeline and division of work",
     "section": "",
     "text": "Contribution (%) Data collection (%) Data Cleaning (%) Visualisations (%) Repository Organisations (%) Documentation (%) Amelia 30 30 50 10 40 Chiara 30 30 50 20 30 Gbemi 30 30 N/A 70 30\nAmelia – Reddit Gbemi - FRED Chiara - Smithsonian"
   },
@@ -25,7 +25,7 @@
     "href": "data-sources.html",
     "title": "Data Sources",
     "section": "",
-    "text": "We will create a function to get the annual percentage change in real GDP per year to analyse whether the economy is in boom or recession. Chose this because it has data on America dating back to 1929 which allows us to look at a larger time period than other APIs.\nDoes not need a key\nRate limit: 120 requests per minute\nJson format\nEndpoints: Includes endpoints for series data, categories, sources, and economic releases.\nNumerical time-series data related to economic metrics like GDP, unemployment, interest rates, inflation, etc.\nHighly structured and easy to parse\nProcessing needs: Normalization- Time-series data may need transformation for analytics (e.g., seasonally adjusted data). If there is a range of years, we will change the data to only contain the start year for ease of analysis. (This will also be done with the other two APIs)\n\n\n\n\nLook at the frequency of tags of a social movement and check whether this trends with the emergence of new art themes or the frequency of art themes being created. Chose this as it has social movement tags organised into subreddits so we can find information on social movements easily. Reddit is also older than Twitter so we can look at a more comprehensive data set. Needs an access key- create an application in Reddit’s developer portal. This process provides you with a client ID and a client secret, which are used to authenticate requests. Request limit: 60 per minute per user but can be expanded depending on usage and agreement with Reddit. We may need to design our system to stay within these limits or implement rate limiting to avoid getting temporarily blocked. Json format Endpoints: hot, new, top, and search endpoints for post data. Comment and user profile endpoints. User-generated content, including posts, comments, upvotes, and metadata. Highly unstructured text data. Data can be noisy. Data processing: Natural Language Processing (NLP)- For analysing themes, sentiment, and keyword extraction. It might have to be used depending on the volume of data we extract; Filtering: Removing irrelevant posts, spam, or non-English content.\n\n\n\nWe will scrape data of all American art from 1929 to 2023 to look at the themes of this art. We will use this for both the first and second question. Chose this because it has a lot of data on American art ( with 11 million artworks) and it clearly categorises its art into topics (aka themes) therefore allowing us to analyse this data. Requires an access key: obtain by registering through the api.data.gov portal​ , GitHub , Postman API Platform . There is no strict request limit for the Smithsonian API, but it encourages developers to use the service responsibly and avoid excessive requests that might disrupt its systems.  Json format Metadata about artifacts and artworks in the Smithsonian collection. Well organised and easy to query. Medium ease of use – rich but nuanced data. Endpoints: Object search (e.g., by keyword, themes, or artist).; Fetching metadata for specific objects.; Retrieving media (e.g., images, videos). Data processing: Extract and standardize themes, artists, and periods."
+    "text": "We will create a function to get the annual percentage change in real GDP per year to analyse whether the economy is in boom or recession. Chose this because it has data on America dating back to 1929 which allows us to look at a larger time period than other APIs.\nDoes not need a key\nRate limit: 120 requests per minute\nJson format\nEndpoints: Includes endpoints for series data, categories, sources, and economic releases.\nNumerical time-series data related to economic metrics like GDP, unemployment, interest rates, inflation, etc.\nHighly structured and easy to parse\nProcessing needs: Normalization- Time-series data may need transformation for analytics (e.g., seasonally adjusted data). If there is a range of years, we will change the data to only contain the start year for ease of analysis. (This will also be done with the other two APIs)"
   },
   {
     "objectID": "data-sources.html#fred-gather-real-gdp-from-1929-to-2023.",
@@ -38,29 +38,36 @@
     "objectID": "data-sources.html#reddit-scrape-data-searching-social-movement-tags-e.g-black-lives-matter.",
     "href": "data-sources.html#reddit-scrape-data-searching-social-movement-tags-e.g-black-lives-matter.",
     "title": "Data Sources",
-    "section": "",
-    "text": "Look at the frequency of tags of a social movement and check whether this trends with the emergence of new art themes or the frequency of art themes being created. Chose this as it has social movement tags organised into subreddits so we can find information on social movements easily. Reddit is also older than Twitter so we can look at a more comprehensive data set. Needs an access key- create an application in Reddit’s developer portal. This process provides you with a client ID and a client secret, which are used to authenticate requests. Request limit: 60 per minute per user but can be expanded depending on usage and agreement with Reddit. We may need to design our system to stay within these limits or implement rate limiting to avoid getting temporarily blocked. Json format Endpoints: hot, new, top, and search endpoints for post data. Comment and user profile endpoints. User-generated content, including posts, comments, upvotes, and metadata. Highly unstructured text data. Data can be noisy. Data processing: Natural Language Processing (NLP)- For analysing themes, sentiment, and keyword extraction. It might have to be used depending on the volume of data we extract; Filtering: Removing irrelevant posts, spam, or non-English content."
+    "section": "Reddit – scrape data searching social movement tags e.g ‘black lives matter’.",
+    "text": "Reddit – scrape data searching social movement tags e.g ‘black lives matter’.\nLook at the frequency of tags of a social movement and check whether this trends with the emergence of new art themes or the frequency of art themes being created. Chose this as it has social movement tags organised into subreddits so we can find information on social movements easily. Reddit is also older than Twitter so we can look at a more comprehensive data set. Needs an access key- create an application in Reddit’s developer portal. This process provides you with a client ID and a client secret, which are used to authenticate requests. Request limit: 60 per minute per user but can be expanded depending on usage and agreement with Reddit. We may need to design our system to stay within these limits or implement rate limiting to avoid getting temporarily blocked. Json format Endpoints: hot, new, top, and search endpoints for post data. Comment and user profile endpoints. User-generated content, including posts, comments, upvotes, and metadata. Highly unstructured text data. Data can be noisy. Data processing: Natural Language Processing (NLP)- For analysing themes, sentiment, and keyword extraction. It might have to be used depending on the volume of data we extract; Filtering: Removing irrelevant posts, spam, or non-English content."
   },
   {
     "objectID": "data-sources.html#smithsonian-institution-api",
     "href": "data-sources.html#smithsonian-institution-api",
     "title": "Data Sources",
-    "section": "",
-    "text": "We will scrape data of all American art from 1929 to 2023 to look at the themes of this art. We will use this for both the first and second question. Chose this because it has a lot of data on American art ( with 11 million artworks) and it clearly categorises its art into topics (aka themes) therefore allowing us to analyse this data. Requires an access key: obtain by registering through the api.data.gov portal​ , GitHub , Postman API Platform . There is no strict request limit for the Smithsonian API, but it encourages developers to use the service responsibly and avoid excessive requests that might disrupt its systems.  Json format Metadata about artifacts and artworks in the Smithsonian collection. Well organised and easy to query. Medium ease of use – rich but nuanced data. Endpoints: Object search (e.g., by keyword, themes, or artist).; Fetching metadata for specific objects.; Retrieving media (e.g., images, videos). Data processing: Extract and standardize themes, artists, and periods."
+    "section": "Smithsonian Institution API",
+    "text": "Smithsonian Institution API\nWe will scrape data of all American art from 1929 to 2023 to look at the themes of this art. We will use this for both the first and second question. Chose this because it has a lot of data on American art ( with 11 million artworks) and it clearly categorises its art into topics (aka themes) therefore allowing us to analyse this data. Requires an access key: obtain by registering through the api.data.gov portal​ , GitHub , Postman API Platform . There is no strict request limit for the Smithsonian API, but it encourages developers to use the service responsibly and avoid excessive requests that might disrupt its systems.  Json format Metadata about artifacts and artworks in the Smithsonian collection. Well organised and easy to query. Medium ease of use – rich but nuanced data. Endpoints: Object search (e.g., by keyword, themes, or artist).; Fetching metadata for specific objects.; Retrieving media (e.g., images, videos). Data processing: Extract and standardize themes, artists, and periods."
   },
   {
     "objectID": "research-questions.html",
     "href": "research-questions.html",
-    "title": "Research",
+    "title": "Research Questions",
     "section": "",
-    "text": "Historically, the countries that have tended to be richer have also made more artworks (such as the roman empire and Greek empire making lots of statues and artworks throughout their more successful periods). Therefore, we wondered whether there was any correlation between the art themes present in a certain country and the economic well being of that country. We chose America because it is the hub of economic activity and therefore if might be interesting to see if it has a strong correlation between popular art themes. ## 2. How do social movements affect recent art themes in America?\n\nWe chose this to get a broader perspective on what affects art themes in America and build on our findings from question 1."
+    "text": "Historically, the countries that have tended to be richer have also made more artworks (such as the roman empire and Greek empire making lots of statues and artworks throughout their more successful periods). Therefore, we wondered whether there was any correlation between the art themes present in a certain country and the economic well being of that country. We chose America because it is the hub of economic activity and therefore if might be interesting to see if it has a strong correlation between popular art themes."
   },
   {
     "objectID": "research-questions.html#how-does-economic-periods-measured-through-gdp-affect-art-themes-in-america",
     "href": "research-questions.html#how-does-economic-periods-measured-through-gdp-affect-art-themes-in-america",
-    "title": "Research",
+    "title": "Research Questions",
     "section": "",
-    "text": "Historically, the countries that have tended to be richer have also made more artworks (such as the roman empire and Greek empire making lots of statues and artworks throughout their more successful periods). Therefore, we wondered whether there was any correlation between the art themes present in a certain country and the economic well being of that country. We chose America because it is the hub of economic activity and therefore if might be interesting to see if it has a strong correlation between popular art themes. ## 2. How do social movements affect recent art themes in America?\n\nWe chose this to get a broader perspective on what affects art themes in America and build on our findings from question 1."
+    "text": "Historically, the countries that have tended to be richer have also made more artworks (such as the roman empire and Greek empire making lots of statues and artworks throughout their more successful periods). Therefore, we wondered whether there was any correlation between the art themes present in a certain country and the economic well being of that country. We chose America because it is the hub of economic activity and therefore if might be interesting to see if it has a strong correlation between popular art themes."
+  },
+  {
+    "objectID": "research-questions.html#how-do-social-movements-affect-recent-art-themes-in-america",
+    "href": "research-questions.html#how-do-social-movements-affect-recent-art-themes-in-america",
+    "title": "Research Questions",
+    "section": "2. How do social movements affect recent art themes in America?",
+    "text": "2. How do social movements affect recent art themes in America?\n\nWe chose this to get a broader perspective on what affects art themes in America and build on our findings from question 1."
   },
   {
     "objectID": "backup-plan.html",
