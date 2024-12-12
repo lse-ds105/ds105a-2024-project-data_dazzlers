@@ -11,4 +11,4 @@ format: html
 
 -   We chose this to get a broader perspective on what affects art themes in America and build on our findings from question 1.
 
-#### We chose America because it is the hub of economic activity and therefore if might be interesting to see if it has a strong correlation between popular art themes.
+#### We chose America because it is the hub of economic activity and therefore it might be interesting to see if there is strong correlation between popular art themes.
