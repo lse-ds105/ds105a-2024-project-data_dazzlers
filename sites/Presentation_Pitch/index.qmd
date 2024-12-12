@@ -1,0 +1,11 @@
+---
+title: "Welcome to our presentation!"
+format: html
+---
+
+In this 5 minute presentation we will cover the following topics:
+
+-   Our research question
+-   Our data sources
+-   Our risk assessment and back up plan
+-   The timeline and planned distribution of work

@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "Data_Dazzalers Pitch Presentation"
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.html
+      - text: "Research Questions"
+        href: research-questions.html
+      - text: "Data Sources"
+        href: data-sources.html
+      - text: "Timeline"
+        href: timeline.html
+      - text: "Backup Plan"
+        href: backup-plan.html
+
+output-dir: /Users/gbemisolabanjo/ds105a-2024-project-data_dazzlers/docs
+
+format:
+  html:
+    theme: cosmo

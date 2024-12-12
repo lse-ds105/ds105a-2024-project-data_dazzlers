@@ -1,0 +1,62 @@
+---
+title: "Risk assessments and responses"
+format: html
+---
+
+## Risks: 
+1. Technical Issues 
+API Rate Limits: 
+Exceeding request limits for FRED (120/min), Reddit (60/min), or Smithsonian API (unspecified but potential throttling). 
+Downtime or Changes in API: 
+Unexpected downtime, deprecation of endpoints, or changes to API functionality. 
+Data Overload: 
+Large datasets from Smithsonian or Reddit can slow processing and overwhelm storage or computational resources. 
+2. Data Quality Issues 
+Incomplete Data: 
+FRED may lack microeconomic context or metadata for deeper interpretations. 
+Smithsonian entries might miss detailed thematic tags for all artworks. 
+Noisy Data: 
+Reddit content can include spam, irrelevant posts, or off-topic discussions. 
+Bias or Gaps: 
+Data might reflect institutional or user biases (e.g., underrepresentation of certain themes in Smithsonian collections or Reddit). 
+3. Analytical Risks 
+Theme Attribution: 
+Assigning art themes to economic or social periods is inherently interpretive and may lead to subjective conclusions. 
+Correlations vs. Causations: 
+Economic periods and social movements’ impacts on art are complex and multifactorial, risking oversimplified conclusions. 
+4. Ethical and Legal Risks 
+Data Privacy: 
+Scraping Reddit user data must comply with ethical guidelines and Reddit’s terms of service. 
+Copyright Concerns: 
+Using Smithsonian media may require adherence to usage rights. 
+ 
+## Backup plan: 
+1. For Technical Issues 
+Redundancy in APIs: 
+Use alternate APIs if one fails: 
+For economic data: World Bank API or OECD API. 
+For art metadata: Europeana API or other open-access museum APIs. 
+For social sentiment: Twitter API as an alternative to Reddit. 
+Rate-Limiting Solutions: 
+Implement request queuing and caching to stay within rate limits. 
+Utilize API-provided bulk download options, like Smithsonian's collections dump. 
+Use time.sleep() to limit the requests 
+Local Backup: 
+Download and store datasets locally for continued analysis if APIs become inaccessible. 
+2. For Data Quality Issues 
+Preprocessing Pipelines: 
+Develop robust data cleaning processes: 
+NLP models for Reddit (e.g., spam detection and topic modeling). 
+Validation scripts for metadata completeness in Smithsonian datasets. 
+Other Sources: 
+Use academic and institutional reports or curated datasets for missing thematic data or validation. 
+3. For Analytical Risks 
+Iterative Analysis: 
+Use peer reviews to validate findings. 
+Transparent Reporting: 
+Clearly state assumptions, limitations, and potential biases in the project's findings. 
+4. For Ethical and Legal Risks 
+Compliance with Terms: 
+Review and strictly adhere to API terms of service and usage policies. 
+Data Privacy Safeguards: 
+Anonymize Reddit user data and focus on aggregated insights. 
