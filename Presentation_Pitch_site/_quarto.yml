@@ -17,8 +17,6 @@ website:
         href: timeline.html
       - text: "Technical feasibility"
         href: technical-feasibility.html
-      - text: "Trial"
-        href: trial.html
 
 format:
   html:
