@@ -4,22 +4,16 @@
 1. How do economic periods, as measured by GDP, affect art themes in America?
 2. How do social movements, like Black Lives Matter, influence art themes in America?
 
-## 🎨 After project pitch:
+## 🎨 Short term to dos:
  - [ ] Make a projects board
+ - [ ] Decide on alternative to Reddit
+ - [ ] Collect and clean FRED
+ - [ ] Collect and clean Smithsonian
+ - [ ] Colect and clean alternative to Reddit
 
-## 🎨 For Project Pitch:
-**Decide how to split writing the content of the presentation:**
-  - [ ] Exceptional research question(s)
-  - [ ] Justified data source choice with clear understanding of complexity
-  - [ ] Realistic and well-structured project timeline.
-  - [ ] Comprehensive understanding of technical requirements, API limitations, and data processing need
-  - [ ] Clear backup plans identified/identify risks
-  - [ ] Professional GitHub Page with clear visual aids
-  - [ ] Excellent presentation delivery with balanced team participation
-  - [ ] Clear and realistic work distribution plan
-      
-**Decide on how to format GitHub page, think**  
-- [ ] colours
-- [ ] fonts
-- [ ] diagrams
-- [ ] Use of [Streamlite](https://streamlit.io/) and/or [Quarto](https://quarto.org/) to make it pretty
+## 🎨 Longer term to dos:
+ - [ ] Combine data into an SQLite Data Base
+ - [ ] Think about website design - what sort of headings/pages do we want?
+ - [ ] Decide on data visualisations
+ - [ ] Do data visualisations
+ - [ ] Analysis of data visualisations, what did we find?
