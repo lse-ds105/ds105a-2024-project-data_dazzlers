@@ -7,6 +7,7 @@
 ## 🎨 Short term to dos:
  - [ ] Make a projects board
  - [ ] Decide on alternative to Reddit
+ - [ ] As we collect data make a note of any requirements 
  - [ ] Collect and clean FRED
  - [ ] Collect and clean Smithsonian
  - [ ] Colect and clean alternative to Reddit
