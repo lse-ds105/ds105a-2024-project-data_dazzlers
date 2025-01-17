@@ -1,0 +1,31 @@
+project:
+  type: website
+
+website:
+  title: "<img src='./images/logo.png' alt='Project Logo' style='height:80px;'>"
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.html
+      - text: "Data"
+        menu:
+          - text: "Data Collection"
+            href: data_collection.html
+          - text: "Data Cleaning"
+            href: data_cleaning.html
+      - text: "Our Findings"
+        menu:
+          - text: "Data Visualisations"
+            href: data_visualisations.html
+          - text: "Data Analysis"
+            href: analysis.html
+      - text: "Contributions"
+        href: contributions.html
+    search: true
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    include-in-header: header.html

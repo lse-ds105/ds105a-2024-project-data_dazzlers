@@ -1,0 +1,12 @@
+---
+title: "Exploring the realationship between art themes, social movements and the economy!"
+format: html
+image: "./Images/index_image.png"
+about:
+  template: marquee
+---
+
+## Background of this project
+* Maybe have a timeline for art themes in general?
+
+## Our motivations for this project
