@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6685f57f7611d95a701d58b4cc6878c0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0cb5735cee7cc8ae56ecf7c7052d4876.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,12 +66,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@400;700&amp;family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -79,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title"><img src="website/images/logo.png" alt="Project Logo" style="height:80px;"></span>
+    <span class="navbar-title"><img src="./images/logo.png" alt="Project Logo" style="height:80px;"></span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -92,25 +93,39 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./data_collection.html"> 
-<span class="menu-text">Data Collection</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Data</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-data">    
+        <li>
+    <a class="dropdown-item" href="./data_collection.html">
+ <span class="dropdown-text">Data Collection</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./data_cleaning.html"> 
-<span class="menu-text">Data Cleaning</span></a>
+        <li>
+    <a class="dropdown-item" href="./data_cleaning.html">
+ <span class="dropdown-text">Data Cleaning</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./data_visualisations.html" aria-current="page"> 
-<span class="menu-text">Data Visualisations</span></a>
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-our-findings" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Our Findings</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-our-findings">    
+        <li>
+    <a class="dropdown-item" href="./data_visualisations.html">
+ <span class="dropdown-text">Data Visualisations</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./analysis.html"> 
-<span class="menu-text">Data Analysis</span></a>
+        <li>
+    <a class="dropdown-item" href="./analysis.html">
+ <span class="dropdown-text">Data Analysis</span></a>
   </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./contributions.html"> 
-<span class="menu-text">Contrbitutions</span></a>
+<span class="menu-text">Contributions</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -122,8 +137,24 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#our-processintial-ideas" id="toc-our-processintial-ideas" class="nav-link active" data-scroll-target="#our-processintial-ideas">Our process/intial ideas</a></li>
+  <li><a href="#challenges-faced" id="toc-challenges-faced" class="nav-link" data-scroll-target="#challenges-faced">Challenges faced</a></li>
+  <li><a href="#visualisation-no-1" id="toc-visualisation-no-1" class="nav-link" data-scroll-target="#visualisation-no-1">Visualisation no 1</a></li>
+  <li><a href="#visualisation-no-2" id="toc-visualisation-no-2" class="nav-link" data-scroll-target="#visualisation-no-2">Visualisation no 2</a></li>
+  <li><a href="#visualisation-no-3" id="toc-visualisation-no-3" class="nav-link" data-scroll-target="#visualisation-no-3">Visualisation no 3</a></li>
+  <li><a href="#visualisation-no-4" id="toc-visualisation-no-4" class="nav-link" data-scroll-target="#visualisation-no-4">Visualisation no 4??</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 

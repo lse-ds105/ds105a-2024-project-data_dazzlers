@@ -1,19 +1,19 @@
 /* css styles */
 body {
+    background-color: #156669 !important;
+  }
+
+  .navbar {
     background-image: url('./Images/background.png');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     background-position: center; 
   }
-
-  .navbar {
-    background-color: #156669 !important; 
-  }
   
 
   .navbar a {
-    color: white !important; 
+    color: black !important; 
   }
   
   /* Change navbar font */
@@ -32,11 +32,11 @@ body {
   
   .dropdown-menu .dropdown-item:hover {
     background-color: #156669; 
-    color: #ffffff; /* Dropdown hover text color */
+    color: #ffffff; 
   }
   
   .navbar-nav .nav-item .dropdown-toggle:hover {
-    color: #ffc107; /* Parent menu hover text color */
+    color: #ffc107; 
   }
   
 
@@ -46,10 +46,13 @@ body {
     color: black; 
   }
   
-  /* Body text font */
   body {
     font-family: 'Montserrat', sans-serif; 
     font-weight: 300;
     color: black; 
   }
 
+  #quarto-sidebar, .sidebar {
+    background-color: #156669 !important;
+
+}

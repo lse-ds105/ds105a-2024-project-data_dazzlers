@@ -1,5 +1,9 @@
 ---
 title: "Analysis"
+sidebar: findings
+toc: true             
+toc-location: left    
+toc-depth: 2 
 format: html
 ---
 
