@@ -6,4 +6,8 @@
 =======
 .venv/
 .env
+<<<<<<< HEAD
+>>>>>>> origin/main
+=======
+venv/
 >>>>>>> origin/main
