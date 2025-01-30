@@ -1,4 +1,13 @@
 /.quarto/
+<<<<<<< HEAD
+.env
+.env/
+/.env/
+=======
 .venv/
 .env
+<<<<<<< HEAD
+>>>>>>> origin/main
+=======
 venv/
+>>>>>>> origin/main
