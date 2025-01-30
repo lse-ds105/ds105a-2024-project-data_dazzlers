@@ -1,19 +1,21 @@
 /* css styles */
 body {
-    background-color: #156669 !important;
+    background-image: url('./Images/background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }
 
+  
   .navbar {
-    background-image: url('./Images/background.png');
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-    background-position: center; 
+    background-color: #156669;
+    font-family: 'Montagu Slab', serif; 
+    font-weight: 400;
   }
   
 
   .navbar a {
-    color: black !important; 
+    color: white !important; 
   }
   
   /* Change navbar font */
@@ -52,7 +54,6 @@ body {
     color: black; 
   }
 
-  #quarto-sidebar, .sidebar {
-    background-color: #156669 !important;
-
-}
+  .toc-title {
+    font-family: 'Montserrat', sans-serif !important; 
+  }

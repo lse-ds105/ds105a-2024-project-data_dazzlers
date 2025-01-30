@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "<img src='./images/logo.png' alt='Project Logo' style='height:80px;'>"
@@ -23,10 +24,18 @@ website:
       - text: "Contributions"
         href: contributions.html
     search: true
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href:  https://github.com/lse-ds105/ds105a-2024-project-data_dazzlers.git
+    back-to-top-navigation: true
 
 format:
   html:
-    theme: default
+    theme:
+      light: flatly
+      dark: darkly
     css: styles.css
+    toc: true
     include-in-header: header.html
-

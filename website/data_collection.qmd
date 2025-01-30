@@ -1,8 +1,5 @@
 ---
 title: "Data Collection"
-sidebar: data
-toc: true             
-toc-location: left    
 toc-depth: 2 
 format: html
 ---
