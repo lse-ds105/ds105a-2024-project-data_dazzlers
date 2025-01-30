@@ -1,0 +1,14 @@
+---
+title: "Data Collection"
+toc-depth: 2 
+format: html
+---
+
+## Why we choose the data sources we chose
+
+## Our process
+
+## Challenges faced
+
+## Response to challenges
+

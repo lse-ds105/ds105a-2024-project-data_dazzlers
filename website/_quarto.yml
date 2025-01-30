@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: ../docs
+
+website:
+  title: "<img src='./images/logo.png' alt='Project Logo' style='height:80px;'>"
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.html
+      - text: "Data"
+        menu:
+          - text: "Data Collection"
+            href: data_collection.html
+          - text: "Data Cleaning"
+            href: data_cleaning.html
+      - text: "Our Findings"
+        menu:
+          - text: "Data Visualisations"
+            href: data_visualisations.html
+          - text: "Data Analysis"
+            href: analysis.html
+      - text: "Contributions"
+        href: contributions.html
+    search: true
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href:  https://github.com/lse-ds105/ds105a-2024-project-data_dazzlers.git
+    back-to-top-navigation: true
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+    include-in-header: header.html

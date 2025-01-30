@@ -1,0 +1,33 @@
+---
+title: "Data Visualisations"
+toc-depth: 2 
+format: html
+---
+
+## Our process/intial ideas
+
+## Challenges faced
+
+## Visualisation no 1
+
+### How we did the visualisation
+
+### Our insights
+
+## Visualisation no 2
+
+### How we did the visualisation
+
+### Our insights
+
+## Visualisation no 3
+
+### How we did the visualisation
+
+### Our insights
+
+## Visualisation no 4??
+
+### How we did the visualisation
+
+### Our insights
