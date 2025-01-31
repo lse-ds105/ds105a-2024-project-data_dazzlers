@@ -1,12 +1,17 @@
 ---
 title: "Exploring the realationship between art themes, social movements and the economy!"
 format: html
-image: "./Images/index_image.png"
 about:
   template: marquee
 ---
 
 ## Background of this project
-* Maybe have a timeline for art themes in general?
+
+In this project we examine two major questions.
+
+1.   Is there a relationship between economic periods and art?
+2.  Do social movements, like Black Lives Matter have an impact on the kinds of art created?
 
 ## Our motivations for this project
+
+Historically, art has tended to flourish in times of economic prosperity, while during periods of economic hardship, art themes tend to shift. By tracking GDP over the past century, we hope to identify these economic shifts and see if they align with changes in the art themes that are popular during those times. As students who are very familiar with social media, we also thought it would be interesting to see how recent social movements impact art.
