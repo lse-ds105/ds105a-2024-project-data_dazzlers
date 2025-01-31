@@ -1,59 +1,92 @@
-/* css styles */
+/* CSS styles */
 body {
-    background-image: url('./images/background.png');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
+  background-image: url('./images/background.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 
-  
-  .navbar {
-    background-color: #156669;
-    font-family: 'Montagu Slab', serif; 
-    font-weight: 400;
-  }
-  
+.navbar {
+  background-color: #156669;
+  font-family: 'Montagu Slab', serif;
+  font-weight: 400;
+}
 
-  .navbar a {
-    color: white !important; 
-  }
-  
-  /* Change navbar font */
-  .navbar {
-    font-family: 'Montagu Slab', serif; 
-    font-weight: 400;
-  }
+.navbar a {
+  color: white !important;
+}
 
-  .dropdown-menu {
-    background-color: #156669; 
-  }
-  
-  .dropdown-menu .dropdown-item {
-    color: white;
-  }
-  
-  .dropdown-menu .dropdown-item:hover {
-    background-color: #156669; 
-    color: #ffffff; 
-  }
-  
-  .navbar-nav .nav-item .dropdown-toggle:hover {
-    color: #ffc107; 
-  }
-  
+/* Change navbar font */
+.navbar {
+  font-family: 'Montagu Slab', serif;
+  font-weight: 400;
+}
 
-  h1, h2, h3 {
-    font-family: 'Montagu Slab', serif; 
-    font-weight: 400;
-    color: black; 
-  }
-  
-  body {
-    font-family: 'Montserrat', sans-serif; 
-    font-weight: 300;
-    color: black; 
-  }
+.dropdown-menu {
+  background-color: #156669;
+}
 
-  .toc-title {
-    font-family: 'Montserrat', sans-serif !important; 
-  }
+.dropdown-menu .dropdown-item {
+  color: white;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #156669;
+  color: #ffffff;
+}
+
+.navbar-nav .nav-item .dropdown-toggle:hover {
+  color: #ffc107;
+}
+
+h1, h2, h3 {
+  font-family: 'Montagu Slab', serif;
+  font-weight: 400;
+  color: black;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: black;
+}
+
+.toc-title {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Dark mode styles */
+body[data-theme="dark"] {
+  background-color: black; 
+  background-image: url('./images/dark.png'); 
+  color: white; 
+}
+
+body[data-theme="dark"] .navbar {
+  background-color: #156669;
+}
+
+body[data-theme="dark"] .navbar a {
+  color: white!important; 
+}
+
+body[data-theme="dark"] h1, 
+body[data-theme="dark"] h2, 
+body[data-theme="dark"] h3 {
+  color: white; 
+}
+
+/* Button Style */
+button {
+  background-color: #156669; 
+  color: white; 
+  border: 5px white; 
+  padding: 2px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+button:hover {
+  background-color: #004d3b; 
+}

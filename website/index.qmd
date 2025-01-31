@@ -1,5 +1,5 @@
 ---
-title: "Exploring the realationship between art themes, social movements and the economy!"
+title: "<img src='./images/homepage.png' alt='Exploring the realationship between art themes, social movements and the economy!'>"
 format: html
 about:
   template: marquee
@@ -9,7 +9,7 @@ about:
 
 In this project we examine two major questions.
 
-1.   Is there a relationship between economic periods and art?
+1.  Is there a relationship between economic periods and art?
 2.  Do social movements, like Black Lives Matter have an impact on the kinds of art created?
 
 ## Our motivations for this project
