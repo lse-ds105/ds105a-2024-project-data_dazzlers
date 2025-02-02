@@ -131,5 +131,61 @@
     "title": "Data Collection",
     "section": "Data Collection Process",
     "text": "Data Collection Process"
+  },
+  {
+    "objectID": "data_cleaning.html",
+    "href": "data_cleaning.html",
+    "title": "Data Processing",
+    "section": "",
+    "text": "The general process was to:\n\nFilter to get relevant columns\nRename columns to improve clarity\nSave to a SQLite database\n\nFor GDP data we processed the data to have GDP per decade rather than yearly for more insightful visualisations"
+  },
+  {
+    "objectID": "data_cleaning.html#our-process",
+    "href": "data_cleaning.html#our-process",
+    "title": "Data Processing",
+    "section": "",
+    "text": "The general process was to:\n\nFilter to get relevant columns\nRename columns to improve clarity\nSave to a SQLite database\n\nFor GDP data we processed the data to have GDP per decade rather than yearly for more insightful visualisations"
+  },
+  {
+    "objectID": "data_collection.html#data-cleaning-process",
+    "href": "data_collection.html#data-cleaning-process",
+    "title": "Data Collection",
+    "section": "Data Cleaning Process",
+    "text": "Data Cleaning Process\nThe general process was to:\n\nFilter to get relevant columns\nRename columns to improve clarity\nSave to a SQLite database\n\nFor GDP data we processed the data to have GDP per decade rather than yearly for more insightful visualisations"
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data Collection and Processing",
+    "section": "",
+    "text": "Global Database of Events, Laguage and Tone (GDELT)\n\nIt gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.\nAnalyses the tone of media coverage, giving us insight into how people and the media are reacting to these events\nHas historical data which allows us to track how movements grow and change over time\nThe platform makes it easy to visualize trends and connections, helping us make sense of complex information. \n\nSmithsonian\n\nIt is the world’s biggest museum complex with 21 museums (and other educational centres) spanning the United States\nHas numerous art pieces in its collections, which allows us to make accurate conclusions on whether the art themes artists choose to create their art in have been impacted by the state of the economy\nIt is reliable as the institution is committed to rigorous scholarly research so many artworks in the Smithsonian’s collection have been thoroughly researched by experts in the field\n\nFederal Reserve Economic Data (FRED)\n\nIt has data for America on GDP from 1929, which allowed us to look at a larger time period compared to other APIs\nThis database always contains the most recent version of the data available"
+  },
+  {
+    "objectID": "data.html#reasoning-behind-our-data-sources",
+    "href": "data.html#reasoning-behind-our-data-sources",
+    "title": "Data Collection and Processing",
+    "section": "",
+    "text": "Global Database of Events, Laguage and Tone (GDELT)\n\nIt gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.\nAnalyses the tone of media coverage, giving us insight into how people and the media are reacting to these events\nHas historical data which allows us to track how movements grow and change over time\nThe platform makes it easy to visualize trends and connections, helping us make sense of complex information. \n\nSmithsonian\n\nIt is the world’s biggest museum complex with 21 museums (and other educational centres) spanning the United States\nHas numerous art pieces in its collections, which allows us to make accurate conclusions on whether the art themes artists choose to create their art in have been impacted by the state of the economy\nIt is reliable as the institution is committed to rigorous scholarly research so many artworks in the Smithsonian’s collection have been thoroughly researched by experts in the field\n\nFederal Reserve Economic Data (FRED)\n\nIt has data for America on GDP from 1929, which allowed us to look at a larger time period compared to other APIs\nThis database always contains the most recent version of the data available"
+  },
+  {
+    "objectID": "data.html#data-collection-process",
+    "href": "data.html#data-collection-process",
+    "title": "Data Collection and Processing",
+    "section": "Data Collection Process",
+    "text": "Data Collection Process"
+  },
+  {
+    "objectID": "data.html#data-cleaning-process",
+    "href": "data.html#data-cleaning-process",
+    "title": "Data Collection and Processing",
+    "section": "Data Cleaning Process",
+    "text": "Data Cleaning Process\nThe general process was to:\n\nFilter to get relevant columns\nRename columns to improve clarity\nSave to a SQLite database\n\nFor GDP data we processed the data to have GDP per decade rather than yearly for more insightful visualisations"
+  },
+  {
+    "objectID": "data.html#challenges-faced",
+    "href": "data.html#challenges-faced",
+    "title": "Data Collection and Processing",
+    "section": "Challenges faced",
+    "text": "Challenges faced\n\n\n\n\n\n\n\nChallenge\nHow we dealt with the challenge\n\n\n\n\nFinding a data that contained historical data for social movements.\nTried Reddit, X and Open Sanction but encountered issues due to lack of historical data or paywalls. Eventually chose GDELT to get data from 2014 onwards.\n\n\nInitially we could only collect 100 artworks of data from Simthsonian API.\nFurther research and using different endpoints\n\n\nEncountered issues in trying to get data from 1929 onwards from Smithsonian API due to rate limit\nBy limiting the range of data collected to match with GDELT data (from 2014 onwards)"
   }
 ]
