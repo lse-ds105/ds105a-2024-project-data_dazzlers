@@ -68,23 +68,32 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@400;700&amp;family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet">
 
-<!-- Dark Mode Toggle Button -->
-</head><body class="nav-fixed"><button id="themeToggle">Toggle Dark Mode</button>
-
 <script>
-  const toggleButton = document.getElementById('themeToggle');
-
-  toggleButton.addEventListener('click', () => {
-    const body = document.body;
-    
-    // Check the current theme and toggle
-    if (body.getAttribute('data-theme') === 'dark') {
-      body.setAttribute('data-theme', 'light');
-    } else {
-      body.setAttribute('data-theme', 'dark');
+    // Check localStorage for dark mode preference
+    window.onload = function() {
+      const theme = localStorage.getItem('theme');
+      
+      if (theme) {
+        document.body.setAttribute('data-theme', theme);
+      }
+    };
+  
+    // Toggle dark mode and store preference
+    function toggleDarkMode() {
+      const currentTheme = document.body.getAttribute('data-theme');
+      
+      // If dark mode is already applied, switch to light mode, else apply dark mode
+      if (currentTheme === 'dark') {
+        document.body.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.body.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
     }
-  });
-</script>
+  </script>
+
+</head><body class="nav-fixed"><button onclick="toggleDarkMode()">Toggle Dark Mode</button>
 
 
 <link rel="stylesheet" href="styles.css">
