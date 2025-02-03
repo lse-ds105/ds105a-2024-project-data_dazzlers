@@ -9,12 +9,8 @@ website:
     left:
       - text: "Home"
         href: index.html
-      - text: "Data"
-        menu:
-          - text: "Data Collection"
-            href: data_collection.html
-          - text: "Data Cleaning"
-            href: data_cleaning.html
+      - text: "Data Collection & Processing"
+        href: data.html
       - text: "Our Findings"
         menu:
           - text: "Data Visualisations"
