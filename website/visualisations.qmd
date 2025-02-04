@@ -1,8 +1,10 @@
 ---
 title: "Data Visualisations"
-toc-depth: 2 
+toc-depth: 2
 format: html
+css: styles.css 
 ---
+
 
 # Investigating the relationship between GDP and art themes
 
@@ -11,7 +13,9 @@ format: html
 [Please scroll to view full plot, or click here to view in separate window](figures/interactive_plot.html){target="_blank" rel="noopener"}
 
 ::: content-box
-<iframe src="figures/interactive_plot.html" width="700" height="600" frameborder="0"></iframe>
+<iframe src="figures/interactive_plot.html" width="700" height="600" frameborder="0">
+
+</iframe>
 :::
 
 ```{=html}
@@ -69,11 +73,22 @@ format: html
 
 -   A heatmap means that any patterns and trends are clearly highlighted. 
 
-For our heatmap, we chose to focus on the ratio of art themes created each decade out of the total amount of artworks created in the top 20 art themes in that specific decade
+For our heatmap, we chose to focus on the proportion of artworks that had the top 20 art themes for each decade
 
 ### Our insights
 
-# Investigating the realtionship between social movements and GDP
+::: {.callout .callout-note}
+Insight 1
+:::
+
+::: {.callout .callout-note}
+Insight 2
+:::
+
+::: {.callout .callout-note}
+Insight 3
+:::
+# Investigating the relationship between social movements and GDP
 
 ## Visualisation no 3
 
