@@ -1,17 +1,80 @@
 [
   {
-    "objectID": "contributions.html",
-    "href": "contributions.html",
-    "title": "Contributions",
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data Collection and Processing",
     "section": "",
-    "text": "Amelia | Focused on data collection\nChiara | Focused on data visualisations\nGbemi | Focused on presentation\nWe worked well as a team and helped each other out, even on parts that were not directly our responsibility!"
+    "text": "Global Database of Events, Laguage and Tone (GDELT)\n\nIt gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.\nAnalyses the tone of media coverage, giving us insight into how people and the media are reacting to these events\nHas historical data which allows us to track how movements grow and change over time\nThe platform makes it easy to visualize trends and connections, helping us make sense of complex information. \n\nSmithsonian\n\nIt is the world’s biggest museum complex with 21 museums (and other educational centres) spanning the United States\nHas numerous art pieces in its collections, which allows us to make accurate conclusions on whether the art themes artists choose to create their art in have been impacted by the state of the economy\nIt is reliable as the institution is committed to rigorous scholarly research so many artworks in the Smithsonian’s collection have been thoroughly researched by experts in the field\n\nFederal Reserve Economic Data (FRED)\n\nIt has data for America on GDP from 1929, which allowed us to look at a larger time period compared to other APIs\nThis database always contains the most recent version of the data available"
   },
   {
-    "objectID": "analysis.html#other-potentially-intersting-things-we-could-look-into",
-    "href": "analysis.html#other-potentially-intersting-things-we-could-look-into",
-    "title": "Analysis",
-    "section": "Other potentially intersting things we could look into…",
-    "text": "Other potentially intersting things we could look into…"
+    "objectID": "data.html#reasoning-behind-our-data-sources",
+    "href": "data.html#reasoning-behind-our-data-sources",
+    "title": "Data Collection and Processing",
+    "section": "",
+    "text": "Global Database of Events, Laguage and Tone (GDELT)\n\nIt gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.\nAnalyses the tone of media coverage, giving us insight into how people and the media are reacting to these events\nHas historical data which allows us to track how movements grow and change over time\nThe platform makes it easy to visualize trends and connections, helping us make sense of complex information. \n\nSmithsonian\n\nIt is the world’s biggest museum complex with 21 museums (and other educational centres) spanning the United States\nHas numerous art pieces in its collections, which allows us to make accurate conclusions on whether the art themes artists choose to create their art in have been impacted by the state of the economy\nIt is reliable as the institution is committed to rigorous scholarly research so many artworks in the Smithsonian’s collection have been thoroughly researched by experts in the field\n\nFederal Reserve Economic Data (FRED)\n\nIt has data for America on GDP from 1929, which allowed us to look at a larger time period compared to other APIs\nThis database always contains the most recent version of the data available"
+  },
+  {
+    "objectID": "data.html#data-collection-process",
+    "href": "data.html#data-collection-process",
+    "title": "Data Collection and Processing",
+    "section": "Data Collection Process",
+    "text": "Data Collection Process"
+  },
+  {
+    "objectID": "data.html#data-processing-process",
+    "href": "data.html#data-processing-process",
+    "title": "Data Collection and Processing",
+    "section": "Data Processing Process",
+    "text": "Data Processing Process\nThe general process was to:\n\nFilter to get relevant columns\nRename columns to improve clarity\nSave to a SQLite database\n\nFor GDP data we processed the data to have GDP per decade rather than yearly for more insightful visualisations"
+  },
+  {
+    "objectID": "data.html#challenges-faced",
+    "href": "data.html#challenges-faced",
+    "title": "Data Collection and Processing",
+    "section": "Challenges faced",
+    "text": "Challenges faced\n\n\n\n\n\n\n\nChallenge\nHow we dealt with the challenge\n\n\n\n\nFinding a data that contained historical data for social movements.\nTried Reddit, X and Open Sanction but encountered issues due to lack of historical data or paywalls. Eventually chose GDELT to get data from 2014 onwards.\n\n\nInitially we could only collect 100 artworks of data from Simthsonian API.\nFurther research and using different endpoints\n\n\nEncountered issues in trying to get data from 1929 onwards from Smithsonian API due to rate limit\nBy limiting the range of data collected to match with GDELT data (from 2014 onwards)"
+  },
+  {
+    "objectID": "visualisations.html",
+    "href": "visualisations.html",
+    "title": "Data Visualisations",
+    "section": "",
+    "text": "Please scroll to view full plot, or click here to view in separate window\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWe choose to represent our data using a heatmap as it was the most efficient way to show all the data about all the decades and the top 20 art themes at once.\nA heatmap allows us to compare multiple decades and themes.\nA heatmap means that any patterns and trends are clearly highlighted. \n\nFor our heatmap, we chose to focus on the proportion of artworks that had the top 20 art themes for each decade\n\n\n\n\n\n\n\n\n\nInsight 1\n\n\n\n\n\n\n\n\n\nInsight 2\n\n\n\n\n\n\n\n\n\nInsight 3"
+  },
+  {
+    "objectID": "visualisations.html#line-graph-popularity-of-art-themes-gdp",
+    "href": "visualisations.html#line-graph-popularity-of-art-themes-gdp",
+    "title": "Data Visualisations",
+    "section": "",
+    "text": "Please scroll to view full plot, or click here to view in separate window"
+  },
+  {
+    "objectID": "visualisations.html#heatmap-creation-of-art-themes-gdp",
+    "href": "visualisations.html#heatmap-creation-of-art-themes-gdp",
+    "title": "Data Visualisations",
+    "section": "",
+    "text": "We choose to represent our data using a heatmap as it was the most efficient way to show all the data about all the decades and the top 20 art themes at once.\nA heatmap allows us to compare multiple decades and themes.\nA heatmap means that any patterns and trends are clearly highlighted. \n\nFor our heatmap, we chose to focus on the proportion of artworks that had the top 20 art themes for each decade\n\n\n\n\n\n\n\n\n\nInsight 1\n\n\n\n\n\n\n\n\n\nInsight 2\n\n\n\n\n\n\n\n\n\nInsight 3"
+  },
+  {
+    "objectID": "visualisations.html#visualisation-no-3",
+    "href": "visualisations.html#visualisation-no-3",
+    "title": "Data Visualisations",
+    "section": "Visualisation no 3",
+    "text": "Visualisation no 3\n\nHow we did the visualisation\n\n\nOur insights"
+  },
+  {
+    "objectID": "visualisations.html#visualisation-no-4",
+    "href": "visualisations.html#visualisation-no-4",
+    "title": "Data Visualisations",
+    "section": "Visualisation no 4??",
+    "text": "Visualisation no 4??\n\nHow we did the visualisation\n\n\nOur insights"
+  },
+  {
+    "objectID": "visualisations.html#challenges-faced",
+    "href": "visualisations.html#challenges-faced",
+    "title": "Data Visualisations",
+    "section": "Challenges faced",
+    "text": "Challenges faced"
   },
   {
     "objectID": "about.html",
@@ -19,41 +82,6 @@
     "title": "About",
     "section": "",
     "text": "About this site"
-  },
-  {
-    "objectID": "data_visualisations.html#challenges-faced",
-    "href": "data_visualisations.html#challenges-faced",
-    "title": "Data Visualisations",
-    "section": "Challenges faced",
-    "text": "Challenges faced"
-  },
-  {
-    "objectID": "data_visualisations.html#visualisation-no-1",
-    "href": "data_visualisations.html#visualisation-no-1",
-    "title": "Data Visualisations",
-    "section": "Visualisation no 1",
-    "text": "Visualisation no 1\n\nHow we did the visualisation\n\n\nOur insights"
-  },
-  {
-    "objectID": "data_visualisations.html#visualisation-no-2",
-    "href": "data_visualisations.html#visualisation-no-2",
-    "title": "Data Visualisations",
-    "section": "Visualisation no 2",
-    "text": "Visualisation no 2"
-  },
-  {
-    "objectID": "data_visualisations.html#visualisation-no-3",
-    "href": "data_visualisations.html#visualisation-no-3",
-    "title": "Data Visualisations",
-    "section": "Visualisation no 3",
-    "text": "Visualisation no 3\n\nHow we did the visualisation\n\n\nOur insights"
-  },
-  {
-    "objectID": "data_visualisations.html#visualisation-no-4",
-    "href": "data_visualisations.html#visualisation-no-4",
-    "title": "Data Visualisations",
-    "section": "Visualisation no 4??",
-    "text": "Visualisation no 4??\n\nHow we did the visualisation\n\n\nOur insights"
   },
   {
     "objectID": "index.html",
@@ -77,185 +105,17 @@
     "text": "Our motivations for this project\nHistorically, art has tended to flourish in times of economic prosperity, while during periods of economic hardship, art themes tend to shift. By tracking GDP over the past century, we hope to identify these economic shifts and see if they align with changes in the art themes that are popular during those times. As students who are very familiar with social media, we also thought it would be interesting to see how recent social movements impact art."
   },
   {
-    "objectID": "data_cleaning.html#challenges-faced",
-    "href": "data_cleaning.html#challenges-faced",
-    "title": "Data Cleaning",
-    "section": "Challenges faced",
-    "text": "Challenges faced"
+    "objectID": "analysis.html#other-potentially-intersting-things-we-could-look-into",
+    "href": "analysis.html#other-potentially-intersting-things-we-could-look-into",
+    "title": "Analysis",
+    "section": "Other potentially intersting things we could look into…",
+    "text": "Other potentially intersting things we could look into…"
   },
   {
-    "objectID": "data_cleaning.html#response-to-challenges",
-    "href": "data_cleaning.html#response-to-challenges",
-    "title": "Data Cleaning",
-    "section": "Response to challenges",
-    "text": "Response to challenges\n## What the final database looks like"
-  },
-  {
-    "objectID": "data_collection.html#our-process",
-    "href": "data_collection.html#our-process",
-    "title": "Data Collection",
-    "section": "Our process",
-    "text": "Our process"
-  },
-  {
-    "objectID": "data_collection.html#challenges-faced",
-    "href": "data_collection.html#challenges-faced",
-    "title": "Data Collection",
-    "section": "Challenges faced",
-    "text": "Challenges faced\n\n\n\n\n\n\n\nChallenge\nHow we dealt with the challenge\n\n\n\n\nFinding a data that contained historical data for social movements.\nTried Reddit, X and Open Sanction but encountered issues due to lack of historical data or paywalls. Eventually chose GDELT to get data from 2014 onwards.\n\n\nInitially we could only collect 100 artworks of data from Simthsonian API.\nFurther research and using different endpoints\n\n\nEncountered issues in trying to get data from 1929 onwards from Smithsonian API due to rate limit\nBy limiting the range of data collected to match with GDELT data (from 2014 onwards)"
-  },
-  {
-    "objectID": "data_collection.html#response-to-challenges",
-    "href": "data_collection.html#response-to-challenges",
-    "title": "Data Collection",
-    "section": "Response to challenges",
-    "text": "Response to challenges"
-  },
-  {
-    "objectID": "data_collection.html",
-    "href": "data_collection.html",
-    "title": "Data Collection",
+    "objectID": "contributions.html",
+    "href": "contributions.html",
+    "title": "Contributions",
     "section": "",
-    "text": "Global Database of Events, Laguage and Tone (GDELT)\n\nIt gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.\nAnalyses the tone of media coverage, giving us insight into how people and the media are reacting to these events\nHas historical data which allows us to track how movements grow and change over time\nThe platform makes it easy to visualize trends and connections, helping us make sense of complex information. \n\nSmithsonian\n\nIt is the world’s biggest museum complex with 21 museums (and other educational centres) spanning the United States\nHas numerous art pieces in its collections, which allows us to make accurate conclusions on whether the art themes artists choose to create their art in have been impacted by the state of the economy\nIt is reliable as the institution is committed to rigorous scholarly research so many artworks in the Smithsonian’s collection have been thoroughly researched by experts in the field\n\nFederal Reserve Economic Data (FRED)\n\nIt has data for America on GDP from 1929, which allowed us to look at a larger time period compared to other APIs\nThis database always contains the most recent version of the data available"
-  },
-  {
-    "objectID": "data_collection.html#reasoning-behind-our-data-sources",
-    "href": "data_collection.html#reasoning-behind-our-data-sources",
-    "title": "Data Collection",
-    "section": "",
-    "text": "Global Database of Events, Laguage and Tone (GDELT)\n\nIt gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.\nAnalyses the tone of media coverage, giving us insight into how people and the media are reacting to these events\nHas historical data which allows us to track how movements grow and change over time\nThe platform makes it easy to visualize trends and connections, helping us make sense of complex information. \n\nSmithsonian\n\nIt is the world’s biggest museum complex with 21 museums (and other educational centres) spanning the United States\nHas numerous art pieces in its collections, which allows us to make accurate conclusions on whether the art themes artists choose to create their art in have been impacted by the state of the economy\nIt is reliable as the institution is committed to rigorous scholarly research so many artworks in the Smithsonian’s collection have been thoroughly researched by experts in the field\n\nFederal Reserve Economic Data (FRED)\n\nIt has data for America on GDP from 1929, which allowed us to look at a larger time period compared to other APIs\nThis database always contains the most recent version of the data available"
-  },
-  {
-    "objectID": "data_collection.html#data-collection-process",
-    "href": "data_collection.html#data-collection-process",
-    "title": "Data Collection",
-    "section": "Data Collection Process",
-    "text": "Data Collection Process"
-  },
-  {
-    "objectID": "data_cleaning.html",
-    "href": "data_cleaning.html",
-    "title": "Data Processing",
-    "section": "",
-    "text": "The general process was to:\n\nFilter to get relevant columns\nRename columns to improve clarity\nSave to a SQLite database\n\nFor GDP data we processed the data to have GDP per decade rather than yearly for more insightful visualisations"
-  },
-  {
-    "objectID": "data_cleaning.html#our-process",
-    "href": "data_cleaning.html#our-process",
-    "title": "Data Processing",
-    "section": "",
-    "text": "The general process was to:\n\nFilter to get relevant columns\nRename columns to improve clarity\nSave to a SQLite database\n\nFor GDP data we processed the data to have GDP per decade rather than yearly for more insightful visualisations"
-  },
-  {
-    "objectID": "data_collection.html#data-cleaning-process",
-    "href": "data_collection.html#data-cleaning-process",
-    "title": "Data Collection",
-    "section": "Data Cleaning Process",
-    "text": "Data Cleaning Process\nThe general process was to:\n\nFilter to get relevant columns\nRename columns to improve clarity\nSave to a SQLite database\n\nFor GDP data we processed the data to have GDP per decade rather than yearly for more insightful visualisations"
-  },
-  {
-    "objectID": "data.html",
-    "href": "data.html",
-    "title": "Data Collection and Processing",
-    "section": "",
-    "text": "Global Database of Events, Laguage and Tone (GDELT)\n\nIt gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.\nAnalyses the tone of media coverage, giving us insight into how people and the media are reacting to these events\nHas historical data which allows us to track how movements grow and change over time\nThe platform makes it easy to visualize trends and connections, helping us make sense of complex information. \n\nSmithsonian\n\nIt is the world’s biggest museum complex with 21 museums (and other educational centres) spanning the United States\nHas numerous art pieces in its collections, which allows us to make accurate conclusions on whether the art themes artists choose to create their art in have been impacted by the state of the economy\nIt is reliable as the institution is committed to rigorous scholarly research so many artworks in the Smithsonian’s collection have been thoroughly researched by experts in the field\n\nFederal Reserve Economic Data (FRED)\n\nIt has data for America on GDP from 1929, which allowed us to look at a larger time period compared to other APIs\nThis database always contains the most recent version of the data available"
-  },
-  {
-    "objectID": "data.html#reasoning-behind-our-data-sources",
-    "href": "data.html#reasoning-behind-our-data-sources",
-    "title": "Data Collection and Processing",
-    "section": "",
-    "text": "Global Database of Events, Laguage and Tone (GDELT)\n\nIt gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.\nAnalyses the tone of media coverage, giving us insight into how people and the media are reacting to these events\nHas historical data which allows us to track how movements grow and change over time\nThe platform makes it easy to visualize trends and connections, helping us make sense of complex information. \n\nSmithsonian\n\nIt is the world’s biggest museum complex with 21 museums (and other educational centres) spanning the United States\nHas numerous art pieces in its collections, which allows us to make accurate conclusions on whether the art themes artists choose to create their art in have been impacted by the state of the economy\nIt is reliable as the institution is committed to rigorous scholarly research so many artworks in the Smithsonian’s collection have been thoroughly researched by experts in the field\n\nFederal Reserve Economic Data (FRED)\n\nIt has data for America on GDP from 1929, which allowed us to look at a larger time period compared to other APIs\nThis database always contains the most recent version of the data available"
-  },
-  {
-    "objectID": "data.html#data-collection-process",
-    "href": "data.html#data-collection-process",
-    "title": "Data Collection and Processing",
-    "section": "Data Collection Process",
-    "text": "Data Collection Process"
-  },
-  {
-    "objectID": "data.html#data-cleaning-process",
-    "href": "data.html#data-cleaning-process",
-    "title": "Data Collection and Processing",
-    "section": "Data Cleaning Process",
-    "text": "Data Cleaning Process\nThe general process was to:\n\nFilter to get relevant columns\nRename columns to improve clarity\nSave to a SQLite database\n\nFor GDP data we processed the data to have GDP per decade rather than yearly for more insightful visualisations"
-  },
-  {
-    "objectID": "data.html#challenges-faced",
-    "href": "data.html#challenges-faced",
-    "title": "Data Collection and Processing",
-    "section": "Challenges faced",
-    "text": "Challenges faced\n\n\n\n\n\n\n\nChallenge\nHow we dealt with the challenge\n\n\n\n\nFinding a data that contained historical data for social movements.\nTried Reddit, X and Open Sanction but encountered issues due to lack of historical data or paywalls. Eventually chose GDELT to get data from 2014 onwards.\n\n\nInitially we could only collect 100 artworks of data from Simthsonian API.\nFurther research and using different endpoints\n\n\nEncountered issues in trying to get data from 1929 onwards from Smithsonian API due to rate limit\nBy limiting the range of data collected to match with GDELT data (from 2014 onwards)"
-  },
-  {
-    "objectID": "data.html#data-processing-process",
-    "href": "data.html#data-processing-process",
-    "title": "Data Collection and Processing",
-    "section": "Data Processing Process",
-    "text": "Data Processing Process\nThe general process was to:\n\nFilter to get relevant columns\nRename columns to improve clarity\nSave to a SQLite database\n\nFor GDP data we processed the data to have GDP per decade rather than yearly for more insightful visualisations"
-  },
-  {
-    "objectID": "data_visualisations.html#visualisation-no-1--",
-    "href": "data_visualisations.html#visualisation-no-1--",
-    "title": "Data Visualisations",
-    "section": "Visualisation no 1 -",
-    "text": "Visualisation no 1 -\nPlease scroll to view full plot, or click here to view in separate window\n\n\n\n\n\nReasoning behind choice of visualisation\n\n\nOur insights"
-  },
-  {
-    "objectID": "data_visualisations.html#line-graph-popularity-of-art-themes-gdp",
-    "href": "data_visualisations.html#line-graph-popularity-of-art-themes-gdp",
-    "title": "Data Visualisations",
-    "section": "1. Line graph: Popularity of Art Themes & GDP",
-    "text": "1. Line graph: Popularity of Art Themes & GDP\nPlease scroll to view full plot, or click here to view in separate window\n\n\n\n\n\nReasoning behind choice of visualisation\n\n\nOur insights"
-  },
-  {
-    "objectID": "data_visualisations.html#heatmap-creation-of-art-themes-gdp",
-    "href": "data_visualisations.html#heatmap-creation-of-art-themes-gdp",
-    "title": "Data Visualisations",
-    "section": "2. Heatmap: Creation of art themes & GDP",
-    "text": "2. Heatmap: Creation of art themes & GDP"
-  },
-  {
-    "objectID": "visualisations.html#line-graph-popularity-of-art-themes-gdp",
-    "href": "visualisations.html#line-graph-popularity-of-art-themes-gdp",
-    "title": "Data Visualisations",
-    "section": "",
-    "text": "Please scroll to view full plot, or click here to view in separate window"
-  },
-  {
-    "objectID": "visualisations.html#heatmap-creation-of-art-themes-gdp",
-    "href": "visualisations.html#heatmap-creation-of-art-themes-gdp",
-    "title": "Data Visualisations",
-    "section": "",
-    "text": "We choose to represent our data using a heatmap as it was the most efficient way to show all the data about all the decades and the top 20 art themes at once.\nA heatmap allows us to compare multiple decades and themes.\nA heatmap means that any patterns and trends are clearly highlighted. \n\nFor our heatmap, we chose to focus on the proportion of artworks that had the top 20 art themes for each decade\n\n\n\n\n\n\n\n\n\nInsight 1\n\n\n\n\n\n\n\n\n\nInsight 2\n\n\n\n\n\n\n\n\n\nInsight 3"
-  },
-  {
-    "objectID": "visualisations.html",
-    "href": "visualisations.html",
-    "title": "Data Visualisations",
-    "section": "",
-    "text": "Please scroll to view full plot, or click here to view in separate window\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWe choose to represent our data using a heatmap as it was the most efficient way to show all the data about all the decades and the top 20 art themes at once.\nA heatmap allows us to compare multiple decades and themes.\nA heatmap means that any patterns and trends are clearly highlighted. \n\nFor our heatmap, we chose to focus on the proportion of artworks that had the top 20 art themes for each decade\n\n\n\n\n\n\n\n\n\nInsight 1\n\n\n\n\n\n\n\n\n\nInsight 2\n\n\n\n\n\n\n\n\n\nInsight 3"
-  },
-  {
-    "objectID": "visualisations.html#visualisation-no-3",
-    "href": "visualisations.html#visualisation-no-3",
-    "title": "Data Visualisations",
-    "section": "Visualisation no 3",
-    "text": "Visualisation no 3\n\nHow we did the visualisation\n\n\nOur insights"
-  },
-  {
-    "objectID": "visualisations.html#visualisation-no-4",
-    "href": "visualisations.html#visualisation-no-4",
-    "title": "Data Visualisations",
-    "section": "Visualisation no 4??",
-    "text": "Visualisation no 4??\n\nHow we did the visualisation\n\n\nOur insights"
-  },
-  {
-    "objectID": "visualisations.html#challenges-faced",
-    "href": "visualisations.html#challenges-faced",
-    "title": "Data Visualisations",
-    "section": "Challenges faced",
-    "text": "Challenges faced"
+    "text": "Amelia | Focused on data collection\nChiara | Focused on data visualisations\nGbemi | Focused on presentation\nWe worked well as a team and helped each other out, even on parts that were not directly our responsibility!"
   }
 ]
