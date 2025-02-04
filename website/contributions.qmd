@@ -1,7 +1,10 @@
 ---
 title: "Contributions"
-toc-depth: 2 
-format: html
+format: 
+    html:
+        toc: true
+        toc-depth: 2 
+        css: styles.css
 ---
 
 [Amelia](https://github.com/ajd546) \| Focused on data collection
