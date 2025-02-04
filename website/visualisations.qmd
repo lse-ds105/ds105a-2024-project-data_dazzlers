@@ -7,14 +7,14 @@ format: html
 # Investigating the relationship between GDP and art themes
 
 ## 1. Line graph: Popularity of Art Themes & GDP
+
 [Please scroll to view full plot, or click here to view in separate window](figures/interactive_plot.html){target="_blank" rel="noopener"}
 
-<div class="content-box">
+::: content-box
+<iframe src="figures/interactive_plot.html" width="700" height="600" frameborder="0"></iframe>
+:::
 
-  <iframe src="figures/interactive_plot.html" width="700" height="600" frameborder="0"></iframe>
-
-</div>
-
+```{=html}
 <style>
 .content-box {
     width: 100%; 
@@ -30,6 +30,7 @@ format: html
 }
 
 </style>
+```
 
 ### Reasoning behind choice of visualisation
 
@@ -37,11 +38,11 @@ format: html
 
 ## 2. Heatmap: Creation of art themes & GDP
 
-<div class="content-box">
-
+::: content-box
 <img src="figures/heatmap.svg" alt="Heatmap" width="700"/>
-</div>
+:::
 
+```{=html}
 <style>
 .content-box {
     width: 100%; 
@@ -58,9 +59,17 @@ format: html
 
 
 </style>
+```
 
+### Reasoning behind choice of visualisation
 
-### How we did the visualisation
+-   We choose to represent our data using a heatmap as it was the most efficient way to show all the data about all the decades and the top 20 art themes at once.
+
+-   A heatmap allows us to compare multiple decades and themes.
+
+-   A heatmap means that any patterns and trends are clearly highlighted. 
+
+For our heatmap, we chose to focus on the ratio of art themes created each decade out of the total amount of artworks created in the top 20 art themes in that specific decade
 
 ### Our insights
 
