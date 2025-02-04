@@ -15,6 +15,10 @@
     - The `website` and `docs` folder contain the markdown, html and images used to produce our website 
 
 2.  **What we initially wanted to discover:**
+We wanted to explore how changes in GDP might influence art and social movements. Drawing from historical examples like the Dutch Golden Age and the Renaissance, we hypothesized that economic booms would drive art that celebrates prosperity, while downturns would lead to darker, more somber themes. Focusing on the U.S., we aimed to see if the economic boom after WWI and the Great Depression had a similar effect on art.
+
+We also wondered how GDP impacted social movements. Would movements like MeToo or Black Lives Matter have positive associations during prosperous times and more negative tones during economic hardship.
+
 
 3.  **How we used AI**
 
@@ -25,12 +29,16 @@
 This explains how to obtain all API credentials and securely set them up for use.
 
 ### 1. Smithsonian:
+-   To obtain a Smithsonian API key, you must create an account with [Smithsonian API Website](https://api.data.gov/signup/)
 
 ### 2. FRED:
 
 -   FRED API creditials can be obtained by creating an account with the [FRED API website](https://fredaccount.stlouisfed.org/login/secure/).
 
 -   You then create an application and are given an API key
+
+### 3. GDELT:
+-   GDELT data is accessible to the public and does not require an API key
 
 ------------------------------------------------------------------------
 
@@ -101,7 +109,7 @@ source .venv/bin/activate
 
 **To deactivate the virtual environment:** `bash     pyenv deactivate`
 
-## Step 3 - Order to run code in
+### Step 3 - Order to run code in
 
 ``` bash
 python helper_functions.py
@@ -121,3 +129,11 @@ We recommend running the code in this order:
 
 1.  Run ... to collect and process the data
 2.  Run ... for data visualisations
+
+## Work Contribution
+
+|Contributors |Data Collections (%)|Data Cleaning (%)|Visualisations (%)|Repository Organisation (%)|Documentation (%)|
+|-----------|-----------|-----------|-----------|-----------|-----------|
+|Gbemi Banjo|-----------|-----------|-----------|-----------|-----------|
+|Amelia Dunn|-----------|-----------|-----------|-----------|-----------|
+|Chiara Franzin|-----------|-----------|-----------|-----------|-----------|
