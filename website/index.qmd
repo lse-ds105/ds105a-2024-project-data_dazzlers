@@ -1,5 +1,5 @@
 ---
-title: "<img src='./images/homepage.png' alt='Exploring the realationship between art themes, social movements and the economy!'>"
+title: ""
 about:
   template: marquee
 
@@ -10,12 +10,23 @@ format:
         css: styles.css
 ---
 
+<img src="./images/homepage.png" alt="Exploring the realationship between art themes, social movements and the economy!"/>
+
 ## Background of this project
 
 In this project we examine two major questions.
 
-1.  Is there a relationship between economic periods and art?
-2.  Is there a relationship between social movements, like Black Lives Matter and GDP?
+[**1. Do changes in GDP correlate with specific art themes?**]{.underline}
+
+Our question stems from historical patterns, where economic booms—like the Dutch Golden Age, the Renaissance, and the Roman Empire—not only sparked growth but also led to a surge in art, often focused on prosperity or mythology. 
+
+Since GDP data is available from the 20th century, we focused on the U.S., which experienced major booms and recessions, such as the post-WW2 expansion and the Great Depression.
+
+[**2. Is there a relationship between social movements, like Black Lives Matter and GDP?**]{.underline}
+
+This question stems from an interest in how the economic conditions of America impact some key social movements. Furthermore, as students who are familiar with social media, we thought it would be interesting to see how GDP impacts recent social movements.
+
+For example, during the 2008 Great Recession, economic justice movements like Occupy Wall Street gained prominence, while in more stable times, movements tend to focus on civil rights and gender equality. 
 
 ## Our motivations for this project
 
