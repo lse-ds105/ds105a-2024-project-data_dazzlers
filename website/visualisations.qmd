@@ -235,15 +235,11 @@ For our heatmap, we chose to look at each decade. We focused on the proportion o
 ### Our insights
 
 ::: {.callout .callout-note}
-1.  There is a general decrease in the tone of mentions of the social movements we have chosen as GDP increases.
+1.  Average sentiment quickly lowers from a relatively high value of over 2 to around -3. 
 :::
 
 ::: {.callout .callout-note}
-2.  
-:::
-
-::: {.callout .callout-note}
-3.  
+2.  Overall, it seems that there is a general decrease in the tone of mentions of the social movements we have chosen as GDP increases.
 :::
 
 # For further exploration
