@@ -132,14 +132,6 @@ We recommend running the code in this order:
 
 ## Work Contribution
 
-|Contributors |Data Collections (%)|Data Cleaning (%)|Visualisations (%)|Documentation (%)|Website production (%)|
-|-----------|-----------|-----------|-----------|-----------|-----------|----------|
-|Gbemi Banjo|-----------|-----------|-----------|-----------|-----------|
-|Amelia Dunn|-----------|-----------|-----------|-----------|-----------|
-|Chiara Franzin|-----------|-----------|-----------|-----------|-----------|
-
-
-
 |Contributors (%)|Data Collections (%)|Data Cleaning (%)|Visualisations (%)|Website Production (%)|Documentation (%)|
 |-----------|-----------|-----------|-----------|-----------|-----------|
 |Gbemi Banjo|-----------|-----------|-----------|-----------|-----------|
