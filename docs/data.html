@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Processing – </title>
+<title>Data Collection and Processing – </title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -121,7 +121,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./data.html"> 
+    <a class="nav-link active" href="./data.html" aria-current="page"> 
 <span class="menu-text">Data Collection &amp; Processing</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -169,7 +169,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
-  <li><a href="#our-process" id="toc-our-process" class="nav-link active" data-scroll-target="#our-process">Our process</a></li>
+  <li><a href="#reasoning-behind-our-data-sources" id="toc-reasoning-behind-our-data-sources" class="nav-link active" data-scroll-target="#reasoning-behind-our-data-sources">Reasoning behind our data sources</a></li>
+  <li><a href="#data-collection-process" id="toc-data-collection-process" class="nav-link" data-scroll-target="#data-collection-process">Data Collection Process</a></li>
+  <li><a href="#data-processing-process" id="toc-data-processing-process" class="nav-link" data-scroll-target="#data-processing-process">Data Processing Process</a></li>
+  <li><a href="#challenges-faced" id="toc-challenges-faced" class="nav-link" data-scroll-target="#challenges-faced">Challenges faced</a></li>
   </ul>
 </nav>
     </div>
@@ -178,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Processing</h1>
+<h1 class="title">Data Collection and Processing</h1>
 </div>
 
 
@@ -195,15 +198,74 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="our-process" class="level2">
-<h2 class="anchored" data-anchor-id="our-process">Our process</h2>
+<section id="reasoning-behind-our-data-sources" class="level2">
+<h2 class="anchored" data-anchor-id="reasoning-behind-our-data-sources">Reasoning behind our data sources</h2>
+<ol type="1">
+<li><strong>Global Database of Events, Laguage and Tone (GDELT)</strong>
+<ul>
+<li><p>It gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.</p></li>
+<li><p>Analyses the tone of media coverage, giving us insight into how people and the media are reacting to these events</p></li>
+<li><p>Has historical data which allows us to track how movements grow and change over time</p></li>
+<li><p>The platform makes it easy to visualize trends and connections, helping us make sense of complex information.&nbsp;</p></li>
+</ul></li>
+<li><strong>Smithsonian</strong>
+<ul>
+<li><p>It is the world’s biggest museum complex with 21 museums (and other educational centres) spanning the United States</p></li>
+<li><p>Has numerous art pieces in its collections, which allows us to make accurate conclusions on whether the art themes artists choose to create their art in have been impacted by the state of the economy</p></li>
+<li><p>It is reliable as the institution is committed to rigorous scholarly research so many artworks in the Smithsonian’s collection have been thoroughly researched by experts in the field</p></li>
+</ul></li>
+<li><strong>Federal Reserve Economic Data (FRED)</strong>
+<ul>
+<li><p>It has data for America on GDP from 1929, which allowed us to look at a larger time period compared to other APIs</p></li>
+<li><p>This database always contains the most recent version of the data available</p></li>
+</ul></li>
+</ol>
+</section>
+<section id="data-collection-process" class="level2">
+<h2 class="anchored" data-anchor-id="data-collection-process">Data Collection Process</h2>
+<p><img src="./images/datacollectionflowchart.png" class="img-fluid"></p>
+<div class="content-box">
+<p><img src="./images/datacollectionflowchart.png" class="img-fluid"></p>
+</div>
+</section>
+<section id="data-processing-process" class="level2">
+<h2 class="anchored" data-anchor-id="data-processing-process">Data Processing Process</h2>
 <p>The general process was to:</p>
 <ol type="1">
-<li>Filter to get relevant columns</li>
-<li>Rename columns to improve clarity</li>
-<li>Save to a SQLite database</li>
+<li><p>Filter to get relevant columns</p></li>
+<li><p>Rename columns to improve clarity</p></li>
+<li><p>Save to a SQLite database</p></li>
 </ol>
 <p>For GDP data we processed the data to have GDP per decade rather than yearly for more insightful visualisations</p>
+</section>
+<section id="challenges-faced" class="level2">
+<h2 class="anchored" data-anchor-id="challenges-faced">Challenges faced</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Challenge</th>
+<th>How we dealt with the challenge</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Finding a data that contained historical data for social movements.</td>
+<td>Tried Reddit, X and Open Sanction but encountered issues due to lack of historical data or paywalls. Eventually chose GDELT to get data from 2014 onwards.</td>
+</tr>
+<tr class="even">
+<td>Initially we could only collect 100 artworks of data from Simthsonian API.</td>
+<td>Further research and using different endpoints</td>
+</tr>
+<tr class="odd">
+<td>Encountered issues in trying to get data from 1929 onwards from Smithsonian API due to rate limit</td>
+<td>By limiting the range of data collected to match with GDELT data (from 2014 onwards)</td>
+</tr>
+</tbody>
+</table>
 
 
 </section>

@@ -1,4 +1,4 @@
----
+git ---
 title: "<img src='./images/homepage.png' alt='Exploring the realationship between art themes, social movements and the economy!'>"
 format: html
 about:
@@ -10,7 +10,7 @@ about:
 In this project we examine two major questions.
 
 1.  Is there a relationship between economic periods and art?
-2.  Do social movements, like Black Lives Matter have an impact on the kinds of art created?
+2.  Is there a relationship between social movements, like Black Lives Matter and GDP?
 
 ## Our motivations for this project
 
