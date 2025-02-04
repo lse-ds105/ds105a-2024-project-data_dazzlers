@@ -88,18 +88,130 @@ Insight 2
 ::: {.callout .callout-note}
 Insight 3
 :::
+
 # Investigating the relationship between social movements and GDP
 
-## Visualisation no 3
+## 3. Line graphs: Mentions of social movenents & GDP
 
-### How we did the visualisation
+<img src="figures/social_movements_vs_gdp.svg" alt="Line graphs" width="700"/>
+
+::: content-box
+<img src="figures/social_movements_vs_gdp.svg" alt="Line graphs" width="700"/>
+:::
+
+```{=html}
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1400px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: auto; 
+    display: flex; 
+    justify-content: center;
+}
+</style>
+```
+
+### Reasoning behind choice of visualisation
 
 ### Our insights
 
-## Visualisation no 4??
+::: {.callout .callout-note}
+Insight 1
+:::
 
-### How we did the visualisation
+::: {.callout .callout-note}
+Insight 2
+:::
+
+::: {.callout .callout-note}
+Insight 3
+:::
+
+
+## 4. Bubble graphs: Sentiment and mentions of Social Movements & GDP growth rate
+
+::: content-box
+<img src="figures/bubble_graph.svg" alt="Bubble graph" width="700"/>
+:::
+
+```{=html}
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1210px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+    display: flex; 
+    justify-content: center;
+}
+</style>
+```
+
+### Reasoning behind choice of visualisation
 
 ### Our insights
 
-## Challenges faced
+::: {.callout .callout-note}
+Insight 1
+:::
+
+::: {.callout .callout-note}
+Insight 2
+:::
+
+::: {.callout .callout-note}
+Insight 3
+:::
+
+## 5. Line graphs: Sentiment and & GDP
+
+[Please scroll to view full plot, or click here to view in separate window](figures/social_movements_interactive_plot.html){target="_blank" rel="noopener"}
+
+::: content-box
+<iframe src="figures/social_movements_interactive_plot.html" width="700" height="600" frameborder="0">
+
+</iframe>
+:::
+
+```{=html}
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1210px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+    display: flex; /* Align content properly */
+    justify-content: center;
+}
+
+</style>
+```
+
+### Reasoning behind choice of visualisation
+
+### Our insights
+
+::: {.callout .callout-note}
+Insight 1
+:::
+
+::: {.callout .callout-note}
+Insight 2
+:::
+
+::: {.callout .callout-note}
+Insight 3
+:::

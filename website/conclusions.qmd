@@ -10,3 +10,26 @@ format:
 ## Our key findings
 
 ## Other potentially intersting things we could look into...
+
+::: content-box
+<img src="figures/social_movements_vs_art_themes.svg" alt="Simple line graph" width="700"/>
+:::
+
+```{=html}
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1210px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+    display: flex; /* Align content properly */
+    justify-content: center;
+}
+
+
+</style>
+```
