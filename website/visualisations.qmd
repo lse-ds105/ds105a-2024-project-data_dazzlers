@@ -10,6 +10,7 @@ css: styles.css
 
 ## 1. Line graph: Popularity of Art Themes & GDP
 
+
 [Please scroll to view full plot, or click here to view in separate window](figures/interactive_plot.html){target="_blank" rel="noopener"}
 
 ::: content-box
@@ -92,8 +93,6 @@ Insight 3
 # Investigating the relationship between social movements and GDP
 
 ## 3. Line graphs: Mentions of social movenents & GDP
-
-<img src="figures/social_movements_vs_gdp.svg" alt="Line graphs" width="700"/>
 
 ::: content-box
 <img src="figures/social_movements_vs_gdp.svg" alt="Line graphs" width="700"/>
