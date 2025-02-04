@@ -1,0 +1,81 @@
+---
+title: "Data Visualisations"
+toc-depth: 2 
+format: html
+---
+
+# Investigating the relationship between GDP and art themes
+
+## 1. Line graph: Popularity of Art Themes & GDP
+[Please scroll to view full plot, or click here to view in separate window](figures/interactive_plot.html){target="_blank" rel="noopener"}
+
+<div class="content-box">
+
+  <iframe src="figures/interactive_plot.html" width="700" height="600" frameborder="0"></iframe>
+
+</div>
+
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1210px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+    display: flex; /* Align content properly */
+    justify-content: center;
+}
+
+</style>
+
+### Reasoning behind choice of visualisation
+
+### Our insights
+
+## 2. Heatmap: Creation of art themes & GDP
+
+<div class="content-box">
+
+<img src="figures/heatmap.svg" alt="Heatmap" width="700"/>
+</div>
+
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1210px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+    display: flex; /* Align content properly */
+    justify-content: center;
+}
+
+
+</style>
+
+
+### How we did the visualisation
+
+### Our insights
+
+# Investigating the realtionship between social movements and GDP
+
+## Visualisation no 3
+
+### How we did the visualisation
+
+### Our insights
+
+## Visualisation no 4??
+
+### How we did the visualisation
+
+### Our insights
+
+## Challenges faced

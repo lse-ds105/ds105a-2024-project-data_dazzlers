@@ -2,9 +2,9 @@
   {
     "objectID": "contributions.html",
     "href": "contributions.html",
-    "title": "Analysis",
+    "title": "Contributions",
     "section": "",
-    "text": "Will make a table / link our git hub accounts?"
+    "text": "Amelia | Focused on data collection\nChiara | Focused on data visualisations\nGbemi | Focused on presentation\nWe worked well as a team and helped each other out, even on parts that were not directly our responsibility!"
   },
   {
     "objectID": "analysis.html#other-potentially-intersting-things-we-could-look-into",
@@ -39,7 +39,7 @@
     "href": "data_visualisations.html#visualisation-no-2",
     "title": "Data Visualisations",
     "section": "Visualisation no 2",
-    "text": "Visualisation no 2\n\nHow we did the visualisation\n\n\nOur insights"
+    "text": "Visualisation no 2"
   },
   {
     "objectID": "data_visualisations.html#visualisation-no-3",
@@ -60,14 +60,14 @@
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "In this project we examine two major questions.\n\nIs there a relationship between economic periods and art?\nDo social movements, like Black Lives Matter have an impact on the kinds of art created?"
+    "text": "In this project we examine two major questions.\n\nIs there a relationship between economic periods and art?\nIs there a relationship between social movements, like Black Lives Matter and GDP?"
   },
   {
     "objectID": "index.html#background-of-this-project",
     "href": "index.html#background-of-this-project",
     "title": "",
     "section": "",
-    "text": "In this project we examine two major questions.\n\nIs there a relationship between economic periods and art?\nDo social movements, like Black Lives Matter have an impact on the kinds of art created?"
+    "text": "In this project we examine two major questions.\n\nIs there a relationship between economic periods and art?\nIs there a relationship between social movements, like Black Lives Matter and GDP?"
   },
   {
     "objectID": "index.html#our-motivations-for-this-project",
@@ -194,5 +194,68 @@
     "title": "Data Collection and Processing",
     "section": "Data Processing Process",
     "text": "Data Processing Process\nThe general process was to:\n\nFilter to get relevant columns\nRename columns to improve clarity\nSave to a SQLite database\n\nFor GDP data we processed the data to have GDP per decade rather than yearly for more insightful visualisations"
+  },
+  {
+    "objectID": "data_visualisations.html#visualisation-no-1--",
+    "href": "data_visualisations.html#visualisation-no-1--",
+    "title": "Data Visualisations",
+    "section": "Visualisation no 1 -",
+    "text": "Visualisation no 1 -\nPlease scroll to view full plot, or click here to view in separate window\n\n\n\n\n\nReasoning behind choice of visualisation\n\n\nOur insights"
+  },
+  {
+    "objectID": "data_visualisations.html#line-graph-popularity-of-art-themes-gdp",
+    "href": "data_visualisations.html#line-graph-popularity-of-art-themes-gdp",
+    "title": "Data Visualisations",
+    "section": "1. Line graph: Popularity of Art Themes & GDP",
+    "text": "1. Line graph: Popularity of Art Themes & GDP\nPlease scroll to view full plot, or click here to view in separate window\n\n\n\n\n\nReasoning behind choice of visualisation\n\n\nOur insights"
+  },
+  {
+    "objectID": "data_visualisations.html#heatmap-creation-of-art-themes-gdp",
+    "href": "data_visualisations.html#heatmap-creation-of-art-themes-gdp",
+    "title": "Data Visualisations",
+    "section": "2. Heatmap: Creation of art themes & GDP",
+    "text": "2. Heatmap: Creation of art themes & GDP"
+  },
+  {
+    "objectID": "visualisations.html#line-graph-popularity-of-art-themes-gdp",
+    "href": "visualisations.html#line-graph-popularity-of-art-themes-gdp",
+    "title": "Data Visualisations",
+    "section": "",
+    "text": "Please scroll to view full plot, or click here to view in separate window"
+  },
+  {
+    "objectID": "visualisations.html#heatmap-creation-of-art-themes-gdp",
+    "href": "visualisations.html#heatmap-creation-of-art-themes-gdp",
+    "title": "Data Visualisations",
+    "section": "2. Heatmap: Creation of art themes & GDP",
+    "text": "2. Heatmap: Creation of art themes & GDP"
+  },
+  {
+    "objectID": "visualisations.html",
+    "href": "visualisations.html",
+    "title": "Data Visualisations",
+    "section": "",
+    "text": "Please scroll to view full plot, or click here to view in separate window"
+  },
+  {
+    "objectID": "visualisations.html#visualisation-no-3",
+    "href": "visualisations.html#visualisation-no-3",
+    "title": "Data Visualisations",
+    "section": "Visualisation no 3",
+    "text": "Visualisation no 3\n\nHow we did the visualisation\n\n\nOur insights"
+  },
+  {
+    "objectID": "visualisations.html#visualisation-no-4",
+    "href": "visualisations.html#visualisation-no-4",
+    "title": "Data Visualisations",
+    "section": "Visualisation no 4??",
+    "text": "Visualisation no 4??\n\nHow we did the visualisation\n\n\nOur insights"
+  },
+  {
+    "objectID": "visualisations.html#challenges-faced",
+    "href": "visualisations.html#challenges-faced",
+    "title": "Data Visualisations",
+    "section": "Challenges faced",
+    "text": "Challenges faced"
   }
 ]

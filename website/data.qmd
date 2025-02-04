@@ -27,8 +27,6 @@ format: html
 
 ## Data Collection Process
 
-![](./images/datacollectionflowchart.png)
-
 <div class="content-box">
 ![](./images/datacollectionflowchart.png)
 </div>

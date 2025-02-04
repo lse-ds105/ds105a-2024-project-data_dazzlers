@@ -1,7 +1,13 @@
 ---
-title: "Analysis"
+title: "Contributions"
 toc-depth: 2 
 format: html
 ---
 
-Will make a table / link our git hub accounts?
+[Amelia](https://github.com/ajd546) \| Focused on data collection
+
+[Chiara](https://github.com/chiarafranzin) \| Focused on data visualisations
+
+[Gbemi](https://github.com/gbemi-b) \| Focused on presentation
+
+We worked well as a team and helped each other out, even on parts that were not directly our responsibility!

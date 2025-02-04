@@ -14,7 +14,7 @@ website:
       - text: "Our Findings"
         menu:
           - text: "Data Visualisations"
-            href: data_visualisations.html
+            href: Visualisations.html
           - text: "Data Analysis"
             href: analysis.html
       - text: "Contributions"
