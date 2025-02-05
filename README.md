@@ -31,6 +31,8 @@ This explains how to obtain all API credentials and securely set them up for use
 ### 1. Smithsonian:
 -   To obtain a Smithsonian API key, you must create an account with [Smithsonian API Website](https://api.data.gov/signup/)
 
+-   The API key will then be emailed to you
+
 ### 2. FRED:
 
 -   FRED API creditials can be obtained by creating an account with the [FRED API website](https://fredaccount.stlouisfed.org/login/secure/).
