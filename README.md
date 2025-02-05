@@ -9,7 +9,7 @@
 
 1.  **What you will find here:**
 
-    -   A`code` folder that contains there's four folders. The `FRED_Data`, `GDELT_Data` and `Smithsonian_Data` folders contain notebooks on gathering and processing the respective data. While the `Visualisations` folder contains notebooks that demonstrate how we creeated all our visualisations.
+    -   A `code` folder that contains there's four folders. The `FRED_Data`, `GDELT_Data` and `Smithsonian_Data` folders contain notebooks on gathering and processing the respective data. While the `Visualisations` folder contains notebooks that demonstrate how we creeated all our visualisations.
     -   A `data` folder that contains raw and processed data. The database that we created with all our data is in the processed folder under social_movements.db
     -   The `website` and `docs` folder contain the markdown, html and images used to produce our website
     -   Within the `docs` folder, there's a `figures` folder that contains all the visualisations we used in the website
@@ -17,16 +17,16 @@
 
 2.  **What we initially wanted to discover:**
 
--   We wanted to explore how changes in GDP might influence art and social movements. Drawing from historical examples like the Dutch Golden Age and the Renaissance, we hypothesized that economic booms would drive art that celebrates prosperity, while downturns would lead to darker, more somber themes. Focusing on the U.S., we aimed to see if the economic boom after WWI and the Great Depression had a similar effect on art.
+-   We wanted to explore how changes in GDP might influence art and social movements. Drawing from historical examples like the Dutch Golden Age and the Renaissance, we hypothesized that economic booms would drive art that celebrates prosperity, while downturns would lead to darker, more sombre themes. Focusing on the U.S., we aimed to see if the economic boom after WWI and the Great Depression had a similar effect on art.
 
 -   We also wondered how GDP impacted social movements. Would movements like MeToo or Black Lives Matter have positive associations during prosperous times and more negative tones during economic hardship.
 
 3.  **How we used AI:**
-    -   AI was used to gain an understanding on how to properly use GitHub branches, such as fixing merging issues
+      -   AI was used to gain an understanding of how to properly use GitHub branches, such as fixing merging issues
     - It was used to edit pulling functions to be specific to the data we wanted to pull
-    - It was mainly used to explain erros in the code and provide suggestions throughout the project, such as explaining why visualisations didn't achieve their desired look and asking for suggestions to improve the code
+    - It was mainly used to explain errors in the code and provide suggestions throughout the project, such as explaining why visualisations didn't achieve their desired look and asking for suggestions to improve the code
     - It was also used to generate ideas for visualisations
-    - As for the website, AI was used to expalin how to change the default background for dark mode in the website
+    - As for the website, AI was used to explain how to change the default background for dark mode on the website
    
 ------------------------------------------------------------------------
 
@@ -42,7 +42,7 @@ This explains how to obtain all API credentials and securely set them up for use
 
 ### 2. FRED:
 
--   FRED API creditials can be obtained by creating an account with the [FRED API website](https://fredaccount.stlouisfed.org/login/secure/).
+-   FRED API credentials can be obtained by creating an account with the [FRED API website](https://fredaccount.stlouisfed.org/login/secure/).
 
 -   You then create an application and are given an API key
 
@@ -123,7 +123,7 @@ python helper_functions.py
 
 This will run the functions stored.
 
-If you're working with Jupyter notebooks, you can start the notebook server with:
+If you're working with Jupyter Notebooks, you can start the notebook server with:
 
 ``` 
 jupyter notebook
