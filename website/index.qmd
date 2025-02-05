@@ -30,4 +30,4 @@ For example, during the 2008 Great Recession, economic justice movements like Oc
 
 ## Our motivations for this project
 
-Historically, art has tended to flourish in times of economic prosperity, while during periods of economic hardship, art themes tend to shift. By tracking GDP over the past century, we hope to identify these economic shifts and see if they align with changes in the art themes that are popular during those times. As students who are very familiar with social media, we also thought it would be interesting to see how recent social movements impact art.
+Historically, art has tended to flourish in times of economic prosperity, while during periods of economic hardship, art themes tend to shift. By tracking GDP over the past century, we hope to identify these economic shifts and see if they align with changes in the art themes that are popular during those times. As students who are very familiar with social media, we also thought it would be interesting to see how recent social movements are impacted by GDP.
