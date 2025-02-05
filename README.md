@@ -1,123 +1,30 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/_SwzfpU1)
 
 # 🎨 Exploring the Relationship Between Economic Periods, Social Movements, and Art Themes in America
-1. How do economic periods, as measured by GDP, affect art themes in America?
-2. How do social movements, like Black Lives Matter, influence art themes in America?
 
-## 🎨 Short term to dos:
- - [ ] Make a projects board
- - [ ] Decide on alternative to Reddit
- - [ ] As we collect data make a note of any requirements 
- - [ ] Collect and clean FRED
- - [ ] Collect and clean Smithsonian
- - [ ] Colect and clean alternative to Reddit
+1.  How do economic periods, as measured by GDP, affect art themes in America?
+2.  Is there a relationship between social movements, like Black Lives Matter and GDP?
 
-## 🎨 Longer term to dos:
- - [ ] Combine data into an SQLite Data Base
- - [ ] Think about website design - what sort of headings/pages do we want?
- - [ ] Decide on data visualisations
- - [ ] Do data visualisations
- - [ ] Analysis of data visualisations, what did we find?
+## Description of this repository:
 
-## Brief decription of this repository:
-1. **What this repository is about:**
+1.  **What you will find here:**
 
-2. **What we initially wanted to discover:**
+    -   A`code` folder that contains there's four folders. The `FRED_Data`, `GDELT_Data` and `Smithsonian_Data` folders contain notebooks on gathering and processing the respective data. While the `Visualisations` folder contains notebooks that demonstrate how we creeated all our visualisations.
+    -   A `data` folder that contains raw and processed data. The database that we created with all our data is in the processed folder under social_movements.db
+    -   The `website` and `docs` folder contain the markdown, html and images used to produce our website
+    -   Within the `docs` folder, there's a `figures` folder that contains all the visualisations we used in the website
+    -   A `reflections` folder showing how we have individually contributed and developed throughout this project
 
-3. **What we did:**
+2.  **What we initially wanted to discover:**
 
-4. **Our findings:**
+-   We wanted to explore how changes in GDP might influence art and social movements. Drawing from historical examples like the Dutch Golden Age and the Renaissance, we hypothesized that economic booms would drive art that celebrates prosperity, while downturns would lead to darker, more somber themes. Focusing on the U.S., we aimed to see if the economic boom after WWI and the Great Depression had a similar effect on art.
 
-5. **How we used AI**
+-   We also wondered how GDP impacted social movements. Would movements like MeToo or Black Lives Matter have positive associations during prosperous times and more negative tones during economic hardship.
 
+3.  **How we used AI:**
+    -   
 
-## Using the Virtual Environment in a New System
-
-To set up the virtual environment on a new system using **Pyenv** or **Conda**, follow these instructions.
-
-
-### **Option 1: Using Pyenv + Virtualenv**
-
-1. **Install `pyenv` and `pyenv-virtualenv`** (if not already installed):
-   - **macOS/Linux:**  
-     ```bash
-     curl https://pyenv.run | bash
-     ```
-     Add the following to your shell configuration file (`~/.bashrc`, `~/.zshrc`, etc.):
-     ```bash
-     export PATH="$HOME/.pyenv/bin:$PATH"
-     eval "$(pyenv init --path)"
-     eval "$(pyenv init -)"
-     eval "$(pyenv virtualenv-init -)"
-     ```
-     Restart your terminal or run:
-     ```bash
-     exec $SHELL
-     ```
-
-2. **Clone the project repository:** -> need to change this to be my actual repository
-    ```bash
-    git clone <repository_url>
-    cd <repository_directory>
-    ```
-
-3. **Create and activate a Python virtual environment using Pyenv:**
-    ```bash
-    pyenv install <python_version>  # Example: pyenv install 3.11.5
-    pyenv virtualenv <python_version> <env_name>  # Example: pyenv virtualenv 3.11.5 myenv
-    pyenv activate <env_name>
-    ```
-4. **Install the required dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-5. **To deactivate the virtual environment:**
-    ```bash
-    pyenv deactivate
-    ```
-
-
-### **Option 2: Using Conda**
-
-1. **Prerequisites**
-
-Make sure you have Conda installed on your system. You can install it using either **Miniconda** (lightweight) or **Anaconda** (full distribution with data science libraries).
-
-- **Download and Install Miniconda (Recommended):**  
-  [Miniconda Installation](https://docs.conda.io/en/latest/miniconda.html)
-
-- **Download and Install Anaconda:**  
-  [Anaconda Installation](https://www.anaconda.com/products/distribution)
-
-
-2. **Clone the project repository:**
-    ```bash
-    git clone <repository_url>
-    cd <repository_directory>
-    ```
-
-3. **Create a new Conda environment with the same name or any name you prefer:**
-    ```bash
-    conda create --name <env_name> python=<python_version>
-    # Example: conda create --name myenv python=3.11
-    ```
-
-4. **Activate the Conda environment:**
-    ```bash
-    conda activate <env_name>
-    ```
-
-5. **Install the required dependencies from `requirements.txt`:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-6. **To deactivate the Conda environment:**
-    ```bash
-    conda deactivate
-    ```
-
----
+------------------------------------------------------------------------
 
 ## All API Credentials Setup
 
@@ -125,54 +32,114 @@ This explains how to obtain all API credentials and securely set them up for use
 
 ### 1. Smithsonian:
 
+-   To obtain a Smithsonian API key, you must create an account with [Smithsonian API Website](https://api.data.gov/signup/)
 
+-   The API key will then be emailed to you
 
+### 2. FRED:
 
+-   FRED API creditials can be obtained by creating an account with the [FRED API website](https://fredaccount.stlouisfed.org/login/secure/).
 
-### 2. Fred
+-   You then create an application and are given an API key
 
+### 3. GDELT:
 
----
+-   GDELT data is accessible to the public and does not require an API key
 
-## Replicating the Results from the Repository
+------------------------------------------------------------------------
 
-To replicate the results from this repository, follow the steps below.
+## How to run the code
 
-### Prerequisites
+### Step 1 - Clone the project repository
 
-1. **Python version:** Ensure that you are using Python 3.7 or later.
-
-2. **Required tools:** 
-   - [Git](https://git-scm.com/) (for cloning the repository)
-   - [Python](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/) (for installing dependencies)
-   - [Conda](https://docs.conda.io/projects/conda/en/latest/index.html) (optional, for managing virtual environments)
-
-### Step 1: Clone the Repository
-
-First, clone the repository to your local system using the following command in terminal:
-
-```bash
-git clone git@github.com:lse-ds105/ds105a-2024-project-data_dazzlers.git
+```         
+bash     
+git clone <git@github.com:lse-ds105/ds105a-2024-project-data_dazzlers.git>
 ```
 
-### Running the code:
+```         
 
-After setting up the environment and creating the .env file, cd to code folder in terminal, then run the code by executing the following:
+cd <ds105a-2024-project-data_dazzlers>
+```
 
-```bash
+### Step 2 - Creating a virtual environment
+
+**1. If you already have conda installed:**
+
+You can create a new environment with the following command:
+
+```         
+bash
+conda create -n .venv
+```
+
+Then, activate the environment:
+
+``` bash
+conda activate .venv
+```
+
+Install `pip` inside conda:
+
+``` bash
+conda install pip
+```
+
+**2. If you don't have conda installed**
+
+Then on the command line run these commands
+
+```         
+cd /path/to/ds105a-2024-project-data_dazzlers
+python -m venv .venv
+```
+
+If on Windows, run:
+
+```         
+.venv\Scripts\activate
+```
+
+If on MacOS or Linux, run:
+
+```         
+source .venv/bin/activate
+```
+
+3.  **Install the required dependencies:**
+
+    ```         
+    bash     
+    pip install -r requirements.txt
+    ```
+
+**To deactivate the virtual environment:** `bash     pyenv deactivate`
+
+### Step 3 - Order to run code in
+
+``` bash
 python helper_functions.py
 ```
-**the above is just an example - we need to replace this with our actual python files**
 
 This will run the functions stored.
 
 If you're working with Jupyter notebooks, you can start the notebook server with:
 
-```bash
+``` bash
 jupyter notebook
 ```
 
 Then, navigate to the relevant notebook file and run the cells to replicate the analysis interactively.
 
+We recommend running the code in this order:
 
+1.  Run NB01 for the FRED and Smithsonian data, then run NB01 and NB02 for the GDELT data to collect and process the data
+2.  Run all the notebooks in the [Visualisations](code/Visualisations/) folder in any order for data visualisations
 
+## Work Contribution
+
+| Contributors (%) | Data Collections (%) | Data Cleaning (%) | Visualisations (%) | Website Production (%) | Documentation (%) |
+|----|----|----|----|----|----|
+| Gbemi Banjo | 5% | 15% | -- | 100% | 33% |
+| Amelia Dunn | 95%| 85% | -- | -- | 33% |
+| Chiara Franzin | -- | -- | 100% | -- | 33% |

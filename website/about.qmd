@@ -1,6 +1,0 @@
----
-title: "About"
-toc-depth: 2 
----
-
-About this site

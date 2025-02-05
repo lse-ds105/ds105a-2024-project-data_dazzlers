@@ -9,18 +9,14 @@ website:
     left:
       - text: "Home"
         href: index.html
-      - text: "Data"
-        menu:
-          - text: "Data Collection"
-            href: data_collection.html
-          - text: "Data Cleaning"
-            href: data_cleaning.html
+      - text: "Data Collection & Processing"
+        href: data.html
       - text: "Our Findings"
         menu:
           - text: "Data Visualisations"
-            href: data_visualisations.html
-          - text: "Data Analysis"
-            href: analysis.html
+            href: visualisations.html
+          - text: "Conclusions"
+            href: conclusions.html
       - text: "Contributions"
         href: contributions.html
     search: true
@@ -33,6 +29,6 @@ website:
 
 format:
   html:
-    css: styles.css
+    css: styles.csser
     toc: true
     include-in-header: header.html

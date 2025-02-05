@@ -1,0 +1,62 @@
+---
+title: "Conclusions"
+format: 
+    html:
+        toc: true
+        toc-depth: 2 
+        css: styles.css
+---
+
+## Our key findings
+
+### The relationship between art and GDP:
+
+Initially our hypothesis was that there was a positive correlation between art themes and GDP. This hypothesis was based on historical examples of this relationship, such as the Dutch Golden Age in the 17th century where GDP boomed but art production also greatly increased and the popularity of certain art themes, such as marine painting,architectural painting, and flower still lifes, also rose \[1\].
+
+However, we instead found the opposite happened! It appears that as GDP rose the number of artworks actually decreased. This could be because other forms of art such as digital art, animation and music become more mainstream as GDP increases.
+
+We also thought that economic prosperity drives art with celebratory themes, while downturns encourage more somber, socially reflective works.
+
+In regards to art themes, we did not find any clear trends that linked art themes and GDP. This generally suggests that art is not always such a direct reflection of the economic prosperity of America, there are likely other factors such as cultural or political shifts that have a greater impact on art themes.
+
+### The relationship between social movements and GDP:
+
+Initally we hypothesised that during economic prosperity, social media would serve as a new platform for expression, while in times of economic distress (low GDP growth rates), both art and social media would reflect darker themes.
+
+Our main conclusion is that public sentiment on social movements has largely declined over time, even as GDP has increased. 2020–2023 continue to show mostly negative sentiment despite economic recovery after COVID 19, which may suggest that shifts in public sentiment towards social movements may not just be a short-term trend caused by the socio-eeconomic shock of COVID 19.
+
+Another key conclusion is how the popularity of social movements appears to be impacted much more by external factors compared to GDP. This is especially the case for the BLM and Me Too movements. A rise in GDP may provide more media space for activism, but movements do not necessarily grow in direct proportion to GDP.
+
+## Other interesting things we could look into...
+
+1.  In this simple line graph there appears to be a clear negative relationship between the number of social movements and art themes. This suggests that with the increased use of social media and the internet, the variety of art themes has decreased. To investigate this further, we would need to gather more modern data on art themes, for example data on animation or digital art themes.
+
+::: content-box
+<img src="figures/social_movements_vs_art_themes.svg" alt="Simple line graph" width="700"/>
+:::
+
+```{=html}
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1210px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+    display: flex; /* Align content properly */
+    justify-content: center;
+}
+
+
+</style>
+```
+
+2.  For climate change social movement mentions it would be interesting to see if there is a continued increase in the number of mentions as GDP increases, or if the number of mentions will peak at a point as it did with BLM and the Me Too movement.
+3.  Investigating art from other countries, to get a more representative idea of different trends between GDP, art themes and social media.
+
+### References
+
+\[1\] Art in the Dutch Golden Age Unit 2 – Dutch Republic’s Rise and Art Impact (no date) fiveable. Available at: <https://library.fiveable.me/art-in-the-dutch-golden-age/unit-2> (Accessed: 04 February 2025).

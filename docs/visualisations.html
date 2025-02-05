@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Data Visualisations – </title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-0cb5735cee7cc8ae56ecf7c7052d4876.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@400;700&amp;family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet">
+
+<script>
+    // Check localStorage for dark mode preference
+    window.onload = function() {
+      const theme = localStorage.getItem('theme');
+      
+      if (theme) {
+        document.body.setAttribute('data-theme', theme);
+      }
+    };
+  
+    // Toggle dark mode and store preference
+    function toggleDarkMode() {
+      const currentTheme = document.body.getAttribute('data-theme');
+      
+      // If dark mode is already applied, switch to light mode, else apply dark mode
+      if (currentTheme === 'dark') {
+        document.body.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.body.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+
+</head><body class="nav-fixed"><button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+
+<link rel="stylesheet" href="styles.csser">
+<link rel="stylesheet" href="styles.css">
+
+
+
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title"><img src="./images/logo.png" alt="Project Logo" style="height:80px;"></span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./data.html"> 
+<span class="menu-text">Data Collection &amp; Processing</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-our-findings" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Our Findings</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-our-findings">    
+        <li>
+    <a class="dropdown-item" href="./visualisations.html">
+ <span class="dropdown-text">Data Visualisations</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./conclusions.html">
+ <span class="dropdown-text">Conclusions</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./contributions.html"> 
+<span class="menu-text">Contributions</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/lse-ds105/ds105a-2024-project-data_dazzlers.git">
+            Source Code
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#investigating-the-relationship-between-gdp-and-art-themes" id="toc-investigating-the-relationship-between-gdp-and-art-themes" class="nav-link active" data-scroll-target="#investigating-the-relationship-between-gdp-and-art-themes">Investigating the relationship between GDP and art themes</a>
+  <ul class="collapse">
+  <li><a href="#line-graph-popularity-of-art-themes-gdp" id="toc-line-graph-popularity-of-art-themes-gdp" class="nav-link" data-scroll-target="#line-graph-popularity-of-art-themes-gdp">1. Line graph: Popularity of Art Themes &amp; GDP</a></li>
+  <li><a href="#heatmap-creation-of-art-themes-gdp" id="toc-heatmap-creation-of-art-themes-gdp" class="nav-link" data-scroll-target="#heatmap-creation-of-art-themes-gdp">2. Heatmap: Creation of art themes &amp; GDP</a></li>
+  </ul></li>
+  <li><a href="#investigating-the-relationship-between-social-movements-and-gdp" id="toc-investigating-the-relationship-between-social-movements-and-gdp" class="nav-link" data-scroll-target="#investigating-the-relationship-between-social-movements-and-gdp">Investigating the relationship between social movements and GDP</a>
+  <ul class="collapse">
+  <li><a href="#line-graphs-mentions-of-social-movements-gdp" id="toc-line-graphs-mentions-of-social-movements-gdp" class="nav-link" data-scroll-target="#line-graphs-mentions-of-social-movements-gdp">3. Line graphs: Mentions of social movements &amp; GDP</a></li>
+  <li><a href="#bubble-graph-sentiment-and-mentions-of-social-movements-gdp-growth-rate" id="toc-bubble-graph-sentiment-and-mentions-of-social-movements-gdp-growth-rate" class="nav-link" data-scroll-target="#bubble-graph-sentiment-and-mentions-of-social-movements-gdp-growth-rate">4. Bubble graph: Sentiment and mentions of Social Movements &amp; GDP growth rate</a></li>
+  <li><a href="#line-graphs-average-sentiment-and-gdp" id="toc-line-graphs-average-sentiment-and-gdp" class="nav-link" data-scroll-target="#line-graphs-average-sentiment-and-gdp">5. Line graphs: Average Sentiment and &amp; GDP</a></li>
+  </ul></li>
+  <li><a href="#for-further-exploration" id="toc-for-further-exploration" class="nav-link" data-scroll-target="#for-further-exploration">For further exploration</a>
+  <ul class="collapse">
+  <li><a href="#interactive-line-graph-popularity-of-art-themes-gdp" id="toc-interactive-line-graph-popularity-of-art-themes-gdp" class="nav-link" data-scroll-target="#interactive-line-graph-popularity-of-art-themes-gdp">Interactive line graph: Popularity of Art Themes &amp; GDP</a></li>
+  <li><a href="#interactive-line-graphs-sentiment-gdp" id="toc-interactive-line-graphs-sentiment-gdp" class="nav-link" data-scroll-target="#interactive-line-graphs-sentiment-gdp">Interactive line graphs: Sentiment &amp; GDP</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data Visualisations</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="investigating-the-relationship-between-gdp-and-art-themes" class="level1">
+<h1>Investigating the relationship between GDP and art themes</h1>
+<section id="line-graph-popularity-of-art-themes-gdp" class="level2">
+<h2 class="anchored" data-anchor-id="line-graph-popularity-of-art-themes-gdp">1. Line graph: Popularity of Art Themes &amp; GDP</h2>
+<p><a href="figures/average_art_interactive_plot.html" target="_blank" rel="noopener">Please scroll to view full plot, or click here to view in separate window</a></p>
+<div class="content-box">
+<iframe src="figures/average_art_interactive_plot.html" width="700" height="600" frameborder="0">
+</iframe>
+</div>
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1210px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+    display: flex; /* Align content properly */
+    justify-content: center;
+}
+
+</style>
+<section id="reasoning-behind-choice-of-visualisation" class="level3">
+<h3 class="anchored" data-anchor-id="reasoning-behind-choice-of-visualisation">Reasoning behind choice of visualisation</h3>
+<ul>
+<li><p>Since we chose a big amount of art themes to look at, we wanted to show correlation, but we did not want any conclusion from the graph to be confusing or misinterpreted.</p></li>
+<li><p>Therefore we chose to make an interactive graph where you can choose to look at all the art themes together, the average effect of GDP on art themes produced or the effect of GDP on any of the art themes.</p></li>
+<li><p>We also chose to have medium to dark colours for the lines to ensure visibility and clarity for everyone.&nbsp;</p></li>
+</ul>
+</section>
+<section id="our-insights" class="level3">
+<h3 class="anchored" data-anchor-id="our-insights">Our insights</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<ol type="1">
+<li>There’s quite a clear trend for this graph as every theme shows the same relationship. There’s an immediate peak when the GDP is $1191 billion (as you can see my hovering above the peak point) and then there’s a stark decrease.</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<ol start="2" type="1">
+<li>Furthermore, for some art themes such as portraits, there’s an occasional local maximum when the GDP is at $8374 billion. From the graph alone it seems that the optimum GDP for any art theme production is $1191 billion. &nbsp;</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<ol start="3" type="1">
+<li>It should also be considered, that the low number of paintings for each theme after the peak could be because other art forms such as digital art have become more popular. This would limit the number of modern artwork that the Smithsonian database has.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="heatmap-creation-of-art-themes-gdp" class="level2">
+<h2 class="anchored" data-anchor-id="heatmap-creation-of-art-themes-gdp">2. Heatmap: Creation of art themes &amp; GDP</h2>
+<div class="content-box">
+<p><img src="figures/heatmap.svg" alt="Heatmap" width="700"></p>
+</div>
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1210px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+    display: flex; /* Align content properly */
+    justify-content: center;
+}
+
+
+</style>
+<section id="reasoning-behind-choice-of-visualisation-1" class="level3">
+<h3 class="anchored" data-anchor-id="reasoning-behind-choice-of-visualisation-1">Reasoning behind choice of visualisation</h3>
+<ul>
+<li><p>We choose to represent our data using a heatmap as it was the most efficient way to show all the data about all the decades and the top 20 art themes at once.</p></li>
+<li><p>A heatmap allows us to compare multiple decades and themes.</p></li>
+<li><p>A heatmap means that any patterns and trends are clearly highlighted.&nbsp;</p></li>
+</ul>
+<p>For our heatmap, we chose to look at each decade. We focused on the proportion of artworks that had the top 20 art themes for each decade.</p>
+</section>
+<section id="our-insights-1" class="level3">
+<h3 class="anchored" data-anchor-id="our-insights-1">Our insights</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<ol type="1">
+<li>For the heatmap, there were no clear trends that could be identified between GDP and art themes. But as GDP increases, the spread themes artworks are created in becomes less consistent.</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<ol start="2" type="1">
+<li>There were some themes like architecture, “Figure group” and “Landscape” that tended to have a similar ratio regardless of the GDP. Other themes varied a lot with high ratios in certain years with certain GDP but had occasionally had low values with other GDPs, for example the art theme “Religion” had a high ratio of 50% but had a majority of 0% values.</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<ol start="3" type="1">
+<li>Overall, when the GDP is lower, the ratio of art themes produced tends to be more spread out, with similar ratios for all the art pieces.</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<ol start="4" type="1">
+<li>The 2010s show an exclusive focus on “Portraits” and “Religion,” while other themes disappear entirely. This may suggests a narrowing artistic interest, <strong>however</strong> this trend is more likely due to less modern artwork being in the Smithsonian Museum which may have skewed results.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="investigating-the-relationship-between-social-movements-and-gdp" class="level1">
+<h1>Investigating the relationship between social movements and GDP</h1>
+<section id="line-graphs-mentions-of-social-movements-gdp" class="level2">
+<h2 class="anchored" data-anchor-id="line-graphs-mentions-of-social-movements-gdp">3. Line graphs: Mentions of social movements &amp; GDP</h2>
+<div class="content-box">
+<p><img src="figures/social_movements_vs_gdp.svg" alt="Line graphs" width="700"></p>
+</div>
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1400px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: auto; 
+    display: flex; 
+    justify-content: center;
+}
+</style>
+<section id="reasoning-behind-choice-of-visualisation-2" class="level3">
+<h3 class="anchored" data-anchor-id="reasoning-behind-choice-of-visualisation-2">Reasoning behind choice of visualisation</h3>
+<ul>
+<li><p>We chose to make separate line graphs for each social movement so we could clearly see and compare the individual patterns for each social movement</p></li>
+<li><p>A line graph helps us to understand the trends in the popularity/mentions of social movements and GDP</p></li>
+</ul>
+</section>
+<section id="our-insights-2" class="level3">
+<h3 class="anchored" data-anchor-id="our-insights-2">Our insights</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<ol type="1">
+<li>For both Black Lives Matter (BLM) and the Me Too movement, the number of mentions decreased after a peak. The trends for BLM and the Me Too movement are similar, which suggests that both these movements are more dependent on external factors (e.g protests) rather than GDP.</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<ol start="2" type="1">
+<li>Whereas, for the climate change movement, the peak number of mentions does not appear to have been reached. This is interesting because it may suggest that as GDP increases the popularity of the climate change movement increases. &nbsp;</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<ol start="3" type="1">
+<li>As increased economic activity is linked to increased emissions and climate change, it could be that as GDP increases and the effects of climate change become more apparent the popularity of the climate change movement will continue to increase. &nbsp;</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="bubble-graph-sentiment-and-mentions-of-social-movements-gdp-growth-rate" class="level2">
+<h2 class="anchored" data-anchor-id="bubble-graph-sentiment-and-mentions-of-social-movements-gdp-growth-rate">4. Bubble graph: Sentiment and mentions of Social Movements &amp; GDP growth rate</h2>
+<div class="content-box">
+<p><img src="figures/bubble_graph.svg" alt="Bubble graph" width="700"></p>
+</div>
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1210px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+    display: flex; 
+    justify-content: center;
+}
+</style>
+<section id="reasoning-behind-choice-of-visualisation-3" class="level3">
+<h3 class="anchored" data-anchor-id="reasoning-behind-choice-of-visualisation-3">Reasoning behind choice of visualisation</h3>
+<ul>
+<li><p>The bubble graph allows us to see if there is any clustering of the popularity of a social movement around specific GDP growth rates</p></li>
+<li><p>The color shows if the mentions of social movements tend to have a positive or negative tone, so we can see if the tone changes over time</p></li>
+</ul>
+</section>
+<section id="our-insights-3" class="level3">
+<h3 class="anchored" data-anchor-id="our-insights-3">Our insights</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<ol type="1">
+<li>From the size of the bubbles, we can see that the number of mentions of social movements have largely increased over time. This is likely due to increased access to social media as well as the increase in knowledge about such social movements.&nbsp;</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<ol start="2" type="1">
+<li>The 2020 bubble appears to be an outlier. 2020 likely had low GDP growth due to the effects of COVID 19, yet there was a large number of mentions of social movements. This was likely because more people were at home on social media.</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<ol start="3" type="1">
+<li>Overall, we can see that the sentiment of social movements has become more negative over time. This suggests that over time there is an increased ill-feeling surrounding social movements, even when such movements were at their peak popularity.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="line-graphs-average-sentiment-and-gdp" class="level2">
+<h2 class="anchored" data-anchor-id="line-graphs-average-sentiment-and-gdp">5. Line graphs: Average Sentiment and &amp; GDP</h2>
+<p><a href="figures/average_social_movements_interactive_plot.html" target="_blank" rel="noopener">Please scroll to view full plot, or click here to view in separate window</a></p>
+<div class="content-box">
+<iframe src="figures/average_social_movements_interactive_plot.html" width="100%" height="600" frameborder="0">
+</iframe>
+</div>
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1210px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+    display: flex; /* Align content properly */
+    justify-content: center;
+}
+
+</style>
+<section id="reasoning-behind-choice-of-visualisation-4" class="level3">
+<h3 class="anchored" data-anchor-id="reasoning-behind-choice-of-visualisation-4">Reasoning behind choice of visualisation</h3>
+<ul>
+<li><p>We chose a line graph to show if the relationship between average sentiment for social movements and GDP</p></li>
+<li><p>We have used colour to highlight the points where there is positive and negative sentiment</p></li>
+</ul>
+</section>
+<section id="our-insights-4" class="level3">
+<h3 class="anchored" data-anchor-id="our-insights-4">Our insights</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<ol type="1">
+<li>Average sentiment quickly lowers from a relatively high value of over 2 to around -3.</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<ol start="2" type="1">
+<li>Overall, it seems that there is a general decrease in the tone of mentions of the social movements we have chosen as GDP increases.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="for-further-exploration" class="level1">
+<h1>For further exploration</h1>
+<section id="interactive-line-graph-popularity-of-art-themes-gdp" class="level2">
+<h2 class="anchored" data-anchor-id="interactive-line-graph-popularity-of-art-themes-gdp">Interactive line graph: Popularity of Art Themes &amp; GDP</h2>
+<p><a href="figures/interactive_plot.html" target="_blank" rel="noopener">Please scroll to view full plot, or click here to view in separate window</a></p>
+<div class="content-box">
+<iframe src="figures/interactive_plot.html" width="700" height="600" frameborder="0">
+</iframe>
+</div>
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1210px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+    display: flex; /* Align content properly */
+    justify-content: center;
+}
+
+</style>
+</section>
+<section id="interactive-line-graphs-sentiment-gdp" class="level2">
+<h2 class="anchored" data-anchor-id="interactive-line-graphs-sentiment-gdp">Interactive line graphs: Sentiment &amp; GDP</h2>
+<p><a href="figures/social_movements_interactive_plot.html" target="_blank" rel="noopener">Please scroll to view full plot, or click here to view in separate window</a></p>
+<div class="content-box">
+<iframe src="figures/social_movements_interactive_plot.html" width="700" height="600" frameborder="0">
+</iframe>
+</div>
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1210px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+    display: flex; /* Align content properly */
+    justify-content: center;
+}
+
+</style>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

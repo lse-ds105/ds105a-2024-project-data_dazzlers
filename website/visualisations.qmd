@@ -1,0 +1,301 @@
+---
+title: "Data Visualisations"
+toc-depth: 2
+format: html
+css: styles.css 
+---
+
+# Investigating the relationship between GDP and art themes
+
+## 1. Line graph: Popularity of Art Themes & GDP
+
+[Please scroll to view full plot, or click here to view in separate window](figures/average_art_interactive_plot.html){target="_blank" rel="noopener"}
+
+::: content-box
+<iframe src="figures/average_art_interactive_plot.html" width="700" height="600" frameborder="0">
+
+</iframe>
+:::
+
+```{=html}
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1210px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+    display: flex; /* Align content properly */
+    justify-content: center;
+}
+
+</style>
+```
+
+### Reasoning behind choice of visualisation
+
+-   Since we chose a big amount of art themes to look at, we wanted to show correlation, but we did not want any conclusion from the graph to be confusing or misinterpreted.
+
+-   Therefore we chose to make an interactive graph where you can choose to look at all the art themes together, the average effect of GDP on art themes produced or the effect of GDP on any of the art themes.
+
+-   We also chose to have medium to dark colours for the lines to ensure visibility and clarity for everyone. 
+
+### Our insights
+
+::: {.callout .callout-note}
+1.  There’s quite a clear trend for this graph as every theme shows the same relationship. There’s an immediate peak when the GDP is \$1191 billion (as you can see my hovering above the peak point) and then there’s a stark decrease.
+:::
+
+::: {.callout .callout-note}
+2.  Furthermore, for some art themes such as portraits, there’s an occasional local maximum when the GDP is at \$8374 billion. From the graph alone it seems that the optimum GDP for any art theme production is \$1191 billion.  
+:::
+
+::: {.callout .callout-note}
+3.  It should also be considered, that the low number of paintings for each theme after the peak could be because other art forms such as digital art have become more popular. This would limit the number of modern artwork that the Smithsonian database has.
+:::
+
+## 2. Heatmap: Creation of art themes & GDP
+
+::: content-box
+<img src="figures/heatmap.svg" alt="Heatmap" width="700"/>
+:::
+
+```{=html}
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1210px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+    display: flex; /* Align content properly */
+    justify-content: center;
+}
+
+
+</style>
+```
+
+### Reasoning behind choice of visualisation
+
+-   We choose to represent our data using a heatmap as it was the most efficient way to show all the data about all the decades and the top 20 art themes at once.
+
+-   A heatmap allows us to compare multiple decades and themes.
+
+-   A heatmap means that any patterns and trends are clearly highlighted. 
+
+For our heatmap, we chose to look at each decade. We focused on the proportion of artworks that had the top 20 art themes for each decade.
+
+### Our insights
+
+::: {.callout .callout-note}
+1.  For the heatmap, there were no clear trends that could be identified between GDP and art themes. But as GDP increases, the spread themes artworks are created in becomes less consistent.
+:::
+
+::: {.callout .callout-note}
+2.  There were some themes like architecture, "Figure group" and "Landscape" that tended to have a similar ratio regardless of the GDP. Other themes varied a lot with high ratios in certain years with certain GDP but had occasionally had low values with other GDPs, for example the art theme "Religion" had a high ratio of 50% but had a majority of 0% values.
+:::
+
+::: {.callout .callout-note}
+3.  Overall, when the GDP is lower, the ratio of art themes produced tends to be more spread out, with similar ratios for all the art pieces.
+:::
+
+::: {.callout .callout-note}
+4.  The 2010s show an exclusive focus on "Portraits" and "Religion," while other themes disappear entirely. This may suggests a narrowing artistic interest, **however** this trend is more likely due to less modern artwork being in the Smithsonian Museum which may have skewed results.
+:::
+
+# Investigating the relationship between social movements and GDP
+
+## 3. Line graphs: Mentions of social movements & GDP
+
+::: content-box
+<img src="figures/social_movements_vs_gdp.svg" alt="Line graphs" width="700"/>
+:::
+
+```{=html}
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1400px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: auto; 
+    display: flex; 
+    justify-content: center;
+}
+</style>
+```
+
+### Reasoning behind choice of visualisation
+
+-   We chose to make separate line graphs for each social movement so we could clearly see and compare the individual patterns for each social movement
+
+-   A line graph helps us to understand the trends in the popularity/mentions of social movements and GDP
+
+### Our insights
+
+::: {.callout .callout-note}
+1.  For both Black Lives Matter (BLM) and the Me Too movement, the number of mentions decreased after a peak. The trends for BLM and the Me Too movement are similar, which suggests that both these movements are more dependent on external factors (e.g protests) rather than GDP.
+:::
+
+::: {.callout .callout-note}
+2.  Whereas, for the climate change movement, the peak number of mentions does not appear to have been reached. This is interesting because it may suggest that as GDP increases the popularity of the climate change movement increases.  
+:::
+
+::: {.callout .callout-note}
+3.  As increased economic activity is linked to increased emissions and climate change, it could be that as GDP increases and the effects of climate change become more apparent the popularity of the climate change movement will continue to increase.  
+:::
+
+## 4. Bubble graph: Sentiment and mentions of Social Movements & GDP growth rate
+
+::: content-box
+<img src="figures/bubble_graph.svg" alt="Bubble graph" width="700"/>
+:::
+
+```{=html}
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1210px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+    display: flex; 
+    justify-content: center;
+}
+</style>
+```
+
+### Reasoning behind choice of visualisation
+
+-   The bubble graph allows us to see if there is any clustering of the popularity of a social movement around specific GDP growth rates
+
+-   The color shows if the mentions of social movements tend to have a positive or negative tone, so we can see if the tone changes over time
+
+### Our insights
+
+::: {.callout .callout-note}
+1.  From the size of the bubbles, we can see that the number of mentions of social movements have largely increased over time. This is likely due to increased access to social media as well as the increase in knowledge about such social movements. 
+:::
+
+::: {.callout .callout-note}
+2.  The 2020 bubble appears to be an outlier. 2020 likely had low GDP growth due to the effects of COVID 19, yet there was a large number of mentions of social movements. This was likely because more people were at home on social media.
+:::
+
+::: {.callout .callout-note}
+3.  Overall, we can see that the sentiment of social movements has become more negative over time. This suggests that over time there is an increased ill-feeling surrounding social movements, even when such movements were at their peak popularity.
+:::
+
+## 5. Line graphs: Average Sentiment and & GDP
+
+[Please scroll to view full plot, or click here to view in separate window](figures/average_social_movements_interactive_plot.html){target="_blank" rel="noopener"}
+
+::: content-box
+<iframe src="figures/average_social_movements_interactive_plot.html" width="100%" height="600" frameborder="0">
+
+</iframe>
+:::
+
+```{=html}
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1210px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+    display: flex; /* Align content properly */
+    justify-content: center;
+}
+
+</style>
+```
+
+### Reasoning behind choice of visualisation
+
+-   We chose a line graph to show if the relationship between average sentiment for social movements and GDP
+
+-   We have used colour to highlight the points where there is positive and negative sentiment
+
+### Our insights
+
+::: {.callout .callout-note}
+1.  Average sentiment quickly lowers from a relatively high value of over 2 to around -3. 
+:::
+
+::: {.callout .callout-note}
+2.  Overall, it seems that there is a general decrease in the tone of mentions of the social movements we have chosen as GDP increases.
+:::
+
+# For further exploration
+
+## Interactive line graph: Popularity of Art Themes & GDP
+
+[Please scroll to view full plot, or click here to view in separate window](figures/interactive_plot.html){target="_blank" rel="noopener"}
+
+::: content-box
+<iframe src="figures/interactive_plot.html" width="700" height="600" frameborder="0">
+
+</iframe>
+:::
+
+```{=html}
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1210px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+    display: flex; /* Align content properly */
+    justify-content: center;
+}
+
+</style>
+```
+
+## Interactive line graphs: Sentiment & GDP
+
+[Please scroll to view full plot, or click here to view in separate window](figures/social_movements_interactive_plot.html){target="_blank" rel="noopener"}
+
+::: content-box
+<iframe src="figures/social_movements_interactive_plot.html" width="700" height="600" frameborder="0">
+
+</iframe>
+:::
+
+```{=html}
+<style>
+.content-box {
+    width: 100%; 
+    max-width: 1210px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+    display: flex; /* Align content properly */
+    justify-content: center;
+}
+
+</style>
+```

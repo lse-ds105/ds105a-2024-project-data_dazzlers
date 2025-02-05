@@ -1,135 +1,135 @@
 [
   {
-    "objectID": "contributions.html",
-    "href": "contributions.html",
-    "title": "Analysis",
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data Collection and Processing",
     "section": "",
-    "text": "Will make a table / link our git hub accounts?"
+    "text": "Global Database of Events, Laguage and Tone (GDELT)\n\nIt gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.\nAnalyses the tone of media coverage, giving us insight into how people and the media are reacting to these events\nHas historical data which allows us to track how movements grow and change over time\nThe platform makes it easy to visualize trends and connections, helping us make sense of complex information. \n\nSmithsonian\n\nIt is the world’s biggest museum complex with 21 museums (and other educational centres) spanning the United States\nHas numerous art pieces in its collections, which allows us to make accurate conclusions on whether the art themes artists choose to create their art in have been impacted by the state of the economy\nIt is reliable as the institution is committed to rigorous scholarly research so many artworks in the Smithsonian’s collection have been thoroughly researched by experts in the field\n\nFederal Reserve Economic Data (FRED)\n\nIt has data for America on GDP from 1929, which allowed us to look at a larger time period compared to other APIs\nThis database always contains the most recent version of the data available"
   },
   {
-    "objectID": "analysis.html#other-potentially-intersting-things-we-could-look-into",
-    "href": "analysis.html#other-potentially-intersting-things-we-could-look-into",
-    "title": "Analysis",
-    "section": "Other potentially intersting things we could look into…",
-    "text": "Other potentially intersting things we could look into…"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "data.html#reasoning-behind-our-data-sources",
+    "href": "data.html#reasoning-behind-our-data-sources",
+    "title": "Data Collection and Processing",
     "section": "",
-    "text": "About this site"
+    "text": "Global Database of Events, Laguage and Tone (GDELT)\n\nIt gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.\nAnalyses the tone of media coverage, giving us insight into how people and the media are reacting to these events\nHas historical data which allows us to track how movements grow and change over time\nThe platform makes it easy to visualize trends and connections, helping us make sense of complex information. \n\nSmithsonian\n\nIt is the world’s biggest museum complex with 21 museums (and other educational centres) spanning the United States\nHas numerous art pieces in its collections, which allows us to make accurate conclusions on whether the art themes artists choose to create their art in have been impacted by the state of the economy\nIt is reliable as the institution is committed to rigorous scholarly research so many artworks in the Smithsonian’s collection have been thoroughly researched by experts in the field\n\nFederal Reserve Economic Data (FRED)\n\nIt has data for America on GDP from 1929, which allowed us to look at a larger time period compared to other APIs\nThis database always contains the most recent version of the data available"
   },
   {
-    "objectID": "data_visualisations.html#challenges-faced",
-    "href": "data_visualisations.html#challenges-faced",
-    "title": "Data Visualisations",
-    "section": "Challenges faced",
-    "text": "Challenges faced"
+    "objectID": "data.html#data-collection-process",
+    "href": "data.html#data-collection-process",
+    "title": "Data Collection and Processing",
+    "section": "Data Collection Process",
+    "text": "Data Collection Process"
   },
   {
-    "objectID": "data_visualisations.html#visualisation-no-1",
-    "href": "data_visualisations.html#visualisation-no-1",
-    "title": "Data Visualisations",
-    "section": "Visualisation no 1",
-    "text": "Visualisation no 1\n\nHow we did the visualisation\n\n\nOur insights"
+    "objectID": "data.html#data-processing-process",
+    "href": "data.html#data-processing-process",
+    "title": "Data Collection and Processing",
+    "section": "Data Processing Process",
+    "text": "Data Processing Process\nThe general process was to:\n\nFilter to get relevant columns\nRename columns to improve clarity\nSave to a SQLite database\n\nFor GDP data we processed the data to have GDP per decade rather than yearly for more insightful visualisations"
   },
   {
-    "objectID": "data_visualisations.html#visualisation-no-2",
-    "href": "data_visualisations.html#visualisation-no-2",
-    "title": "Data Visualisations",
-    "section": "Visualisation no 2",
-    "text": "Visualisation no 2\n\nHow we did the visualisation\n\n\nOur insights"
-  },
-  {
-    "objectID": "data_visualisations.html#visualisation-no-3",
-    "href": "data_visualisations.html#visualisation-no-3",
-    "title": "Data Visualisations",
-    "section": "Visualisation no 3",
-    "text": "Visualisation no 3\n\nHow we did the visualisation\n\n\nOur insights"
-  },
-  {
-    "objectID": "data_visualisations.html#visualisation-no-4",
-    "href": "data_visualisations.html#visualisation-no-4",
-    "title": "Data Visualisations",
-    "section": "Visualisation no 4??",
-    "text": "Visualisation no 4??\n\nHow we did the visualisation\n\n\nOur insights"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "",
-    "section": "",
-    "text": "In this project we examine two major questions.\n\nIs there a relationship between economic periods and art?\nDo social movements, like Black Lives Matter have an impact on the kinds of art created?"
-  },
-  {
-    "objectID": "index.html#background-of-this-project",
-    "href": "index.html#background-of-this-project",
-    "title": "",
-    "section": "",
-    "text": "In this project we examine two major questions.\n\nIs there a relationship between economic periods and art?\nDo social movements, like Black Lives Matter have an impact on the kinds of art created?"
-  },
-  {
-    "objectID": "index.html#our-motivations-for-this-project",
-    "href": "index.html#our-motivations-for-this-project",
-    "title": "",
-    "section": "Our motivations for this project",
-    "text": "Our motivations for this project\nHistorically, art has tended to flourish in times of economic prosperity, while during periods of economic hardship, art themes tend to shift. By tracking GDP over the past century, we hope to identify these economic shifts and see if they align with changes in the art themes that are popular during those times. As students who are very familiar with social media, we also thought it would be interesting to see how recent social movements impact art."
-  },
-  {
-    "objectID": "data_cleaning.html#challenges-faced",
-    "href": "data_cleaning.html#challenges-faced",
-    "title": "Data Cleaning",
-    "section": "Challenges faced",
-    "text": "Challenges faced"
-  },
-  {
-    "objectID": "data_cleaning.html#response-to-challenges",
-    "href": "data_cleaning.html#response-to-challenges",
-    "title": "Data Cleaning",
-    "section": "Response to challenges",
-    "text": "Response to challenges\n## What the final database looks like"
-  },
-  {
-    "objectID": "data_collection.html#our-process",
-    "href": "data_collection.html#our-process",
-    "title": "Data Collection",
-    "section": "Our process",
-    "text": "Our process"
-  },
-  {
-    "objectID": "data_collection.html#challenges-faced",
-    "href": "data_collection.html#challenges-faced",
-    "title": "Data Collection",
+    "objectID": "data.html#challenges-faced",
+    "href": "data.html#challenges-faced",
+    "title": "Data Collection and Processing",
     "section": "Challenges faced",
     "text": "Challenges faced\n\n\n\n\n\n\n\nChallenge\nHow we dealt with the challenge\n\n\n\n\nFinding a data that contained historical data for social movements.\nTried Reddit, X and Open Sanction but encountered issues due to lack of historical data or paywalls. Eventually chose GDELT to get data from 2014 onwards.\n\n\nInitially we could only collect 100 artworks of data from Simthsonian API.\nFurther research and using different endpoints\n\n\nEncountered issues in trying to get data from 1929 onwards from Smithsonian API due to rate limit\nBy limiting the range of data collected to match with GDELT data (from 2014 onwards)"
   },
   {
-    "objectID": "data_collection.html#response-to-challenges",
-    "href": "data_collection.html#response-to-challenges",
-    "title": "Data Collection",
-    "section": "Response to challenges",
-    "text": "Response to challenges"
-  },
-  {
-    "objectID": "data_collection.html",
-    "href": "data_collection.html",
-    "title": "Data Collection",
+    "objectID": "visualisations.html",
+    "href": "visualisations.html",
+    "title": "Data Visualisations",
     "section": "",
-    "text": "Global Database of Events, Laguage and Tone (GDELT)\n\nIt gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.\nAnalyses the tone of media coverage, giving us insight into how people and the media are reacting to these events\nHas historical data which allows us to track how movements grow and change over time\nThe platform makes it easy to visualize trends and connections, helping us make sense of complex information. \n\nSmithsonian\n\nIt is the world’s biggest museum complex with 21 museums (and other educational centres) spanning the United States\nHas numerous art pieces in its collections, which allows us to make accurate conclusions on whether the art themes artists choose to create their art in have been impacted by the state of the economy\nIt is reliable as the institution is committed to rigorous scholarly research so many artworks in the Smithsonian’s collection have been thoroughly researched by experts in the field\n\nFederal Reserve Economic Data (FRED)\n\nIt has data for America on GDP from 1929, which allowed us to look at a larger time period compared to other APIs\nThis database always contains the most recent version of the data available"
+    "text": "Please scroll to view full plot, or click here to view in separate window\n\n\n\n\n\n\n\n\nSince we chose a big amount of art themes to look at, we wanted to show correlation, but we did not want any conclusion from the graph to be confusing or misinterpreted.\nTherefore we chose to make an interactive graph where you can choose to look at all the art themes together, the average effect of GDP on art themes produced or the effect of GDP on any of the art themes.\nWe also chose to have medium to dark colours for the lines to ensure visibility and clarity for everyone. \n\n\n\n\n\n\n\n\n\n\n\nThere’s quite a clear trend for this graph as every theme shows the same relationship. There’s an immediate peak when the GDP is $1191 billion (as you can see my hovering above the peak point) and then there’s a stark decrease.\n\n\n\n\n\n\n\n\n\n\n\nFurthermore, for some art themes such as portraits, there’s an occasional local maximum when the GDP is at $8374 billion. From the graph alone it seems that the optimum GDP for any art theme production is $1191 billion.  \n\n\n\n\n\n\n\n\n\n\n\nIt should also be considered, that the low number of paintings for each theme after the peak could be because other art forms such as digital art have become more popular. This would limit the number of modern artwork that the Smithsonian database has.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWe choose to represent our data using a heatmap as it was the most efficient way to show all the data about all the decades and the top 20 art themes at once.\nA heatmap allows us to compare multiple decades and themes.\nA heatmap means that any patterns and trends are clearly highlighted. \n\nFor our heatmap, we chose to look at each decade. We focused on the proportion of artworks that had the top 20 art themes for each decade.\n\n\n\n\n\n\n\n\n\n\nFor the heatmap, there were no clear trends that could be identified between GDP and art themes. But as GDP increases, the spread themes artworks are created in becomes less consistent.\n\n\n\n\n\n\n\n\n\n\n\nThere were some themes like architecture, “Figure group” and “Landscape” that tended to have a similar ratio regardless of the GDP. Other themes varied a lot with high ratios in certain years with certain GDP but had occasionally had low values with other GDPs, for example the art theme “Religion” had a high ratio of 50% but had a majority of 0% values.\n\n\n\n\n\n\n\n\n\n\n\nOverall, when the GDP is lower, the ratio of art themes produced tends to be more spread out, with similar ratios for all the art pieces.\n\n\n\n\n\n\n\n\n\n\n\nThe 2010s show an exclusive focus on “Portraits” and “Religion,” while other themes disappear entirely. This may suggests a narrowing artistic interest, however this trend is more likely due to less modern artwork being in the Smithsonian Museum which may have skewed results."
   },
   {
-    "objectID": "data_collection.html#reasoning-behind-our-data-sources",
-    "href": "data_collection.html#reasoning-behind-our-data-sources",
-    "title": "Data Collection",
+    "objectID": "visualisations.html#line-graph-popularity-of-art-themes-gdp",
+    "href": "visualisations.html#line-graph-popularity-of-art-themes-gdp",
+    "title": "Data Visualisations",
     "section": "",
-    "text": "Global Database of Events, Laguage and Tone (GDELT)\n\nIt gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.\nAnalyses the tone of media coverage, giving us insight into how people and the media are reacting to these events\nHas historical data which allows us to track how movements grow and change over time\nThe platform makes it easy to visualize trends and connections, helping us make sense of complex information. \n\nSmithsonian\n\nIt is the world’s biggest museum complex with 21 museums (and other educational centres) spanning the United States\nHas numerous art pieces in its collections, which allows us to make accurate conclusions on whether the art themes artists choose to create their art in have been impacted by the state of the economy\nIt is reliable as the institution is committed to rigorous scholarly research so many artworks in the Smithsonian’s collection have been thoroughly researched by experts in the field\n\nFederal Reserve Economic Data (FRED)\n\nIt has data for America on GDP from 1929, which allowed us to look at a larger time period compared to other APIs\nThis database always contains the most recent version of the data available"
+    "text": "Please scroll to view full plot, or click here to view in separate window\n\n\n\n\n\n\n\n\nSince we chose a big amount of art themes to look at, we wanted to show correlation, but we did not want any conclusion from the graph to be confusing or misinterpreted.\nTherefore we chose to make an interactive graph where you can choose to look at all the art themes together, the average effect of GDP on art themes produced or the effect of GDP on any of the art themes.\nWe also chose to have medium to dark colours for the lines to ensure visibility and clarity for everyone. \n\n\n\n\n\n\n\n\n\n\n\nThere’s quite a clear trend for this graph as every theme shows the same relationship. There’s an immediate peak when the GDP is $1191 billion (as you can see my hovering above the peak point) and then there’s a stark decrease.\n\n\n\n\n\n\n\n\n\n\n\nFurthermore, for some art themes such as portraits, there’s an occasional local maximum when the GDP is at $8374 billion. From the graph alone it seems that the optimum GDP for any art theme production is $1191 billion.  \n\n\n\n\n\n\n\n\n\n\n\nIt should also be considered, that the low number of paintings for each theme after the peak could be because other art forms such as digital art have become more popular. This would limit the number of modern artwork that the Smithsonian database has."
   },
   {
-    "objectID": "data_collection.html#data-collection-process",
-    "href": "data_collection.html#data-collection-process",
-    "title": "Data Collection",
-    "section": "Data Collection Process",
-    "text": "Data Collection Process"
+    "objectID": "visualisations.html#heatmap-creation-of-art-themes-gdp",
+    "href": "visualisations.html#heatmap-creation-of-art-themes-gdp",
+    "title": "Data Visualisations",
+    "section": "",
+    "text": "We choose to represent our data using a heatmap as it was the most efficient way to show all the data about all the decades and the top 20 art themes at once.\nA heatmap allows us to compare multiple decades and themes.\nA heatmap means that any patterns and trends are clearly highlighted. \n\nFor our heatmap, we chose to look at each decade. We focused on the proportion of artworks that had the top 20 art themes for each decade.\n\n\n\n\n\n\n\n\n\n\nFor the heatmap, there were no clear trends that could be identified between GDP and art themes. But as GDP increases, the spread themes artworks are created in becomes less consistent.\n\n\n\n\n\n\n\n\n\n\n\nThere were some themes like architecture, “Figure group” and “Landscape” that tended to have a similar ratio regardless of the GDP. Other themes varied a lot with high ratios in certain years with certain GDP but had occasionally had low values with other GDPs, for example the art theme “Religion” had a high ratio of 50% but had a majority of 0% values.\n\n\n\n\n\n\n\n\n\n\n\nOverall, when the GDP is lower, the ratio of art themes produced tends to be more spread out, with similar ratios for all the art pieces.\n\n\n\n\n\n\n\n\n\n\n\nThe 2010s show an exclusive focus on “Portraits” and “Religion,” while other themes disappear entirely. This may suggests a narrowing artistic interest, however this trend is more likely due to less modern artwork being in the Smithsonian Museum which may have skewed results."
+  },
+  {
+    "objectID": "visualisations.html#line-graphs-mentions-of-social-movements-gdp",
+    "href": "visualisations.html#line-graphs-mentions-of-social-movements-gdp",
+    "title": "Data Visualisations",
+    "section": "3. Line graphs: Mentions of social movements & GDP",
+    "text": "3. Line graphs: Mentions of social movements & GDP\n\n\n\n\n\nReasoning behind choice of visualisation\n\nWe chose to make separate line graphs for each social movement so we could clearly see and compare the individual patterns for each social movement\nA line graph helps us to understand the trends in the popularity/mentions of social movements and GDP\n\n\n\nOur insights\n\n\n\n\n\n\n\nFor both Black Lives Matter (BLM) and the Me Too movement, the number of mentions decreased after a peak. The trends for BLM and the Me Too movement are similar, which suggests that both these movements are more dependent on external factors (e.g protests) rather than GDP.\n\n\n\n\n\n\n\n\n\n\n\nWhereas, for the climate change movement, the peak number of mentions does not appear to have been reached. This is interesting because it may suggest that as GDP increases the popularity of the climate change movement increases.  \n\n\n\n\n\n\n\n\n\n\n\nAs increased economic activity is linked to increased emissions and climate change, it could be that as GDP increases and the effects of climate change become more apparent the popularity of the climate change movement will continue to increase."
+  },
+  {
+    "objectID": "visualisations.html#bubble-graph-sentiment-and-mentions-of-social-movements-gdp-growth-rate",
+    "href": "visualisations.html#bubble-graph-sentiment-and-mentions-of-social-movements-gdp-growth-rate",
+    "title": "Data Visualisations",
+    "section": "4. Bubble graph: Sentiment and mentions of Social Movements & GDP growth rate",
+    "text": "4. Bubble graph: Sentiment and mentions of Social Movements & GDP growth rate\n\n\n\n\n\nReasoning behind choice of visualisation\n\nThe bubble graph allows us to see if there is any clustering of the popularity of a social movement around specific GDP growth rates\nThe color shows if the mentions of social movements tend to have a positive or negative tone, so we can see if the tone changes over time\n\n\n\nOur insights\n\n\n\n\n\n\n\nFrom the size of the bubbles, we can see that the number of mentions of social movements have largely increased over time. This is likely due to increased access to social media as well as the increase in knowledge about such social movements. \n\n\n\n\n\n\n\n\n\n\n\nThe 2020 bubble appears to be an outlier. 2020 likely had low GDP growth due to the effects of COVID 19, yet there was a large number of mentions of social movements. This was likely because more people were at home on social media.\n\n\n\n\n\n\n\n\n\n\n\nOverall, we can see that the sentiment of social movements has become more negative over time. This suggests that over time there is an increased ill-feeling surrounding social movements, even when such movements were at their peak popularity."
+  },
+  {
+    "objectID": "visualisations.html#line-graphs-average-sentiment-and-gdp",
+    "href": "visualisations.html#line-graphs-average-sentiment-and-gdp",
+    "title": "Data Visualisations",
+    "section": "5. Line graphs: Average Sentiment and & GDP",
+    "text": "5. Line graphs: Average Sentiment and & GDP\nPlease scroll to view full plot, or click here to view in separate window\n\n\n\n\n\n\nReasoning behind choice of visualisation\n\nWe chose a line graph to show if the relationship between average sentiment for social movements and GDP\nWe have used colour to highlight the points where there is positive and negative sentiment\n\n\n\nOur insights\n\n\n\n\n\n\n\nAverage sentiment quickly lowers from a relatively high value of over 2 to around -3.\n\n\n\n\n\n\n\n\n\n\n\nOverall, it seems that there is a general decrease in the tone of mentions of the social movements we have chosen as GDP increases."
+  },
+  {
+    "objectID": "visualisations.html#interactive-line-graph-popularity-of-art-themes-gdp",
+    "href": "visualisations.html#interactive-line-graph-popularity-of-art-themes-gdp",
+    "title": "Data Visualisations",
+    "section": "Interactive line graph: Popularity of Art Themes & GDP",
+    "text": "Interactive line graph: Popularity of Art Themes & GDP\nPlease scroll to view full plot, or click here to view in separate window"
+  },
+  {
+    "objectID": "visualisations.html#interactive-line-graphs-sentiment-gdp",
+    "href": "visualisations.html#interactive-line-graphs-sentiment-gdp",
+    "title": "Data Visualisations",
+    "section": "Interactive line graphs: Sentiment & GDP",
+    "text": "Interactive line graphs: Sentiment & GDP\nPlease scroll to view full plot, or click here to view in separate window"
+  },
+  {
+    "objectID": "index.html#background-of-this-project",
+    "href": "index.html#background-of-this-project",
+    "title": "<img src='./images/logo.png' alt='Project Logo' style='height:80px;'>",
+    "section": "Background of this project",
+    "text": "Background of this project\nIn this project we examine two major questions.\n1. How do economic periods, as measured by GDP, affect art themes in America?\nOur question stems from historical patterns, where economic booms—like the Dutch Golden Age, the Renaissance, and the Roman Empire—not only sparked growth but also led to a surge in art, often focused on prosperity or mythology. \nSince GDP data is available from the 20th century, we focused on the U.S., which experienced major booms and recessions, such as the post-WW2 expansion and the Great Depression.\n2. Is there a relationship between social movements, like Black Lives Matter and GDP?\nThis question stems from an interest in how the economic conditions of America impact some key social movements. Furthermore, as students who are familiar with social media, we thought it would be interesting to see how GDP impacts recent social movements.\nFor example, during the 2008 Great Recession, economic justice movements like Occupy Wall Street gained prominence, while in more stable times, movements tend to focus on civil rights and gender equality."
+  },
+  {
+    "objectID": "index.html#our-motivations-for-this-project",
+    "href": "index.html#our-motivations-for-this-project",
+    "title": "<img src='./images/logo.png' alt='Project Logo' style='height:80px;'>",
+    "section": "Our motivations for this project",
+    "text": "Our motivations for this project\nHistorically, art has tended to flourish in times of economic prosperity, while during periods of economic hardship, art themes tend to shift. By tracking GDP over the past century, we hope to identify these economic shifts and see if they align with changes in the art themes that are popular during those times. As students who are very familiar with social media, we also thought it would be interesting to see how recent social movements are impacted by GDP."
+  },
+  {
+    "objectID": "conclusions.html",
+    "href": "conclusions.html",
+    "title": "Conclusions",
+    "section": "",
+    "text": "Initially our hypothesis was that there was a positive correlation between art themes and GDP. This hypothesis was based on historical examples of this relationship, such as the Dutch Golden Age in the 17th century where GDP boomed but art production also greatly increased and the popularity of certain art themes, such as marine painting,architectural painting, and flower still lifes, also rose [1].\nHowever, we instead found the opposite happened! It appears that as GDP rose the number of artworks actually decreased. This could be because other forms of art such as digital art, animation and music become more mainstream as GDP increases.\nWe also thought that economic prosperity drives art with celebratory themes, while downturns encourage more somber, socially reflective works.\nIn regards to art themes, we did not find any clear trends that linked art themes and GDP. This generally suggests that art is not always such a direct reflection of the economic prosperity of America, there are likely other factors such as cultural or political shifts that have a greater impact on art themes.\n\n\n\nInitally we hypothesised that during economic prosperity, social media would serve as a new platform for expression, while in times of economic distress (low GDP growth rates), both art and social media would reflect darker themes.\nOur main conclusion is that public sentiment on social movements has largely declined over time, even as GDP has increased. 2020–2023 continue to show mostly negative sentiment despite economic recovery after COVID 19, which may suggest that shifts in public sentiment towards social movements may not just be a short-term trend caused by the socio-eeconomic shock of COVID 19.\nAnother key conclusion is how the popularity of social movements appears to be impacted much more by external factors compared to GDP. This is especially the case for the BLM and Me Too movements. A rise in GDP may provide more media space for activism, but movements do not necessarily grow in direct proportion to GDP."
+  },
+  {
+    "objectID": "conclusions.html#our-key-findings",
+    "href": "conclusions.html#our-key-findings",
+    "title": "Conclusions",
+    "section": "",
+    "text": "Initially our hypothesis was that there was a positive correlation between art themes and GDP. This hypothesis was based on historical examples of this relationship, such as the Dutch Golden Age in the 17th century where GDP boomed but art production also greatly increased and the popularity of certain art themes, such as marine painting,architectural painting, and flower still lifes, also rose [1].\nHowever, we instead found the opposite happened! It appears that as GDP rose the number of artworks actually decreased. This could be because other forms of art such as digital art, animation and music become more mainstream as GDP increases.\nWe also thought that economic prosperity drives art with celebratory themes, while downturns encourage more somber, socially reflective works.\nIn regards to art themes, we did not find any clear trends that linked art themes and GDP. This generally suggests that art is not always such a direct reflection of the economic prosperity of America, there are likely other factors such as cultural or political shifts that have a greater impact on art themes.\n\n\n\nInitally we hypothesised that during economic prosperity, social media would serve as a new platform for expression, while in times of economic distress (low GDP growth rates), both art and social media would reflect darker themes.\nOur main conclusion is that public sentiment on social movements has largely declined over time, even as GDP has increased. 2020–2023 continue to show mostly negative sentiment despite economic recovery after COVID 19, which may suggest that shifts in public sentiment towards social movements may not just be a short-term trend caused by the socio-eeconomic shock of COVID 19.\nAnother key conclusion is how the popularity of social movements appears to be impacted much more by external factors compared to GDP. This is especially the case for the BLM and Me Too movements. A rise in GDP may provide more media space for activism, but movements do not necessarily grow in direct proportion to GDP."
+  },
+  {
+    "objectID": "conclusions.html#other-interesting-things-we-could-look-into",
+    "href": "conclusions.html#other-interesting-things-we-could-look-into",
+    "title": "Conclusions",
+    "section": "Other interesting things we could look into…",
+    "text": "Other interesting things we could look into…\n\nIn this simple line graph there appears to be a clear negative relationship between the number of social movements and art themes. This suggests that with the increased use of social media and the internet, the variety of art themes has decreased. To investigate this further, we would need to gather more modern data on art themes, for example data on animation or digital art themes.\n\n\n\n\n\n\nFor climate change social movement mentions it would be interesting to see if there is a continued increase in the number of mentions as GDP increases, or if the number of mentions will peak at a point as it did with BLM and the Me Too movement.\nInvestigating art from other countries, to get a more representative idea of different trends between GDP, art themes and social media.\n\n\nReferences\n[1] Art in the Dutch Golden Age Unit 2 – Dutch Republic’s Rise and Art Impact (no date) fiveable. Available at: https://library.fiveable.me/art-in-the-dutch-golden-age/unit-2 (Accessed: 04 February 2025)."
+  },
+  {
+    "objectID": "contributions.html",
+    "href": "contributions.html",
+    "title": "Contributions",
+    "section": "",
+    "text": "Amelia | Focused on data collection\nChiara | Focused on data visualisations\nGbemi | Focused on presentation\nWe worked well as a team and helped each other out, even on parts that were not directly our responsibility!"
   }
 ]
