@@ -25,7 +25,7 @@ Initally we hypothesised that during economic prosperity, social media would ser
 
 Our main conclusion is that public sentiment on social movements has largely declined over time, even as GDP has increased. 2020–2023 continue to show mostly negative sentiment despite economic recovery after COVID 19, which may suggest that shifts in public sentiment towards social movements may not just be a short-term trend caused by the socio-eeconomic shock of COVID 19.
 
-Another key conclusion is how the popularity of social movements appears to be impacted much more by external factors compared to GDP. This is especially the case for the BLM and Me Too moveemnts. A rise in GDP may provide more media space for activism, but movements do not necessarily grow in direct proportion to GDP.
+Another key conclusion is how the popularity of social movements appears to be impacted much more by external factors compared to GDP. This is especially the case for the BLM and Me Too movements. A rise in GDP may provide more media space for activism, but movements do not necessarily grow in direct proportion to GDP.
 
 ## Other interesting things we could look into...
 
