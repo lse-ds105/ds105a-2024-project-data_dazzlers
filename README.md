@@ -10,6 +10,7 @@
 1.  **What you will find here:**
 
     -   A `code` folder that contains there's four folders. The `FRED_Data`, `GDELT_Data` and `Smithsonian_Data` folders contain notebooks on gathering and processing the respective data. While the `Visualisations` folder contains notebooks that demonstrate how we creeated all our visualisations.
+    -   The `code` folder also contains the `data_collection.py` and `data_vis.py` files where we stored all our functions
     -   A `data` folder that contains raw and processed data. The database that we created with all our data is in the processed folder under social_movements.db
     -   The `website` and `docs` folder contain the markdown, html and images used to produce our website
     -   Within the `docs` folder, there's a `figures` folder that contains all the visualisations we used in the website
