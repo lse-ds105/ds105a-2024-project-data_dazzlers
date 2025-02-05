@@ -74,7 +74,7 @@
     "href": "visualisations.html#line-graph-average-sentiment-and-gdp",
     "title": "Data Visualisations",
     "section": "5. Line graph: Average Sentiment and & GDP",
-    "text": "5. Line graph: Average Sentiment and & GDP\nPlease scroll to view full plot, or click here to view in separate window\n\n\n\n\n\n\nReasoning behind choice of visualisation\n\nWe chose a line graph to show if the relationship between average sentiment for social movements and GDP\nWe have used colour to highlight the points where there is positive and negative sentiment\n\n\n\nOur insights\n\n\n\n\n\n\n\nAverage sentiment quickly lowers from a relatively high value of over 2 to around -3 at GDP of around 18k.\n\n\n\n\n\n\n\n\n\n\n\nOverall, it seems that there is a general decrease in the tone of mentions of the social movements we have chosen as GDP increases."
+    "text": "5. Line graph: Average Sentiment and & GDP\n\n\nPlease scroll to view full plot, or click here to view in separate window\n\n\n\n\n\n\nReasoning behind choice of visualisation\n\nWe chose a line graph to show if the relationship between average sentiment for social movements and GDP\nWe have used colour to highlight the points where there is positive and negative sentiment\n\n\n\nOur insights\n\n\n\n\n\n\n\nAverage sentiment quickly lowers from a relatively high value of over 2 to around -3 at GDP of around 18k.\n\n\n\n\n\n\n\n\n\n\n\nOverall, it seems that there is a general decrease in the tone of mentions of the social movements we have chosen as GDP increases."
   },
   {
     "objectID": "visualisations.html#interactive-line-graph-popularity-of-art-themes-gdp",

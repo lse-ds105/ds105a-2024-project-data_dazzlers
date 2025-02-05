@@ -1,6 +1,6 @@
 # Gbemi's Reflections
 
-## Technical Contributions
+## 🎨Technical Contributions
 
 -   I collected and processed the GDP data from 1929-2023 to be used in the data visualisations, as seen in [this](https://github.com/lse-ds105/ds105a-2024-project-data_dazzlers/commit/2b7d65f0fef0fef7348389481766b7390f2a6bed) commit link
 
@@ -12,7 +12,7 @@
 
 -   I created the website and integrated the theme, data visualisations and analysis. I created the images used and directed the general theme of the website.This required me to change some of the font sizes, plot sizes and plot backgrounds of the data visualisations, as seen [here](https://github.com/lse-ds105/ds105a-2024-project-data_dazzlers/commit/f54fed073f50cbaa9033cc3a49209d5f9b8d9f28) and [here](https://github.com/lse-ds105/ds105a-2024-project-data_dazzlers/commit/049a642bc6faabd6d2e36bdc0932abadb464a474).
 
-## Team Collaboration
+## 🎨Team Collaboration
 
 -   At the beginning of the project, after I had finished collecting my part of the data I helped my team mate to clean some parts of the GDELT data. This is evidenced in the above section
 
@@ -26,7 +26,7 @@
 
 -   Attempted to help gather more recent data for art themes as seen by the folder named 'gbemi' [here](https://github.com/lse-ds105/ds105a-2024-project-data_dazzlers/commit/83e0302a4194196b04872a0049a9647d6aad87bf)
 
-## Learning Journey
+## 🎨Learning Journey
 
 -   Before taking DS105A I did not know how to make websites at all, however through this group project I have learnt how to make website with Quarto. I have learnt about different ways to make websites look nicer: such as toggles and changing the styles.css to be in line with a theme.
 
