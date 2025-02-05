@@ -6,7 +6,7 @@
 - A big problem in our project was the fact that GDELT data went up to 2006, due to the recent nature of social media, but the Smithsonian data did not have many entries for artworks made in the 21st century. My team mate tried to make visualisations in [this notebook](code/Visualisations/NB03_social_movements_visualisations.ipynb) however was unsuccessful in making any representative visualisations due to the nature of both the datasets. Using the data that we did have, I made a line graph at the very bottom of the notebook as seen by [this](commit/9e4fba216517c71335af67a4872a7b922e1db201) commit link
 - Furthermore, after encountering problems with visualisations between art themes and social movements, I suggested the idea of changing this part of the research to be focused on the relationship between social movements and GDP so that we didn't have to abandon looking at social movements. Then I made all the visualisations for this relationship [here](code/Visualisations/NB03_gdp_social_movements.ipynb)
 
-
+--------
 
 
 # 2. Team Collaboration
@@ -16,15 +16,17 @@
 - I was often quickly avaliable on our group chat, ensuring good communication especially if a team mate was running into an issue (as seen in the section above, I quickly came up with a new idea to the visualisation problem and acted from there). 
 - Furthermore before committing to any visualisation, I often consulted my team mates to make sure that everyone was on the same page
 - I made the 'reflections' folder with a markdown file for each one of my team mates
+- I created a time line with dead lines for us to stick to
 
 
 
-
+------
 
 
 # 3. Learning Journey
 - Throughout the whole Data Science course I developed crucial skills such as how to collect data, clean it and visualise it. But before this project, I did basic visualisations. This project forced me to go past these basic visualisations in order to create graphs that properly represent our data in an accessible manner (such as the heatmap for the Smithsonian and FRED data which conveys all the data, for the top 20 art themes and the GDP from the 1920s to the 2010s, at the same time). Furthermore, before this project I was not aware that it was possible to make interactive graphs so I was really happy when I learned to make them successfully
 - I also have enhanced my ability to use Github, which I believe is vital for any future coding projects. Having worked on my own in the previous two projects, I was not comfortable with working with separate branches and having to pull everything from Github every time you want to make a change when working collaborately with team mates on the same branch
+- A challenge was representing data in a heatmap when there were a limited amount of data points for recent years (meaning that a lot of the rows would just be fully dark and no trend would show). I fixed this by calculating the ratio of art works per year
 
 Areas for future growth:
 - Exploring more with visualisations such as learning to make short animations
