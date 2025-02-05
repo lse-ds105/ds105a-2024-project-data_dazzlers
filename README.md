@@ -5,7 +5,7 @@
 1.  How do economic periods, as measured by GDP, affect art themes in America?
 2.  Is there a relationship between social movements, like Black Lives Matter and GDP?
 
-## Description of this repository:
+## 🎨 Description of this repository:
 
 1.  **What you will find here:**
 
@@ -30,7 +30,7 @@
    
 ------------------------------------------------------------------------
 
-## All API Credentials Setup
+## 🎨 All API Credentials Setup
 
 This explains how to obtain all API credentials and securely set them up for use.
 
@@ -52,7 +52,7 @@ This explains how to obtain all API credentials and securely set them up for use
 
 ------------------------------------------------------------------------
 
-## How to run the code
+## 🎨 How to run the code
 
 ### Step 1 - Clone the project repository
 
@@ -107,13 +107,13 @@ If on MacOS or Linux, run:
 source .venv/bin/activate
 ```
 
-3.  **Install the required dependencies:**
+**3.  Install the required dependencies:**
 
     ```              
     pip install -r requirements.txt
     ```
 
-**To deactivate the virtual environment:** `bash     pyenv deactivate`
+**To deactivate the virtual environment:** type `deactivate` into your terminal
 
 ### Step 3 - Order to run code in
 
@@ -136,7 +136,7 @@ We recommend running the code in this order:
 1.  Run NB01 for the FRED and Smithsonian data, then run NB01 and NB02 for the GDELT data to collect and process the data
 2.  Run all the notebooks in the [Visualisations](code/Visualisations/) folder in any order for data visualisations
 
-## Work Contribution
+## 🎨 Work Contribution
 
 | Contributors (%) | Data Collections (%) | Data Cleaning (%) | Visualisations (%) | Website Production (%) | Documentation (%) |
 |----|----|----|----|----|----|
