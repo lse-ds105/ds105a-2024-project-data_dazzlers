@@ -56,13 +56,11 @@ This explains how to obtain all API credentials and securely set them up for use
 
 ### Step 1 - Clone the project repository
 
-```         
-bash     
+```              
 git clone <git@github.com:lse-ds105/ds105a-2024-project-data_dazzlers.git>
 ```
 
 ```         
-
 cd <ds105a-2024-project-data_dazzlers>
 ```
 
@@ -73,19 +71,18 @@ cd <ds105a-2024-project-data_dazzlers>
 You can create a new environment with the following command:
 
 ```         
-bash
 conda create -n .venv
 ```
 
 Then, activate the environment:
 
-``` bash
+``` 
 conda activate .venv
 ```
 
 Install `pip` inside conda:
 
-``` bash
+``` 
 conda install pip
 ```
 
@@ -112,8 +109,7 @@ source .venv/bin/activate
 
 3.  **Install the required dependencies:**
 
-    ```         
-    bash     
+    ```              
     pip install -r requirements.txt
     ```
 
@@ -121,7 +117,7 @@ source .venv/bin/activate
 
 ### Step 3 - Order to run code in
 
-``` bash
+``` 
 python helper_functions.py
 ```
 
@@ -129,7 +125,7 @@ This will run the functions stored.
 
 If you're working with Jupyter notebooks, you can start the notebook server with:
 
-``` bash
+``` 
 jupyter notebook
 ```
 
