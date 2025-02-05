@@ -197,7 +197,7 @@ def download_and_process_monthly_zip(url, output_dir):
         print(f"Zip file error: {e}")
     return None
 
-def process_year_data(start_year, end_year, output_dir="../../data/raw"):
+def Process_year_data(start_year, end_year, output_dir="../../data/raw"):
     """
     Processes data from 2006 to 2013, combining monthly files into yearly CSVs.
     """
