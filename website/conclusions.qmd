@@ -11,7 +11,7 @@ format:
 
 ### The relationship between art and GDP:
 
-Initially our hypothesis was that there was a positive correlation between art themes and GDP. This hypothesis was based on historical examples of this relationship, such as the Dutch Golden Age in the 17th century where GDP boomed but art production also greatly increased and the popularity of certain art themes, such as marine painting,architectural painting, and flower still lifes, also rose \[1\].
+Initially our hypothesis was that there was a positive correlation between art themes and GDP. This hypothesis was based on historical examples of this relationship, such as the Dutch Golden Age in the 17th century where GDP boomed but art production also greatly increased and the popularity of certain art themes, such as marine painting, architectural painting, and flower still lifes, also rose \[1\].
 
 However, we instead found the opposite happened! It appears that as GDP rose the number of artworks actually decreased. This could be because other forms of art such as digital art, animation and music become more mainstream as GDP increases.
 
@@ -23,7 +23,7 @@ In regards to art themes, we did not find any clear trends that linked art theme
 
 Initially, we hypothesised that during economic prosperity, social media would serve as a new platform for expression, while in times of economic distress (low GDP growth rates), both art and social media would reflect darker themes.
 
-Our main conclusion is that public sentiment on social movements has largely declined over time, even as GDP has increased. 2020–2023 continues to show mostly negative sentiment despite economic recovery after COVID-19, which may suggest that shifts in public sentiment towards social movements may not just be a short-term trend caused by the socioeconomic shock of COVID-19.
+Our main conclusion is that public sentiment on social movements has largely declined over time, even as GDP has increased. 2020–2023 continues to show mostly negative sentiment despite some economic recovery after COVID-19, which may suggest that shifts in public sentiment towards social movements may not just be a short-term trend caused by the socioeconomic shock of COVID-19.
 
 Another key conclusion is how the popularity of social movements appears to be impacted much more by external factors compared to GDP. This is especially the case for the BLM and Me Too movements. A rise in GDP may provide more media space for activism, but movements do not necessarily grow in direct proportion to GDP.
 

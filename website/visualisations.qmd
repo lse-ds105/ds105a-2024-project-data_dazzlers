@@ -95,7 +95,7 @@ For our heatmap, we chose to look at each decade. We focused on the proportion o
 ### Our insights
 
 ::: {.callout .callout-note}
-1.  For the heatmap, there were no clear trends that could be identified between GDP and art themes. But as GDP increases, the spread of themes artworks have becomes less consistent.
+1.  For the heatmap, there were no clear trends that could be identified between GDP and art themes. But as GDP increases, the spread of themes represented in artworks has become less consistent.
 :::
 
 ::: {.callout .callout-note}

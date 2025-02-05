@@ -11,13 +11,13 @@ format:
 
 1.  [**Global Database of Events, Language and Tone (GDELT)**]{.underline}
 
-    -   It gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.
+    -   It gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements
 
     -   Analyses the tone of media coverage, giving us insight into how people and the media are reacting to these events
 
     -   Has historical data which allows us to track how movements grow and change over time
 
-    -   The platform makes it easy to visualize trends and connections, helping us make sense of complex information. 
+    -   The platform makes it easy to visualize trends and connections, helping us make sense of complex information 
 
 2.  [**Smithsonian Institution**]{.underline}
 
@@ -25,7 +25,7 @@ format:
 
     -   Has numerous art pieces in its collections, which allows us to make accurate conclusions on whether the art themes artists choose to create their art in have been impacted by the state of the economy
 
-    -   It is reliable as the institution is committed to rigorous scholarly research so many artworks in the Smithsonian's collection have been thoroughly researched by experts in the field
+    -   It is reliable as the institution is committed to rigorous scholarly research, so many artworks in the Smithsonian's collection have been thoroughly researched by experts in the field
 
 3.  [**Federal Reserve Economic Data (FRED)**]{.underline}
 
@@ -56,5 +56,4 @@ For GDP data we processed the data to have GDP per decade rather than yearly for
 | Challenge | How we dealt with the challenge |
 |------------------------------------|------------------------------------|
 | Finding data that contained historical data for social movements. | Tried Reddit, X and Open Sanction but encountered issues due to a lack of historical data or paywalls. Eventually chose GDELT to get data from 2014 onwards. |
-| Initially, we could only collect 100 artworks of data from Smithsonian API. | Further research and using different endpoints |
-| Encountered issues in trying to get data from 1929 onwards from Smithsonian API due to rate limit | By limiting the range of data collected to match with GDELT data (from 2014 onwards) |
+| Initially, we could only collect 100 artworks of data from Smithsonian API. | Further research online, where we found some different code about how to use the category search function. We then applied this to our own code and got all the data we wanted. |
