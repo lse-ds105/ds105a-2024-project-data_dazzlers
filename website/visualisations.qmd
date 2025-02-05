@@ -46,7 +46,7 @@ css: styles.css
 ### Our insights
 
 ::: {.callout .callout-note}
-1.  There’s quite a clear trend for this graph as every theme shows the same relationship. There’s an immediate peak when the GDP is \$1191 billion (as you can see my hovering above the peak point) and then there’s a stark decrease.
+1.  There’s quite a clear trend for this graph. There’s an immediate peak when the GDP is $1191 billion (as you can see my hovering above the peak point) and then there’s a stark decrease.
 :::
 
 ::: {.callout .callout-note}
@@ -198,11 +198,7 @@ For our heatmap, we chose to look at each decade. We focused on the proportion o
 3.  Overall, we can see that the sentiment of social movements has become more negative over time. This suggests that over time there is an increased ill-feeling surrounding social movements, even when such movements were at their peak popularity.
 :::
 
-## 5. Line graph: Average Sentiment and & GDP
-
-<iframe src="figures/average_social_movements_interactive_plot.html" width="900" height="600" frameborder="0">
-
-</iframe>
+## 5. Line graph: Average Sentiment & GDP
 
 [Please scroll to view full plot, or click here to view in separate window](figures/average_social_movements_interactive_plot.html){target="_blank" rel="noopener"}
 
