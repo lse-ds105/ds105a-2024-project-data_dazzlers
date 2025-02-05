@@ -24,10 +24,10 @@ Since GDP data is available from the 20th century, we focused on the U.S., which
 
 [**2. Is there a relationship between social movements, like Black Lives Matter and GDP?**]{.underline}
 
-This question stems from an interest in how the economic conditions of America impact some key social movements. Furthermore, as students who are familiar with social media, we thought it would be interesting to see how GDP impacts recent social movements.
+This question stems from an interest in how America's economic conditions impact the popularity of key social movements. 
 
-For example, during the 2008 Great Recession, economic justice movements like Occupy Wall Street gained prominence, while in more stable times, movements tend to focus on civil rights and gender equality. 
+For example, during the 2008 Great Recession, economic justice movements like Occupy Wall Street gained prominence, while in more stable times, movements tended to focus on civil rights and gender equality. 
 
-## Our motivations for this project
+## Our aims for this project
 
-Historically, art has tended to flourish in times of economic prosperity, while during periods of economic hardship, art themes tend to shift. By tracking GDP over the past century, we hope to identify these economic shifts and see if they align with changes in the art themes that are popular during those times. As students who are very familiar with social media, we also thought it would be interesting to see how recent social movements are impacted by GDP.
+Historically, art has tended to flourish in times of economic prosperity, while during periods of economic hardship, art themes tend to shift. By tracking GDP over the past century, we hope to identify these economic shifts and see if they align with changes in the art themes that are popular during those times. As students familiar with social media, we also thought it would be interesting to see how recent social movements are impacted by GDP.
