@@ -4,14 +4,14 @@
     "href": "data.html",
     "title": "Data Collection and Processing",
     "section": "",
-    "text": "Global Database of Events, Laguage and Tone (GDELT)\n\nIt gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.\nAnalyses the tone of media coverage, giving us insight into how people and the media are reacting to these events\nHas historical data which allows us to track how movements grow and change over time\nThe platform makes it easy to visualize trends and connections, helping us make sense of complex information. \n\nSmithsonian\n\nIt is the world’s biggest museum complex with 21 museums (and other educational centres) spanning the United States\nHas numerous art pieces in its collections, which allows us to make accurate conclusions on whether the art themes artists choose to create their art in have been impacted by the state of the economy\nIt is reliable as the institution is committed to rigorous scholarly research so many artworks in the Smithsonian’s collection have been thoroughly researched by experts in the field\n\nFederal Reserve Economic Data (FRED)\n\nIt has data for America on GDP from 1929, which allowed us to look at a larger time period compared to other APIs\nThis database always contains the most recent version of the data available"
+    "text": "Global Database of Events, Laguage and Tone (GDELT)\n\n\nIt gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.\nAnalyses the tone of media coverage, giving us insight into how people and the media are reacting to these events\nHas historical data which allows us to track how movements grow and change over time\nThe platform makes it easy to visualize trends and connections, helping us make sense of complex information. \n\n\nSmithsonian Institution\n\nIt is the world’s biggest museum complex with 21 museums (and other educational centres) spanning the United States\nHas numerous art pieces in its collections, which allows us to make accurate conclusions on whether the art themes artists choose to create their art in have been impacted by the state of the economy\nIt is reliable as the institution is committed to rigorous scholarly research so many artworks in the Smithsonian’s collection have been thoroughly researched by experts in the field\n\nFederal Reserve Economic Data (FRED)\n\nIt has data for America on GDP from 1929, which allowed us to look at a larger time period compared to other APIs\nThis database always contains the most recent version of the data available"
   },
   {
     "objectID": "data.html#reasoning-behind-our-data-sources",
     "href": "data.html#reasoning-behind-our-data-sources",
     "title": "Data Collection and Processing",
     "section": "",
-    "text": "Global Database of Events, Laguage and Tone (GDELT)\n\nIt gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.\nAnalyses the tone of media coverage, giving us insight into how people and the media are reacting to these events\nHas historical data which allows us to track how movements grow and change over time\nThe platform makes it easy to visualize trends and connections, helping us make sense of complex information. \n\nSmithsonian\n\nIt is the world’s biggest museum complex with 21 museums (and other educational centres) spanning the United States\nHas numerous art pieces in its collections, which allows us to make accurate conclusions on whether the art themes artists choose to create their art in have been impacted by the state of the economy\nIt is reliable as the institution is committed to rigorous scholarly research so many artworks in the Smithsonian’s collection have been thoroughly researched by experts in the field\n\nFederal Reserve Economic Data (FRED)\n\nIt has data for America on GDP from 1929, which allowed us to look at a larger time period compared to other APIs\nThis database always contains the most recent version of the data available"
+    "text": "Global Database of Events, Laguage and Tone (GDELT)\n\n\nIt gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.\nAnalyses the tone of media coverage, giving us insight into how people and the media are reacting to these events\nHas historical data which allows us to track how movements grow and change over time\nThe platform makes it easy to visualize trends and connections, helping us make sense of complex information. \n\n\nSmithsonian Institution\n\nIt is the world’s biggest museum complex with 21 museums (and other educational centres) spanning the United States\nHas numerous art pieces in its collections, which allows us to make accurate conclusions on whether the art themes artists choose to create their art in have been impacted by the state of the economy\nIt is reliable as the institution is committed to rigorous scholarly research so many artworks in the Smithsonian’s collection have been thoroughly researched by experts in the field\n\nFederal Reserve Economic Data (FRED)\n\nIt has data for America on GDP from 1929, which allowed us to look at a larger time period compared to other APIs\nThis database always contains the most recent version of the data available"
   },
   {
     "objectID": "data.html#data-collection-process",
@@ -70,11 +70,11 @@
     "text": "4. Bubble graph: Sentiment and mentions of Social Movements & GDP growth rate\n\n\n\n\n\nReasoning behind choice of visualisation\n\nThe bubble graph allows us to see if there is any clustering of the popularity of a social movement around specific GDP growth rates\nThe color shows if the mentions of social movements tend to have a positive or negative tone, so we can see if the tone changes over time\n\n\n\nOur insights\n\n\n\n\n\n\n\nFrom the size of the bubbles, we can see that the number of mentions of social movements have largely increased over time. This is likely due to increased access to social media as well as the increase in knowledge about such social movements. \n\n\n\n\n\n\n\n\n\n\n\nThe 2020 bubble appears to be an outlier. 2020 likely had low GDP growth due to the effects of COVID 19, yet there was a large number of mentions of social movements. This was likely because more people were at home on social media.\n\n\n\n\n\n\n\n\n\n\n\nOverall, we can see that the sentiment of social movements has become more negative over time. This suggests that over time there is an increased ill-feeling surrounding social movements, even when such movements were at their peak popularity."
   },
   {
-    "objectID": "visualisations.html#line-graphs-average-sentiment-and-gdp",
-    "href": "visualisations.html#line-graphs-average-sentiment-and-gdp",
+    "objectID": "visualisations.html#line-graph-average-sentiment-and-gdp",
+    "href": "visualisations.html#line-graph-average-sentiment-and-gdp",
     "title": "Data Visualisations",
-    "section": "5. Line graphs: Average Sentiment and & GDP",
-    "text": "5. Line graphs: Average Sentiment and & GDP\nPlease scroll to view full plot, or click here to view in separate window\n\n\n\n\n\n\nReasoning behind choice of visualisation\n\nWe chose a line graph to show if the relationship between average sentiment for social movements and GDP\nWe have used colour to highlight the points where there is positive and negative sentiment\n\n\n\nOur insights\n\n\n\n\n\n\n\nAverage sentiment quickly lowers from a relatively high value of over 2 to around -3.\n\n\n\n\n\n\n\n\n\n\n\nOverall, it seems that there is a general decrease in the tone of mentions of the social movements we have chosen as GDP increases."
+    "section": "5. Line graph: Average Sentiment and & GDP",
+    "text": "5. Line graph: Average Sentiment and & GDP\nPlease scroll to view full plot, or click here to view in separate window\n\n\n\n\n\n\nReasoning behind choice of visualisation\n\nWe chose a line graph to show if the relationship between average sentiment for social movements and GDP\nWe have used colour to highlight the points where there is positive and negative sentiment\n\n\n\nOur insights\n\n\n\n\n\n\n\nAverage sentiment quickly lowers from a relatively high value of over 2 to around -3 at GDP of around 18k.\n\n\n\n\n\n\n\n\n\n\n\nOverall, it seems that there is a general decrease in the tone of mentions of the social movements we have chosen as GDP increases."
   },
   {
     "objectID": "visualisations.html#interactive-line-graph-popularity-of-art-themes-gdp",
@@ -84,11 +84,11 @@
     "text": "Interactive line graph: Popularity of Art Themes & GDP\nPlease scroll to view full plot, or click here to view in separate window"
   },
   {
-    "objectID": "visualisations.html#interactive-line-graphs-sentiment-gdp",
-    "href": "visualisations.html#interactive-line-graphs-sentiment-gdp",
+    "objectID": "visualisations.html#interactive-line-graph-sentiment-gdp",
+    "href": "visualisations.html#interactive-line-graph-sentiment-gdp",
     "title": "Data Visualisations",
-    "section": "Interactive line graphs: Sentiment & GDP",
-    "text": "Interactive line graphs: Sentiment & GDP\nPlease scroll to view full plot, or click here to view in separate window"
+    "section": "Interactive line graph: Sentiment & GDP",
+    "text": "Interactive line graph: Sentiment & GDP\nPlease scroll to view full plot, or click here to view in separate window"
   },
   {
     "objectID": "index.html#background-of-this-project",

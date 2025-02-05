@@ -198,7 +198,7 @@ For our heatmap, we chose to look at each decade. We focused on the proportion o
 3.  Overall, we can see that the sentiment of social movements has become more negative over time. This suggests that over time there is an increased ill-feeling surrounding social movements, even when such movements were at their peak popularity.
 :::
 
-## 5. Line graphs: Average Sentiment and & GDP
+## 5. Line graph: Average Sentiment and & GDP
 
 [Please scroll to view full plot, or click here to view in separate window](figures/average_social_movements_interactive_plot.html){target="_blank" rel="noopener"}
 
@@ -235,7 +235,7 @@ For our heatmap, we chose to look at each decade. We focused on the proportion o
 ### Our insights
 
 ::: {.callout .callout-note}
-1.  Average sentiment quickly lowers from a relatively high value of over 2 to around -3. 
+1.  Average sentiment quickly lowers from a relatively high value of over 2 to around -3 at GDP of around 18k. 
 :::
 
 ::: {.callout .callout-note}
@@ -243,6 +243,9 @@ For our heatmap, we chose to look at each decade. We focused on the proportion o
 :::
 
 # For further exploration
+
+<details>
+  <summary>Click to expand for interactive visualisations</summary>
 
 ## Interactive line graph: Popularity of Art Themes & GDP
 
@@ -272,7 +275,7 @@ For our heatmap, we chose to look at each decade. We focused on the proportion o
 </style>
 ```
 
-## Interactive line graphs: Sentiment & GDP
+## Interactive line graph: Sentiment & GDP
 
 [Please scroll to view full plot, or click here to view in separate window](figures/social_movements_interactive_plot.html){target="_blank" rel="noopener"}
 
