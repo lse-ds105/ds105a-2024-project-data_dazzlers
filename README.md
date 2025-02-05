@@ -22,7 +22,10 @@
 -   We also wondered how GDP impacted social movements. Would movements like MeToo or Black Lives Matter have positive associations during prosperous times and more negative tones during economic hardship.
 
 3.  **How we used AI:**
-    -   
+    -   AI was used to gain an understanding on how to properly use GitHub branches, such as fixing merging issues
+    - It was used to edit pulling functions to be specific to the data we wanted to pull
+    - It was mainly used to explain erros in the code and provide suggestions throughout the project
+    - 
 
 ------------------------------------------------------------------------
 
