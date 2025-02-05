@@ -9,18 +9,20 @@
 
 1.  **What you will find here:**
 
-    - A`code`  folder that contains there's four folders. The `FRED_Data`, `GDELT_Data` and `Smithsonian_Data` folders contain notebooks on gathering and processing the respective data. While the `Visualisations` folder contains notebooks that demonstrate how we creeated all our visualisations.
-    - A `data` folder that contains raw and processed data. The database that we created with all our data is in the processed folder under social_movements.db
-    - The `website` and `docs` folder contain the markdown, html and images used to produce our website 
-    - Within the `docs` folder, there's a `figures` folder that contains all the visualisations we used in the website
+    -   A`code` folder that contains there's four folders. The `FRED_Data`, `GDELT_Data` and `Smithsonian_Data` folders contain notebooks on gathering and processing the respective data. While the `Visualisations` folder contains notebooks that demonstrate how we creeated all our visualisations.
+    -   A `data` folder that contains raw and processed data. The database that we created with all our data is in the processed folder under social_movements.db
+    -   The `website` and `docs` folder contain the markdown, html and images used to produce our website
+    -   Within the `docs` folder, there's a `figures` folder that contains all the visualisations we used in the website
+    -   A `reflections` folder showing how we have individually contributed and developed throughout this project
 
 2.  **What we initially wanted to discover:**
-- We wanted to explore how changes in GDP might influence art and social movements. Drawing from historical examples like the Dutch Golden Age and the Renaissance, we hypothesized that economic booms would drive art that celebrates prosperity, while downturns would lead to darker, more somber themes. Focusing on the U.S., we aimed to see if the economic boom after WWI and the Great Depression had a similar effect on art.
 
-- We also wondered how GDP impacted social movements. Would movements like MeToo or Black Lives Matter have positive associations during prosperous times and more negative tones during economic hardship.
+-   We wanted to explore how changes in GDP might influence art and social movements. Drawing from historical examples like the Dutch Golden Age and the Renaissance, we hypothesized that economic booms would drive art that celebrates prosperity, while downturns would lead to darker, more somber themes. Focusing on the U.S., we aimed to see if the economic boom after WWI and the Great Depression had a similar effect on art.
 
+-   We also wondered how GDP impacted social movements. Would movements like MeToo or Black Lives Matter have positive associations during prosperous times and more negative tones during economic hardship.
 
-3.  **How we used AI**
+3.  **How we used AI:**
+    -   
 
 ------------------------------------------------------------------------
 
@@ -29,6 +31,7 @@
 This explains how to obtain all API credentials and securely set them up for use.
 
 ### 1. Smithsonian:
+
 -   To obtain a Smithsonian API key, you must create an account with [Smithsonian API Website](https://api.data.gov/signup/)
 
 -   The API key will then be emailed to you
@@ -40,6 +43,7 @@ This explains how to obtain all API credentials and securely set them up for use
 -   You then create an application and are given an API key
 
 ### 3. GDELT:
+
 -   GDELT data is accessible to the public and does not require an API key
 
 ------------------------------------------------------------------------
@@ -134,8 +138,8 @@ We recommend running the code in this order:
 
 ## Work Contribution
 
-|Contributors (%)|Data Collections (%)|Data Cleaning (%)|Visualisations (%)|Website Production (%)|Documentation (%)|
-|-----------|-----------|-----------|-----------|-----------|-----------|
-|Gbemi Banjo|-----------|-----------|-----------|-----------|-----------|
-|Amelia Dunn|-----------|-----------|-----------|-----------|-----------|
-|Chiara Franzin|-----------|-----------|-----------|-----------|-----------|
+| Contributors (%) | Data Collections (%) | Data Cleaning (%) | Visualisations (%) | Website Production (%) | Documentation (%) |
+|----|----|----|----|----|----|
+| Gbemi Banjo | 5% | 15% | ----------- | 100% | 33% |
+| Amelia Dunn | ----------- | ----------- | ----------- | ----------- | 33% |
+| Chiara Franzin | ----------- | ----------- | 100% | ----------- | 33% |
