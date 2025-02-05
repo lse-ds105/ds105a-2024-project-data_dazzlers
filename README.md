@@ -24,9 +24,10 @@
 3.  **How we used AI:**
     -   AI was used to gain an understanding on how to properly use GitHub branches, such as fixing merging issues
     - It was used to edit pulling functions to be specific to the data we wanted to pull
-    - It was mainly used to explain erros in the code and provide suggestions throughout the project
-    - 
-
+    - It was mainly used to explain erros in the code and provide suggestions throughout the project, such as explaining why visualisations didn't achieve their desired look and asking for suggestions to improve the code
+    - It was also used to generate ideas for visualisations
+    - As for the website, AI was used to expalin how to change the default background for dark mode in the website
+   
 ------------------------------------------------------------------------
 
 ## All API Credentials Setup
@@ -143,6 +144,6 @@ We recommend running the code in this order:
 
 | Contributors (%) | Data Collections (%) | Data Cleaning (%) | Visualisations (%) | Website Production (%) | Documentation (%) |
 |----|----|----|----|----|----|
-| Gbemi Banjo | 5% | 15% | -- | 100% | 33% |
-| Amelia Dunn | 95%| 85% | -- | -- | 33% |
-| Chiara Franzin | -- | -- | 100% | -- | 33% |
+| Gbemi Banjo | 5% | 15% | --- | 100% | 33% |
+| Amelia Dunn | 95%| 85% | --- | --- | 33% |
+| Chiara Franzin | --- | --- | 100% | --- | 33% |
