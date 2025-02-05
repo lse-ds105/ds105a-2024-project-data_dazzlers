@@ -9,23 +9,26 @@ format:
 
 ## Reasoning behind our data sources
 
-1.  [**Global Database of Events, Laguage and Tone (GDELT)**]{.underline}
+1.  [**Global Database of Events, Language and Tone (GDELT)**]{.underline}
 
--   It gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.
+    -   It gathers news from a wide range of sources, including smaller media outlets, which helps capture emerging grassroots movements.
 
--   Analyses the tone of media coverage, giving us insight into how people and the media are reacting to these events
+    -   Analyses the tone of media coverage, giving us insight into how people and the media are reacting to these events
 
--   Has historical data which allows us to track how movements grow and change over time
+    -   Has historical data which allows us to track how movements grow and change over time
 
--   The platform makes it easy to visualize trends and connections, helping us make sense of complex information. 
+    -   The platform makes it easy to visualize trends and connections, helping us make sense of complex information. 
 
 2.  [**Smithsonian Institution**]{.underline}
+
     -   It is the world’s biggest museum complex with 21 museums (and other educational centres) spanning the United States
 
     -   Has numerous art pieces in its collections, which allows us to make accurate conclusions on whether the art themes artists choose to create their art in have been impacted by the state of the economy
 
     -   It is reliable as the institution is committed to rigorous scholarly research so many artworks in the Smithsonian's collection have been thoroughly researched by experts in the field
+
 3.  [**Federal Reserve Economic Data (FRED)**]{.underline}
+
     -   It has data for America on GDP from 1929, which allowed us to look at a larger time period compared to other APIs
 
     -   This database always contains the most recent version of the data available
@@ -52,6 +55,6 @@ For GDP data we processed the data to have GDP per decade rather than yearly for
 
 | Challenge | How we dealt with the challenge |
 |------------------------------------|------------------------------------|
-| Finding a data that contained historical data for social movements. | Tried Reddit, X and Open Sanction but encountered issues due to lack of historical data or paywalls. Eventually chose GDELT to get data from 2014 onwards. |
-| Initially we could only collect 100 artworks of data from Simthsonian API. | Further research and using different endpoints |
+| Finding data that contained historical data for social movements. | Tried Reddit, X and Open Sanction but encountered issues due to a lack of historical data or paywalls. Eventually chose GDELT to get data from 2014 onwards. |
+| Initially, we could only collect 100 artworks of data from Smithsonian API. | Further research and using different endpoints |
 | Encountered issues in trying to get data from 1929 onwards from Smithsonian API due to rate limit | By limiting the range of data collected to match with GDELT data (from 2014 onwards) |
