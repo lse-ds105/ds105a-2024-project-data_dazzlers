@@ -16,7 +16,7 @@ format:
 
 In this project we examine two major questions.
 
-[**1. Do changes in GDP correlate with specific art themes?**]{.underline}
+[**1. How do economic periods, as measured by GDP, affect art themes in America?**]{.underline}
 
 Our question stems from historical patterns, where economic booms—like the Dutch Golden Age, the Renaissance, and the Roman Empire—not only sparked growth but also led to a surge in art, often focused on prosperity or mythology. 
 
