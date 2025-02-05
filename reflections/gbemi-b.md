@@ -8,7 +8,7 @@
 
 -   I organised our respository by putting all the different folders into the overarching code, data, docs and website folder. I also changed the output directories for any of the code to update the new repository structure, as seen in [here](https://github.com/lse-ds105/ds105a-2024-project-data_dazzlers/commit/456afa3f5522438460f3196977d5888abe3e66ae) and [here](https://github.com/lse-ds105/ds105a-2024-project-data_dazzlers/commit/dceecc2cc317b5d4ecb069cf294d140b22a0a6b0)
 
--   I created a requirements.txt file so that our virtual environment can be set up and editted the readme.md file as seen in [this](https://github.com/lse-ds105/ds105a-2024-project-data_dazzlers/commit/791828f45efe34b1ee92c6acc5b7d4b79f21d4b5) commit link
+-   I created a requirements.txt file so that our virtual environment can be set up and edited the README.md file as seen in [this](https://github.com/lse-ds105/ds105a-2024-project-data_dazzlers/commit/791828f45efe34b1ee92c6acc5b7d4b79f21d4b5) commit link
 
 -   I created the website and integrated the theme, data visualisations and analysis. I created the images used and directed the general theme of the website.This required me to change some of the font sizes, plot sizes and plot backgrounds of the data visualisations, as seen [here](https://github.com/lse-ds105/ds105a-2024-project-data_dazzlers/commit/f54fed073f50cbaa9033cc3a49209d5f9b8d9f28) and [here](https://github.com/lse-ds105/ds105a-2024-project-data_dazzlers/commit/049a642bc6faabd6d2e36bdc0932abadb464a474).
 
@@ -24,16 +24,20 @@
 
 -   I made to do lists and contributed to the project board for our project as seen [here](https://github.com/lse-ds105/ds105a-2024-project-data_dazzlers/commit/90d049d569f39b2dd31373cbf3e9b923d59e3177)
 
--   Attempted to help gather more recent data for art themes as seen by the folder names gbemi [here](https://github.com/lse-ds105/ds105a-2024-project-data_dazzlers/commit/83e0302a4194196b04872a0049a9647d6aad87bf)
+-   Attempted to help gather more recent data for art themes as seen by the folder named 'gbemi' [here](https://github.com/lse-ds105/ds105a-2024-project-data_dazzlers/commit/83e0302a4194196b04872a0049a9647d6aad87bf)
 
 ## Learning Journey
 
--   Before taking DS105A I did not know how to make websites at all, however through this group project I have learnt how to make website with Quarto. I have also discovered that I enjoy doing so!
+-   Before taking DS105A I did not know how to make websites at all, however through this group project I have learnt how to make website with Quarto. I have learnt about different ways to make websites look nicer: such as toggles and changing the styles.css to be in line with a theme.
 
 -   A challenge I had to overcome was figuring out how to integrate the images from the data visualisation into the website despite the different backgrounds. I was able to do this through making the data visualisation backgrounds transparent and adding a content box.
+
+-   I have also gained experience with dealing with conflicts and merging different branches in GitHub, as seen in [this](https://github.com/lse-ds105/ds105a-2024-project-data_dazzlers/commit/bdf7b65a86174fefb328f17d673947a01c466a8c) commit link
 
 -   Some areas for growth would be:
 
     -   Adding specific dates to tasks to improve clarity of work distribution
 
     -   Learning how to gather large amounts of data, as this is something that was challenging to do when I tried to gather more recent art themes data
+
+    -   Being able to more quickly adjust our project when coming across issues such as limited data for specific time periods
