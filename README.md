@@ -118,12 +118,6 @@ source .venv/bin/activate
 
 ### Step 3 - Order to run code in
 
-``` 
-python helper_functions.py
-```
-
-This will run the functions stored.
-
 If you're working with Jupyter Notebooks, you can start the notebook server with:
 
 ``` 
