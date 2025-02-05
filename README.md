@@ -117,6 +117,14 @@ source .venv/bin/activate
 **To deactivate the virtual environment:** type `deactivate` into your terminal
 
 ### Step 3 - Order to run code in
+``` 
+data_collection.py
+```
+
+``` 
+data_vis.py
+```
+These will run the functions stored.
 
 If you're working with Jupyter Notebooks, you can start the notebook server with:
 
