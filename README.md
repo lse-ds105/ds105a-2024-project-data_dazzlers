@@ -140,6 +140,6 @@ We recommend running the code in this order:
 
 | Contributors (%) | Data Collections (%) | Data Cleaning (%) | Visualisations (%) | Website Production (%) | Documentation (%) |
 |----|----|----|----|----|----|
-| Gbemi Banjo | 5% | 15% | ----------- | 100% | 33% |
-| Amelia Dunn | ----------- | ----------- | ----------- | ----------- | 33% |
-| Chiara Franzin | ----------- | ----------- | 100% | ----------- | 33% |
+| Gbemi Banjo | 5% | 15% | -- | 100% | 33% |
+| Amelia Dunn | 95%| 85% | -- | -- | 33% |
+| Chiara Franzin | -- | -- | 100% | -- | 33% |
